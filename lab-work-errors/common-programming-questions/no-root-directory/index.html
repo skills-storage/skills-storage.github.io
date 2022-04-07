@@ -12,26 +12,3 @@ title: У вас нет корневого каталога
 <p>
     Параграф с данными: {{site.data.lab-work-errors.no-root-directory.lab-work-data.lab-work-test-data}}
 </p>
-
-<p>
-    Данные из опроса:
-</p>
-
-<table width="100%" border="1">
-    <thead>
-        <tr>
-            <th>Порядковый номер</th>
-            <th>Вопрос</th>
-            <th>Ответ</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% for quizItem in site.data.lab-work-errors.no-root-directory.lab-work-data.quiz-data %}
-            <tr>
-                <td>{{quizItem.order-number}}</td>
-                <td>{{quizItem.question}}</td>
-                <td>{{quizItem.answer}}</td>
-            </tr>
-        {% endfor %}
-    </tbody>
-</table>
