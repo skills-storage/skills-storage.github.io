@@ -1,3 +1,20 @@
 {
-    "lab-work-test-data": "Lab Work TEST DATA!"
+    "lab-work-test-data": "Lab Work TEST DATA!",
+    "quiz-data": [
+        {
+            "order-number": 1,
+            "question": "Вопрос-1",
+            "answer": "Ответ-1"
+        },
+        {
+            "order-number": 2,
+            "question": "Вопрос-2",
+            "answer": "Ответ-2"
+        },
+        {
+            "order-number": 3,
+            "question": "Вопрос-3",
+            "answer": "Ответ-3"
+        }
+    ]
 }
