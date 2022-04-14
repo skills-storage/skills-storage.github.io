@@ -1,10 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
 
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="description" content="Responsive Admin Template" />
+    <meta name="author" content="SmartUniversity" />
+
+    <title>Smart University | Bootstrap Responsive Admin Template</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css" />
+
+    <link href="/assets/fonts/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/fonts/material-design-icons/material-icon.css" rel="stylesheet" type="text/css" />
+
+    <!--bootstrap -->
+    <link href="/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Material Design Lite CSS -->
+    <link rel="stylesheet" href="/assets/plugins/material/material.min.css">
+    <link rel="stylesheet" href="/assets/css/material_style.css">
+
+    <!-- Theme Styles -->
+    <link href="/assets/css/theme/full/theme_style.css" rel="stylesheet" id="rt_style_components" type="text/css" />
+    <link href="/assets/css/theme/full/style.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/theme/full/theme-color.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/plugins.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/responsive.css" rel="stylesheet" type="text/css" />
+
+    <!-- steps -->
+    <link rel="stylesheet" href="/assets/plugins/steps/steps.css">
+
+    <!-- Blog Styles -->
+    <link href="/assets/css/blog.css" rel="stylesheet" type="text/css" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+</head>
+
+<body class="page-header-fixed sidemenu-closed-hidelogo page-content-white page-md page-full-width header-white white-sidebar-color logo-indigo">
+<div class="page-wrapper">
+    <!-- start header -->
+    <div class="page-header navbar navbar-fixed-top">
+        <div class="page-header-inner ">
+            <!-- logo start -->
+            <div class="page-logo">
+                <a href="http://new.skillsimprover.com">
+                    <span class="logo-icon material-icons fa-rotate-45">school</span>
+                    <span class="logo-default">SkillsImprover</span> </a>
+            </div>
+            <!-- logo end -->
+
+            <!-- start mobile menu -->
+            <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+                <span></span>
+            </a>
+            <!-- end mobile menu -->
+
+        </div>
+        <!-- start horizontal menu -->
+        <div class="navbar-custom">
+            <div class="hor-menu hidden-sm hidden-xs">
+            </div>
+        </div>
+        <!-- end horizontal menu -->
+    </div>
+    <!-- end header -->
+
+    <!-- start page container -->
+    <div class="page-container">
+        <!-- Just to have Footer at the bottom of page! -->
+        <div class="sidebar-container">
+            <div class="sidemenu-container navbar-collapse collapse fixed-menu">
+            </div>
+        </div>
+
+        <!-- start page content -->
+        <div class="page-content-wrapper">
+            <div class="page-content">
+                <div class="page-bar">
+                    <div class="page-title-breadcrumb">
+                        <div class=" pull-left">
+                            <div class="page-title"><h1>Установка JDK</h1></div>
+                        </div>
+                        <ol class="breadcrumb page-breadcrumb pull-right">
+                            <li>
+                                <i class="fa fa-home"></i>&nbsp;
+                                <a class="parent-item" href="http://new.skillsimprover.com">Закончить упражнение</a>&nbsp;
+                                <i class="fa fa-angle-right"></i>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card card-topline-gray">
+                            <div class="card-body no-padding height-9">
+
+                                <section class="mail-list">
+                                    <div class="mail-sender">
+                                        <div class="mail-heading">
+                                            <h3 class="vew-mail-header"><b>Шаг-2: Скачайте JDK</b></h3>
+                                        </div>
+                                    </div>
+
+                                    <div class="view-mail">
+                                        <div class="article_content">
+                                            <div id="example-vertical" role="application" class="wizard clearfix vertical">
+
+                                                {% include exercise-step-navigation.html %}
+
+                                                <div class="steps clearfix">
+                                                    <ul role="tablist">
+                                                        <li role="tab" class="first done">
+                                                            <a href="">
+                                                                Шаг-1
+                                                            </a>
+                                                        </li>
+                                                        <li role="tab" class="current">
+                                                            <a href="">
+                                                                Шаг-2
+                                                            </a>
+                                                        </li>
+                                                        <li role="tab" class="last disabled">
+                                                            <a href="">
+                                                                Шаг-3
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                                {{content}}
+
+                                                {% include exercise-step-navigation.html %}
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </section>
+
+                                <span class="date pull-right">Последнее обновление: 4:15AM 04 April 2014</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end page content -->
+    </div>
+    <!-- end page container -->
+
+    <!-- start footer -->
+    <div class="page-footer">
+        <div class="page-footer-inner">
+            <div class="container-fluid">
+                <div class="copyright pull-right">
+                    © 2013 - 2019, made with <i class="fa fa-heart heart"></i> by PrioBit
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-to-top">
+            <i class="icon-arrow-up"></i>
+        </div>
+    </div>
+    <!-- end footer -->
+</div>
+
+<!-- start js include path -->
+<script src="/assets/plugins/jquery/jquery.min.js"></script>
+<script src="/assets/plugins/popper/popper.js"></script>
+<script src="/assets/plugins/jquery-blockui/jquery.blockui.min.js"></script>
+<script src="/assets/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+<!-- bootstrap -->
+<script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="/assets/plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+
+<!-- Common js-->
+<script src="/assets/js/app.js"></script>
+<script src="/assets/js/layout.js"></script>
+<script src="/assets/js/theme-color.js"></script>
+
+<!-- Material -->
+<script src="/assets/plugins/material/material.min.js"></script>
+<!-- end js include path -->
 </body>
 </html>
