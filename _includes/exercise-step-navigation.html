@@ -1,8 +1,8 @@
 <div class="actions clearfix">
     <ul role="menu" aria-label="Pagination">
-        {% if page.curStepOrder > 0 %}
+        {% if page.curStepOrder > 1 %}
             <li>
-                <a href="#previous" role="menuitem">
+                <a href="step-{{page.prevStepOrder}}" role="menuitem">
                     <i class="fa fa-angle-left"></i>
                     Предыдущий шаг
                 </a>
@@ -11,7 +11,7 @@
 
         {% if page.curStepOrder < site.data.lessons.ide-notepad.exercises.ide-notepad-plus-plus-utf8.max-step %}
             <li>
-                <a href="#next" role="menuitem">
+                <a href="step-{{page.nextStepOrder}}" role="menuitem">
                     Следующий шаг
                     <i class="fa fa-angle-right"></i>
                 </a>
