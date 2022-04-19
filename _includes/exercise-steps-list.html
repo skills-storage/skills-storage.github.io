@@ -1,0 +1,27 @@
+<div class="steps clearfix">
+    <ul role="tablist">
+        {% for order in (1 .. site.data.lessons.ide-notepad.exercises.ide-notepad-plus-plus-utf8.max-step) %}
+
+            {% if order < page.curStepOrder %}
+                <li role="tab" class="done">
+                    <a href="step-{{order}}">
+                        Шаг-{{order}}
+                    </a>
+                </li>
+            {% elsif order > page.curStepOrder %}
+                <li role="tab" class="disabled">
+                    <a href="step-{{order}}">
+                        Шаг-{{order}}
+                    </a>
+                </li>
+            {% else %}
+                <li role="tab" class="current">
+                    <a href="step-{{order}}">
+                        Шаг-{{order}}
+                    </a>
+                </li>
+            {% endif %}
+
+        {% endfor %}
+    </ul>
+</div>
