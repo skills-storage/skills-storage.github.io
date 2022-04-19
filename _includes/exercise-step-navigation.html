@@ -7,11 +7,25 @@
                     Предыдущий шаг
                 </a>
             </li>
+        {% else %}
+            <li class="disabled">
+                <a href="step-{{page.prevStepOrder}}" class="disabledStep" role="menuitem">
+                    <i class="fa fa-angle-left"></i>
+                    Предыдущий шаг
+                </a>
+            </li>
         {% endif %}
 
         {% if page.curStepOrder < site.data.lessons.ide-notepad.exercises.ide-notepad-plus-plus-utf8.max-step %}
             <li>
                 <a href="step-{{page.nextStepOrder}}" role="menuitem">
+                    Следующий шаг
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        {% else %}
+            <li class="disabled">
+                <a href="step-{{page.nextStepOrder}}" class="disabledStep" role="menuitem">
                     Следующий шаг
                     <i class="fa fa-angle-right"></i>
                 </a>

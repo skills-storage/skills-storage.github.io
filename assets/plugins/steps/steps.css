@@ -303,3 +303,7 @@
 .wizard .steps .current a:active, .wizard .steps .current a:focus, .wizard .steps .current a:hover {
 	background-color: #009688;
 }
+
+.disabledStep {
+	pointer-events: none;
+}
