@@ -3,3 +3,12 @@ div.article_content p {
     font:20px/1.4 Georgia, serif;
     color:#555;
 }
+
+.article_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #3C8DBC;
+    padding: 20px;
+    margin-bottom: 20px;
+}
