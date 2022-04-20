@@ -1,4 +1,4 @@
-div.article_content p, li {
+div.article_content p, div.article_content li {
     text-align: left;
     font:20px/1.4 Georgia, serif;
     color:#555;
@@ -31,4 +31,16 @@ code {
 
 .crossed_out {
     text-decoration: line-through;
+}
+
+.danger_box {
+    background-color: #FFDDDD;
+    border: 1px solid #0B2E13;
+    border-left: 6px solid #F44336;
+    padding: 10px;
+    margin: 10px;
+}
+
+div.danger_box p, div.danger_box li {
+    font-weight: bold;
 }
