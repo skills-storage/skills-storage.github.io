@@ -1,7 +1,13 @@
-div.article_content p {
+div.article_content p, li {
     text-align: left;
     font:20px/1.4 Georgia, serif;
     color:#555;
+}
+
+code {
+    font-weight: bold;
+    color: #3C8DBC;
+    padding: 3px;
 }
 
 .article_image {
@@ -11,4 +17,18 @@ div.article_content p {
     border: 3px solid #3C8DBC;
     padding: 20px;
     margin-bottom: 20px;
+}
+
+.success_code {
+    font-weight: bold;
+    color: #008000;
+}
+
+.error_code {
+    font-weight: bold;
+    color: #B22222;
+}
+
+.crossed_out {
+    text-decoration: line-through;
 }
