@@ -1,6 +1,7 @@
 <div class="steps clearfix">
     <ul role="tablist">
-        {% for order in (1 .. site.data.lessons.ide-notepad.exercises.ide-notepad-plus-plus-utf8.max-step) %}
+        {% assign maxStep = site.data.lessons.[page.lessonCode].exercises.[page.exCode].max-step %}
+        {% for order in (1 .. maxStep) %}
 
             {% if order < page.curStepOrder %}
                 <li role="tab" class="done">

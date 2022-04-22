@@ -16,7 +16,8 @@
             </li>
         {% endif %}
 
-        {% if page.curStepOrder < site.data.lessons.ide-notepad.exercises.ide-notepad-plus-plus-utf8.max-step %}
+        {% assign maxStep = site.data.lessons.[page.lessonCode].exercises.[page.exCode].max-step %}
+        {% if page.curStepOrder < maxStep %}
             <li>
                 <a href="step-{{page.nextStepOrder}}" role="menuitem">
                     Следующий шаг
