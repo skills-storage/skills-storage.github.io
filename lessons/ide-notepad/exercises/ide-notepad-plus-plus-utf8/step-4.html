@@ -1,6 +1,9 @@
 ---
 layout: lesson-exercise
 
+lessonCode: ide-notepad
+exCode: ide-notepad-plus-plus-utf8
+
 prevStepOrder: 3
 curStepOrder: 4
 nextStepOrder: 4
@@ -76,7 +79,7 @@ stepTitle: Развлекитесь! Меняйте кодировку по ум
 <img alt="ansi_encoding_settings.png" src="./images/ansi_encoding_settings.png" class="article_image" />
 
 <p>
-    Закрываем окно настроек и создаем еще 3 новые вкладки - <code>new 4</code>, <code>new 5</code> или <code>new 6</code>.
+    Закрываем окно настроек и создаем еще 3 новые вкладки – <code>new 4</code>, <code>new 5</code> и <code>new 6</code>.
 </p>
 
 <p>
@@ -84,3 +87,79 @@ stepTitle: Развлекитесь! Меняйте кодировку по ум
 </p>
 
 <img alt="new_4_6_tabs_ansi.png" src="./images/new_4_6_tabs_ansi.png" class="article_image" />
+
+<p>
+    И в третий раз мы идем в настройки блокнота и снова меняем кодировку. В этот раз, давайте на что-нибудь экзотическое.
+    Например, на <code>UTF-16 Little Endian with BOM</code>. Настройки у нас теперь выглядят вот так:
+</p>
+
+<img alt="utf16_bom_encoding_settings.png" src="./images/utf16_bom_encoding_settings.png" class="article_image" />
+
+<p>
+    Закрываем окно настроек и создаем еще 3 вкладки – <code>new 7</code>, <code>new 8</code> и <code>new 9</code>.
+    Все повторяется заново: открыв меню <code>Encoding</code>, на любой из этих вкладок (<code>new 7</code>, <code>new 8</code> или <code>new 9</code>),
+    вы будете видеть что кодировка текста в этих вкладках – <code>UTF-16 LE BOM</code>.
+</p>
+
+<p>
+    Таким образом, сейчас в вашем блокноте открыто 9 вкладок, которые сгруппированы по трем разным кодировкам:
+</p>
+
+<img alt="multiple_encodings.png" src="./images/multiple_encodings.png" class="article_image" />
+
+<p>
+    По идее, главным выводом этого шага должно быть что-то вроде:
+</p>
+
+<div class="note_box warning_box">
+    <p>
+        Какую кодировку вы в настройках блокнота зададите, в такой кодировке вы и будете в дальнейшем создавать и сохранять ваши файлы...
+    </p>
+</div>
+
+<p>
+    И это, несомненно, правильный вывод. За одним только исключением:
+</p>
+
+<div class="note_box danger_box">
+    <p>
+        И сам шаг был дурацкий! И вывод этот – если уж и не дурацкий, то очевидный, как капитан!
+    </p>
+</div>
+
+<p>
+    Поэтому, давайте мы лучше более полезные для себя выводы сделаем. Во-первых:
+</p>
+
+<div class="note_box success_box">
+    <p>
+        ВЫ ДОЛЖНЫ ВСЕГДА ПИСАТЬ КОД В КОДИРОВКЕ UTF-8!
+    </p>
+</div>
+
+<p>
+    А это значит, что:
+</p>
+
+<div class="note_box success_box">
+    <p>
+        ЛЮБОЙ ВАШ БЛОКНОТ ДОЛЖЕН ВСЕГДА БЫТЬ НАСТРОЕН НА UTF-8!
+    </p>
+</div>
+
+<p>
+    А из этого следует, что главное, что нам нужно сделать на этом шаге – это
+</p>
+
+<div class="note_box danger_box">
+    <p class="crossed_out">
+        вернуть все в зад!
+    </p>
+    <p>
+        ВЕРНУТЬ КОДИРОВКУ NOTEPAD++ В UTF-8, КАКОЙ ОНА И БЫЛА ДО ЭТОГО ШАГА!
+    </p>
+</div>
+
+<p>
+    И последний вывод настолько важный, что мы его сделаем отдельным шагом.
+</p>
