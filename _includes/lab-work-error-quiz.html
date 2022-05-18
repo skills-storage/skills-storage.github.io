@@ -1,32 +1,29 @@
-<ol>
-    <li>Вопрос-1</li>
-    <li>Вопрос-2</li>
-    <li>Вопрос-3</li>
-</ol>
+<section class="mail-list">
+    <div class="mail-sender">
+        <div class="mail-heading">
+            <h3 class="vew-mail-header">
+                <b>Характеристики ошибки</b>
+            </h3>
+        </div>
+    </div>
 
-<p>
-    Обновленный INCLUDE:
-</p>
-
-<p>
-    Данные из опроса:
-</p>
-
-<table width="100%" border="1">
-    <thead>
-    <tr>
-        <th>Порядковый номер</th>
-        <th>Вопрос</th>
-        <th>Ответ</th>
-    </tr>
-    </thead>
-    <tbody>
-    {% for quizItem in site.data.lab-work-errors.no-root-directory.lab-work-data.quiz-data %}
-    <tr>
-        <td>{{quizItem.order-number}}</td>
-        <td>{{quizItem.question}}</td>
-        <td>{{quizItem.answer}}</td>
-    </tr>
-    {% endfor %}
-    </tbody>
-</table>
+    <div class="view-mail">
+        <div class="table-scrollable col-md-6">
+            <table class="table">
+                <tbody>
+                    {% for quizItem in site.data.lab-work-errors.[page.errorCategoryCode].[page.errorCode].quiz-data %}
+                        <tr>
+                            <td>
+                                <b>{{quizItem.question}}:</b>
+                                <p style="text-align: right">
+                                    <span class="badge">{{quizItem.answer}}</span>
+                                </p>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr>
+</section>
