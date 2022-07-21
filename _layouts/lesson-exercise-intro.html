@@ -116,6 +116,30 @@
                                     <div class="mail-sender">
                                         <div class="mail-heading">
                                             <h3 class="vew-mail-header">
+                                                <b>Упражнения, которые нужно пройти перед этим</b>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="view-mail">
+                                        <div class="article_content">
+                                            <ol>
+                                                {% for preEx in site.data.lessons.[page.lessonCode].exercises.[page.exCode].pre-exercises %}
+                                                    <li>
+                                                        <a href="{{preEx.link}}" target="_blank">
+                                                            {{preEx.title}}
+                                                        </a>
+                                                    </li>
+                                                {% endfor %}
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </section>
+
+                                <section class="mail-list">
+                                    <div class="mail-sender">
+                                        <div class="mail-heading">
+                                            <h3 class="vew-mail-header">
                                                 <b>Цели упражнения</b>
                                             </h3>
                                         </div>
@@ -135,13 +159,87 @@
                                 <section class="mail-list">
                                     <div class="mail-sender">
                                         <div class="mail-heading">
-                                            <h3 class="vew-mail-header"><b>Описание ошибки</b></h3>
+                                            <h3 class="vew-mail-header">
+                                                <b>Задание</b>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="view-mail">
+                                        <div class="article_content">
+                                            {% include_relative task-text.html %}
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </section>
+
+                                <section class="mail-list">
+                                    <div class="mail-sender">
+                                        <div class="mail-heading">
+                                            <h3 class="vew-mail-header">
+                                                <b>Зачем нужно это упражнение? Пояснения</b>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="view-mail">
+                                        <div class="article_content">
+                                            {% include_relative task-description.html %}
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </section>
+
+                                <section class="mail-list">
+                                    <div class="mail-sender">
+                                        <div class="mail-heading">
+                                            <h3 class="vew-mail-header">
+                                                <b>Ограничения по версиям ПО и библиотек</b>
+                                            </h3>
                                         </div>
                                     </div>
                                     <div class="view-mail">
                                         <div class="article_content">
                                             <p>
-                                                ЗДЕСЬ КОНТЕНТ!
+                                                Без ограничений.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </section>
+
+                                <section class="mail-list">
+                                    <div class="mail-sender">
+                                        <div class="mail-heading">
+                                            <h3 class="vew-mail-header">
+                                                <b>Краткое решение - список шагов</b>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="view-mail">
+                                        <div class="article_content">
+                                            <ul>
+                                                {% for step in site.data.lessons.[page.lessonCode].exercises.[page.exCode].ex-steps %}
+                                                    <li>
+                                                        Шаг-{{step.order}}: {{step.title}}
+                                                    </li>
+                                                {% endfor %}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </section>
+
+                                <section class="mail-list">
+                                    <div class="mail-sender">
+                                        <div class="mail-heading">
+                                            <h3 class="vew-mail-header">
+                                                <b>Дополнительные источники</b>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="view-mail">
+                                        <div class="article_content">
+                                            <p>
+                                                НАПИШИ РАЗДЕЛ!
                                             </p>
                                         </div>
                                     </div>

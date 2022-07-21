@@ -2,6 +2,14 @@
     "ex-title": "Вход в аккаунт / Выход из аккаунта. Главное меню Github",
     "ex-order": 2,
     "max-step": 12,
+
+    "pre-exercises": [
+        {
+            "title": "Регистрация аккаунта на сайте github.com",
+            "link": "https://skills-storage.github.io/lessons/vcs-github/exercises/register-github-account/intro.html"
+        }
+    ],
+
     "ex-targets": [
         {
             "order": 1,
@@ -10,6 +18,45 @@
         {
             "order": 2,
             "text": "Что еще важнее – узнать, где у GitHub главное меню"
+        }
+    ],
+
+    "ex-steps": [
+        {
+            "order": 1,
+            "title": "Найдите кнопки главного меню"
+        },
+        {
+            "order": 2,
+            "title": "Посмотрите на кнопку «Notifications»"
+        },
+        {
+            "order": 3,
+            "title": "Посмотрите на кнопку «Add New»"
+        },
+        {
+            "order": 4,
+            "title": "Посмотрите на «Самую главную кнопку»"
+        },
+        {
+            "order": 5,
+            "title": "Выйдите из вашего аккаунта (Sign Out)"
+        },
+        {
+            "order": 6,
+            "title": "Перейдите на страницу входа в аккаунт"
+        },
+        {
+            "order": 7,
+            "title": "Войдите в аккаунт по email-у и паролю"
+        },
+        {
+            "order": 8,
+            "title": "Войдите в аккаунт по user-у и паролю"
+        },
+        {
+            "order": 9,
+            "title": "Откройте страницу вашего профиля"
         }
     ]
 }

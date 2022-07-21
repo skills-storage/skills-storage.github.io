@@ -17,6 +17,7 @@ code {
     border: 3px solid #3C8DBC;
     padding: 20px;
     margin-bottom: 20px;
+    max-width: 80%;
 }
 
 .success_code {
