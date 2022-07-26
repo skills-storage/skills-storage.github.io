@@ -1,0 +1,42 @@
+{
+    "ex-title": "Страница настроек GitHub аккаунта",
+    "ex-order": 3,
+    "max-step": 4,
+
+    "pre-exercises": [
+        {
+            "title": "Регистрация аккаунта на сайте github.com",
+            "link": "https://skills-storage.github.io/lessons/vcs-github/exercises/register-github-account/intro.html"
+        },
+        {
+          "title": "Вход в аккаунт / выход из аккаунта. Главное меню GitHub",
+          "link": "https://skills-storage.github.io/lessons/vcs-github/exercises/sign-in-sign-out-account/intro.html"
+        }
+    ],
+
+    "ex-targets": [
+        {
+          "order": 1,
+          "text": "Узнать, где находятся настройки вашего GitHub-аккаунта"
+        }
+    ],
+
+    "ex-steps": [
+        {
+          "order": 1,
+          "title": "В главном меню выберите пункт Settings"
+        },
+        {
+          "order": 2,
+          "title": "Посмотрите на страницу настроек вашего аккаунта"
+        },
+        {
+          "order": 3,
+          "title": "Посмотрите настройки из разных категорий"
+        },
+        {
+          "order": 4,
+          "title": "Выйдите из этого упражнения немедленно!"
+        }
+    ]
+}
