@@ -1,7 +1,7 @@
 {
     "ex-title": "Вход в аккаунт / Выход из аккаунта. Главное меню Github",
     "ex-order": 2,
-    "max-step": 12,
+    "max-step": 9,
 
     "pre-exercises": [
         {
