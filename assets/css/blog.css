@@ -69,3 +69,10 @@ div.note_box p, div.note_box li {
     background-color: #FFDDDD;
     border-left: 6px solid #F44336;
 }
+
+.argument_header {
+    font-weight: bold !important;
+    color: #3C8DBC !important;
+    margin-top: 30px;
+    border-bottom: 1px dotted #3C8DBC;
+}
