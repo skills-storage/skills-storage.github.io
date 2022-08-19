@@ -20,6 +20,18 @@ code {
     max-width: 80%;
 }
 
+.article_video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #3C8DBC;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 560px;
+    height: 315px;
+    max-width: content-box;
+}
+
 .success_code {
     font-weight: bold;
     color: #008000;
