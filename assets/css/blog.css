@@ -61,12 +61,17 @@ q {
 
 .note_box {
     border: 1px solid #0B2E13;
+    padding: 15px 12px;
+    padding-bottom: 5px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 15px;
-    padding: 4px 12px;
 }
 
 div.note_box p, div.note_box li {
     font-weight: bold;
+    text-align: center;
 }
 
 .info_box {
