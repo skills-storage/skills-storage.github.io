@@ -74,6 +74,10 @@ div.note_box p, div.note_box li {
     text-align: center;
 }
 
+div.left_note_box p, div.left_note_box li {
+    text-align: left !important;
+}
+
 .info_box {
     background-color: #E7F3FE;
     border-left: 6px solid #2196F3;
