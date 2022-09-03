@@ -39,6 +39,16 @@ q {
     max-width: content-box;
 }
 
+.bottom_banner_box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 80%;
+}
+
 .success_code {
     font-weight: bold;
     color: #008000;
