@@ -88,6 +88,10 @@ div.left_note_box p, div.left_note_box li {
     text-align: left !important;
 }
 
+div.thin_note_box p, div.thin_note_box li {
+    font-weight: normal !important;
+}
+
 .info_box {
     background-color: #E7F3FE;
     border-left: 6px solid #2196F3;
