@@ -929,6 +929,13 @@ body {
     text-align: center;
     height: 60px;
 }
+.navbar-right {
+    background: #f1efef;
+    width: 100%;
+    text-align: right;
+    padding-right: 30px;
+    height: 60px;
+}
 .page-header.navbar.navbar-fixed-top,
 .page-header.navbar.navbar-static-top {
     z-index: 8999;
