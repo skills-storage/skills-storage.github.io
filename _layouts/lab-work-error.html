@@ -103,7 +103,9 @@
                         <div class="card card-topline-gray">
                             <div class="card-body no-padding height-9">
 
+                                <!--
                                 {% include lab-work-error-quiz.html %}
+                                -->
 
                                 {% if page.isMultiContent %}
                                     <section class="mail-list">
@@ -115,7 +117,7 @@
                                         <div class="view-mail">
                                             <div class="article_content">
                                                 <p>
-                                                    Short description here!
+                                                    {% include_relative short-description.html %}
                                                 </p>
                                             </div>
                                         </div>
@@ -131,7 +133,7 @@
                                         <div class="view-mail">
                                             <div class="article_content">
                                                 <p>
-                                                    Full description here!
+                                                    {% include_relative full-description.html %}
                                                 </p>
                                             </div>
                                         </div>
