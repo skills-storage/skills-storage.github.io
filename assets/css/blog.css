@@ -79,16 +79,16 @@ q {
     margin-bottom: 15px;
 }
 
-div.note_box p, div.note_box li {
+div.note_box p, div.note_box li, div.note_box a {
     font-weight: bold;
     text-align: center;
 }
 
-div.left_note_box p, div.left_note_box li {
+div.left_note_box p, div.left_note_box li, div.note_box a {
     text-align: left !important;
 }
 
-div.thin_note_box p, div.thin_note_box li {
+div.thin_note_box p, div.thin_note_box li, div.thin_note_box a {
     font-weight: normal !important;
 }
 
