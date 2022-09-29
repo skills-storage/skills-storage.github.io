@@ -1,6 +1,8 @@
 <p>
     Имена всех классов в вашей Java программе должны быть записаны в стиле <code>UpperCamelCase</code>
-    (ВерхнийВерблюжийРегистр, блин <img alt="regular_smile" src="/assets/img/smiles/regular_smile.png">).
+    (ВерхнийВерблюжийРегистр, блин <img alt="regular_smile" src="/assets/img/smiles/regular_smile.png">),
+    про который вы можете прочитать
+    <a href="https://ru.wikipedia.org/wiki/CamelCase" target="_blank">вот в этой статье на wikipedia</a>.
 </p>
 
 <p>
@@ -9,8 +11,19 @@
 
 <div class="note_box success_box">
     <p>
-        UpperCamelCaseТребуетЧтобыКаждаяПерваяБукваКаждогоСловаБылаЗаглавной
-    </p>
+        <span class="argument_header argument_header_begin">U</span>pper<!--
+        --><span class="argument_header argument_header_begin">C</span>amel<!--
+        --><span class="argument_header argument_header_begin">C</span>ase<!--
+        --><span class="argument_header argument_header_begin">Т</span>ребует<!--
+        --><span class="argument_header argument_header_begin">Ч</span>тобы<!--
+        --><span class="argument_header argument_header_begin">К</span>аждая<!--
+        --><span class="argument_header argument_header_begin">П</span>ервая<!--
+        --><span class="argument_header argument_header_begin">Б</span>уква<!--
+        --><span class="argument_header argument_header_begin">К</span>аждого<!--
+        --><span class="argument_header argument_header_begin">С</span>лова<!--
+        --><span class="argument_header argument_header_begin">Б</span>ыла<!--
+        --><span class="argument_header argument_header_begin">З</span>аглавной<!--
+    --></p>
 </div>
 
 <p>
@@ -23,14 +36,14 @@
         <img alt="regular_smile" src="/assets/img/smiles/regular_smile.png">.
     </li>
     <li>
-        Все остальные буквы в слове &mdash; маленькие (строчные).
+        Все остальные буквы в слове &mdash; строчные (маленькие).
     </li>
     <li>
         Если имя класса состоит только из одного слова, то у него только одна (первая) заглавная буква.
     </li>
     <li>
         Если имя класса состоит из нескольких слов, то <strong>между словами не используются никакие разделители!</strong>
-        Разделителем уже является та самая <strong>первая заглавная буква!</strong>
+        Та самая <strong>первая заглавная буква</strong> уже сама по себе является разделителем!
         То есть, слова как-будто <q>сцепляются</q> друг с другом.
     </li>
 </ol>
@@ -70,7 +83,7 @@
     Но мы вспоминаем, что заглавной буквой в имени класса может быть <strong>первая буква каждого слова</strong>.
     Получается, что если у нас в имени 2 заглавные буквы, значит и слов в имени класса у нас &mdash; два.
     Но проблема в том, что человечество пока еще придумало слов <q>Progr</q> и <q>Am</q>.
-    Точнее, придумало &mdash; но это слова для дурачества, а в программировании &mdash; дурачество не допустимо
+    Точнее, придумало, но это слова для дурачества, а в программировании &mdash; дурачество не допустимо
     <img alt="regular_smile" src="/assets/img/smiles/regular_smile.png">.
 </p>
 <p>
@@ -79,13 +92,147 @@
 </p>
 <p>
     И только класс <code class="success_code">Program</code> назван правильно, потому что он соответствует всем правилам
-    UpperCamelCase &mdash; <strong>он состоит из одного слова, и только одна (первая) его буква &mdash; заглавная</strong>.
+    UpperCamelCase:
 </p>
+<div class="note_box success_box">
+    <p>Он состоит из одного слова, и только одна (первая) его буква &mdash; заглавная</p>
+</div>
+
 
 <p class="argument_header">
     2. Имена классов из двух и более слов.
 </p>
+<p>
+    Если в предыдущем разделе для имени класса мы выбрали слово <q>program</q>, то есть &mdash; <q>программа</q>,
+    то для примера класса, состоящего из двух слов, сам Junior-ский бог велит нам использовать имя <q>моя программа</q>
+    <img alt="regular_smile" src="/assets/img/smiles/regular_smile.png">.
+</p>
+<p>
+    Но мы, хоть и Junior-ы, но все же &mdash; ребята серьезные! Поэтому мы так делать не станем. Для имени класса, которое
+    состоит из двух слов мы выберем термин &mdash; <q>оконная программа</q>,
+    то есть, программа с графическим пользовательским интерфейсом или программа, которая запускается на рабочем столе
+    пользователей.
+</p>
+<p>
+    Рабочий стол по-английски &mdash; это desktop, поэтому нам нужно разобраться, как правильно назвать класс,
+    который состоит из двух слов:
+</p>
+
+<ol>
+    <li><strong>desktop</strong></li>
+    <li>И <strong>program</strong></li>
+</ol>
+
+<p>
+    Варианты правильных и неправильных названий приведены вот прямо сейчас.
+</p>
+
+<p>
+    Класс <code class="error_code">desktopprogram</code> назван неправильно, потому что у него вообще нет заглавных букв.
+</p>
+<p>
+    Класс <code class="error_code">desktopProgram</code> назван неправильно,
+    потому что только второе слово записано с большой буквы, а слов в имени &mdash; два, и
+    <strong>каждое слово должно начинаться с большой буквы</strong>.
+</p>
+<p>
+    Класс <code class="error_code">DeskTopProGram</code> тоже назван неправильно, потому что, хоть каждое слово
+    и начинается с заглавной буквы, но проблема в том, что слов здесь получилось как-то многовато. Их должно быть 2, а не 4.
+    <i>(Я уже успел глупо пошутить в предыдущем разделе, что нам не нужны слова <q>Am</q> и <q>Gram</q>. Больше не буду. Обещаю.)</i>
+</p>
+<p>
+    И только класс <code class="success_code">DesktopProgram</code> назван правильно с точки зрения UpperCamelCase,
+    потому что
+</p>
+<div class="note_box success_box">
+    <p>Он состоит из двух слов, и каждая первая буква, каждого слова &mdash; заглавная</p>
+</div>
+
+<p>
+    Может возникнуть вопрос &mdash; <q>А что если имя класса состоит более чем из 2-х слов?</q>
+</p>
+<p>
+    При этом, я уверен, что вопрос этот может возникнуть у кого угодно, но только не у вас.
+    И что вы уже давно разобрались, как работает UpperCamelCase. И что вы не хотите слушать ответ на этот вопрос...
+    Но я все равно отвечу <img alt="regular_smile" src="/assets/img/smiles/regular_smile.png">.
+</p>
+<p>
+    Неважно, сколько слов в имени вашего класса! Важно запомнить простое правило:
+</p>
+
+<div class="note_box success_box">
+    <p>КаждаяПерваяБукваКаждогоСлова &mdash; Заглавная</p>
+</div>
+
+<p>
+    И все. Поэтому, если вам все таки хочется подчеркнуть, что это именно <q>ваша первая оконная программа</q>,
+    то в имени класса вы используете 4 слова вот в таком стиле написания &mdash;
+    <code class="success_code">MyFirstDesktopProgram</code>.
+</p>
+<p>
+    Неправильных вариантов для класса из 4 слов не будет, ну потому что &mdash; <q>НуСколькоЖеМожноПовторятьодноИТоЖе</q>?!
+</p>
 
 <p class="argument_header">
     3. Неправильные разделители в именах классов.
+</p>
+
+<p>
+    Ответить на вопрос <q>Какие разделители можно использовать в именах классов?</q> &mdash; очень просто:
+</p>
+
+<div class="note_box danger_box">
+    <p>НИКАКИЕ РАЗДЕЛИТЕЛИ В ИМЕНАХ КЛАССОВ ИСПОЛЬЗОВАТЬ НЕЛЬЗЯ!</p>
+</div>
+
+<p>
+    Другими словами:
+</p>
+
+<div class="note_box danger_box">
+    <p>Любой разделитель в имени класса будет нарушать правила UpperCamelCase!</p>
+</div>
+
+<p>
+    Потому что в UpperCamelCase роль разделителя играет
+</p>
+
+<div class="note_box success_box">
+    <p>
+        <span class="argument_header argument_header_begin">П</span>ервая<!--
+        --><span class="argument_header argument_header_begin">З</span>аглавная<!--
+        --><span class="argument_header argument_header_begin">Б</span>уква<!--
+        --><span class="argument_header argument_header_begin">К</span>аждого<!--
+        --><span class="argument_header argument_header_begin">С</span>лова<!--
+    --></p>
+</div>
+
+<p>
+    Поэтому здесь мы не будем долго ничего рассматривать, а просто приведем по одному примеру неправильного и правильного имени.
+    Самым популярным разделителем в программировании являетcя символ нижнего подчеркивания ( _ ),
+    поэтому именно им мы и <q>оскверним</q> наш UpperCamelCase.
+</p>
+
+<p>
+    Класс <code class="error_code">Desktop_Program</code> назван неправильно, потому что в имени используется нижнее подчеркивание.
+</p>
+<p>
+    А класс <code class="success_code">DesktopProgram</code> назван правильно, потому что
+</p>
+
+<div class="note_box success_box">
+    <p>Роль разделителя здесь играют заглавные буквы</p>
+</div>
+
+<p>
+    Теперь, читая любую книжку по Java для начинающих, вы можете смело игнорировать долгую нудную информацию о том,
+    какие разделители в именах классов (а также переменных и методов!) являются допустимыми с точки зрения Java синтаксиса,
+    потому что вы уже прочитали много долгой и нудной информации о том, что любые разделители недопустимы с точки зрения
+    Java Code Conventions и UpperCamelCase.
+</p>
+
+<p>
+    Надеюсь, что я чрезвычайно задрал вас тавтологией и графоманией, вы ненавидите себя за то, что открыли эту страницу,
+    и вы больше никогда не ошибетесь в выборе имени для ваших классов
+    <img alt="regular_smile" src="/assets/img/smiles/regular_smile.png">.
 </p>

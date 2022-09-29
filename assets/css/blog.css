@@ -92,6 +92,10 @@ div.thin_note_box p, div.thin_note_box li, div.thin_note_box a {
     font-weight: normal !important;
 }
 
+div.note_box a {
+    text-decoration: underline;
+}
+
 .info_box {
     background-color: #E7F3FE;
     border-left: 6px solid #2196F3;
