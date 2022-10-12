@@ -1440,10 +1440,10 @@ div[class*=iradio_] {
 }
 pre[class*=language-] {
     padding: 10px;
-    background: 0 0 !important;
-    border: 1px solid #f1f4f7 !important;
+    border: 3px solid #3C8DBC !important;
     box-shadow: none !important;
-    margin: 0
+    margin: 0;
+    width: max-content;
 }
 pre[class*=language-] code {
     background: 0 0 !important;
