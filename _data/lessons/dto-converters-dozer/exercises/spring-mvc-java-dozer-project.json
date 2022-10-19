@@ -16,11 +16,11 @@
     "ex-steps": [
         {
             "order": 1,
-            "title": "Начинай шагать"
+            "title": "Создайте пустой Spring MVC проект (с Java конфигурацией)"
         },
         {
             "order": 2,
-            "title": "Продолжай шагать"
+            "title": "Добавьте Dozer Maven dependencies"
         }
     ]
 }
