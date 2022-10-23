@@ -1,0 +1,26 @@
+{
+    "ex-title": "Maven WebApp Project. Eclipse IDE",
+    "ex-order": 1,
+    "max-step": 2,
+
+    "pre-exercises": [
+    ],
+
+    "ex-targets": [
+        {
+            "order": 1,
+            "text": "ПРИДУМАЙ!!"
+        }
+    ],
+
+    "ex-steps": [
+        {
+            "order": 1,
+            "title": "Откройте окно шаблонов для создания проекта в Eclipse"
+        },
+        {
+            "order": 2,
+            "title": "СЛЕДУЮЩИЙ!!!"
+        }
+    ]
+}
