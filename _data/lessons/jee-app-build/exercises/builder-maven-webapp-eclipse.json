@@ -1,7 +1,7 @@
 {
     "ex-title": "Maven WebApp Project. Eclipse IDE",
     "ex-order": 1,
-    "max-step": 2,
+    "max-step": 8,
 
     "pre-exercises": [
     ],
@@ -16,11 +16,35 @@
     "ex-steps": [
         {
             "order": 1,
-            "title": "Откройте окно шаблонов для создания проекта в Eclipse"
+            "title": "Откройте окно c шаблонами проектов в Eclipse"
         },
         {
             "order": 2,
-            "title": "СЛЕДУЮЩИЙ!!!"
+            "title": "Найдите шаблон \"Maven Project\" и выберите его"
+        },
+        {
+            "order": 3,
+            "title": "Посмотрите на бесполезное окно"
+        },
+        {
+            "order": 4,
+            "title": "Выберите архетип \"maven-archetype-webapp\""
+        },
+        {
+            "order": 5,
+            "title": "Укажите группу, артефакт, версию и корневой пакет для вашего проекта"
+        },
+        {
+            "order": 6,
+            "title": "Посмотрите на созданный проект в Project Explorer"
+        },
+        {
+            "order": 7,
+            "title": "Отредактируйте файл pom.xml"
+        },
+        {
+            "order": 8,
+            "title": "Добавьте необходимые Maved Dependencies"
         }
     ]
 }
