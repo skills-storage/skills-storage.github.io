@@ -1,7 +1,7 @@
 {
     "ex-title": "Maven WebApp Project. Eclipse IDE",
     "ex-order": 1,
-    "max-step": 8,
+    "max-step": 13,
 
     "pre-exercises": [
     ],
@@ -44,7 +44,27 @@
         },
         {
             "order": 8,
-            "title": "Добавьте необходимые Maved Dependencies"
+            "title": "Добавьте необходимые Maven Dependencies"
+        },
+        {
+            "order": 9,
+            "title": "Измените файл web.xml"
+        },
+        {
+            "order": 10,
+            "title": "Проверьте, что все работает! Запустите проект"
+        },
+        {
+            "order": 11,
+            "title": "Добавьте Maven-директорию для Java кода"
+        },
+        {
+            "order": 12,
+            "title": "Проверьте, что Java код и Web контент видят друг друга"
+        },
+        {
+            "order": 13,
+            "title": "Удалите лишние элементы из проекта"
         }
     ]
 }
