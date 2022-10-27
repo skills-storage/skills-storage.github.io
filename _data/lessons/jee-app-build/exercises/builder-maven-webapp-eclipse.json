@@ -6,7 +6,7 @@
     "pre-exercises": [
         {
             "title": "Открытие окна с шаблонами проектов",
-            "link": "{{site.url}}/lessons/ide-eclipse/exercises/open-project-wizard-dialog/intro.html"
+            "link": "lessons/ide-eclipse/exercises/open-project-wizard-dialog/intro.html"
         }
     ],
 

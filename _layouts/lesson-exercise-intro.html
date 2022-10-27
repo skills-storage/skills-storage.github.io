@@ -125,7 +125,7 @@
                                             <ol>
                                                 {% for preEx in site.data.lessons.[page.lessonCode].exercises.[page.exCode].pre-exercises %}
                                                     <li>
-                                                        <a href="{{preEx.link}}" target="_blank">
+                                                        <a href="{{site.url}}/{{preEx.link}}" target="_blank">
                                                             {{preEx.title}}
                                                         </a>
                                                     </li>
