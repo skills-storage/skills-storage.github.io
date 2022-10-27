@@ -1,0 +1,22 @@
+{
+    "ex-title": "Открытие окна с шаблонами проектов",
+    "ex-order": 1,
+    "max-step": 1,
+
+    "pre-exercises": [
+    ],
+
+    "ex-targets": [
+        {
+            "order": 1,
+            "text": "ПРИДУМАЙ!!"
+        }
+    ],
+
+    "ex-steps": [
+        {
+            "order": 1,
+            "title": "Придумай"
+        }
+    ]
+}
