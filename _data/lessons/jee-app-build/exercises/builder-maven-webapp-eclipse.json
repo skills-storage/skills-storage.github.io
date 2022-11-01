@@ -7,6 +7,10 @@
         {
             "title": "Открытие окна с шаблонами проектов",
             "link": "lessons/ide-eclipse/exercises/open-project-wizard-dialog/intro.html"
+        },
+        {
+            "title": "Использование фильтра в диалоговых окнах",
+            "link": "lessons/ide-eclipse/exercises/using-dialogs-filter-input/intro.html"
         }
     ],
 
