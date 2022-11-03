@@ -12,13 +12,115 @@ stepTitle: Выберите архетип "maven-archetype-webapp"
 ---
 
 <p>
-    Когда окно откроется, оно будет пустым
+    Начиная с этого шага, все окна, которые будут нам открываться, уже более или менее важны для нашего будущего проекта.
+    И первое окно, которое мы увидим называется <code>Select an Archetype</code>.
+    Это окно, в котором мы должны выбрать <code>Архетип</code> нашего будущего проекта.
+</p>
+
+<div class="note_box left_note_box warning_box">
+    <p>
+        <q>
+            И вот прямо сейчас меня капец как подрывает налить вам кучу воды о том, что такое архетипы (<code>archetypes</code>)
+            в Maven-е, но я не скажу ни слова. Ведь вся эта вода уже вылита в соответствующей главе.
+        </q>
+    </p>
+</div>
+
+<p class="change_text">
+    ДОБАВЬ ССЫЛКУ НА ГЛАВУ!
+</p>
+
+<p>
+    Итак, перед нами окно <code>Select an Archetype</code>.
+    Когда оно только появится на экране, оно будет пустым:
 </p>
 
 <img class="article_image" alt="empty-archetype-dialog" src="images/empty-archetype-dialog.png" />
 
 <p>
-    Если вы подождете, то окно заполнится архетипами:
+    Это потому, что прямо сейчас Eclipse загружает все известные ему архетипы из всех известные ему каталогов.
+    И если вы посмотрите в правый нижний угол Eclips-а, то вы увидите прогресс загрузки архетипов:
+</p>
+
+<img class="article_image" alt="retrieving-archs-progress" src="images/retrieving-archs-progress.png" />
+
+<p>
+    Через некоторое время (все зависит от скорости вашего интернета) окно заполнится архетипами:
 </p>
 
 <img class="article_image" alt="full-archetype-dialog" src="images/full-archetype-dialog.png" />
+
+<p>
+    И теперь среди этого списка нам нужно найти тот архетип, который создаст нам Web-приложение для Maven.
+    Однако, здесь есть два интересных замечания...
+</p>
+
+<p class="argument_header">
+    Замечание первое:
+</p>
+
+<p>
+    Раньше Eclipse загружал очень мало архетипов. Окно выглядело вот так:
+</p>
+
+<p class="change_text">
+    Покажи скрин окна из старого эклипса, если там было действительно мало архетипов!
+</p>
+
+<p>
+    Это были архетипы с <code>Maven Central Repository</code>, да и то, скорее всего, не все.
+    Но это были те архетипы, которые действительно нам нужны.
+    Но, начиная с какой-то версии (точно не помню, с какой) Eclipse вдруг решил, что мы должны увидеть все архетипы,
+    которые существуют в мире сегодня.
+</p>
+
+<p class="change_text">
+    Проверь:
+</p>
+
+<ol>
+    <li>С какой версии Eclipse начал загружать так много архетипов</li>
+    <li>Было ли в старой версии действительно меньше архетипов</li>
+    <li>Действительно ли они быстрее загружались</li>
+</ol>
+
+<p class="argument_header">
+    Замечание второе:
+</p>
+
+<p class="change_text">
+    Вы можете воспользоваться Combobox-ом <code>Catalog:</code>, но это вам ничего не даст :)
+    И покажи скрины :)
+</p>
+
+<p>
+    Таким образом, у нас остается один выход &mdash; воспользоваться фильтром в поле <code>Filter</code>
+    и ввести в него очень точно: <code>maven-archetype-webapp</code>:
+</p>
+
+<img class="article_image" alt="use-filter-field" src="images/use-filter-field.png" />
+
+<p>
+    После этого, количество архетипов очень сильно уменьшится:
+</p>
+
+<img class="article_image" alt="filtered-webapp-archetypes" src="images/filtered-webapp-archetypes.png" />
+
+<p>
+    И все, что нам останется сделать, это выбрать архетип, у которого:
+</p>
+
+<ul>
+    <li>Group Id = <code>org.apache.maven.archetypes</code></li>
+    <li>Artifact Id = <code>maven-archetype-webapp</code></li>
+</ul>
+
+<p>
+    И нажать кнопку <code>Next ></code>
+</p>
+
+<img class="article_image" alt="choose-maven-arch-webapp" src="images/choose-maven-arch-webapp.png" />
+
+<p>
+    Ура! Наконец-то мы переходим к следующему шагу.
+</p>
