@@ -11,9 +11,56 @@ nextStepOrder: 6
 stepTitle: Укажите группу, артефакт, версию и корневой пакет для вашего проекта
 ---
 
-Группа: com.skillsimprover
-Артефакт: simple-maven-webapp
-Версию оставляем без изменения: 0.0.1-SNAPSHOT
+<p>
+    Окно, которое появляется на текущем шаге, без преувеличений:
+</p>
+
+<div class="note_box success_box">
+    <p>
+        САМОЕ ВАЖНОЕ ОКНО ИЗ ВСЕГО УРПАЖНЕНИЯ!
+    </p>
+</div>
+
+<p>
+    Ведь оно позволит нам определить <q>Анатомию</q> нашего будущего проекта.
+    А именно, в нем мы определим:
+</p>
+
+<ol>
+    <li>Группу (<code>groupId</code>)</li>
+    <li>Артефакт (<code>artifactId</code>)</li>
+    <li>Версию</li>
+    <li>И корневой пакет</li>
+</ol>
+
+<p>
+    нашего приложения.
+</p>
+
+<p>
+    Давайте же определим, какими будут главные имена нашего приложения:
+</p>
+
+<table class="table table-bordered" style="max-width: 50%">
+    <tr>
+        <td style="text-align: right">Группа</td>
+        <td>com.skillsimprover</td>
+    </tr>
+    <tr>
+        <td style="text-align: right">Артефакт</td>
+        <td>simple-maven-webapp</td>
+    </tr>
+    <tr>
+        <td style="text-align: right">Версия (оставляем без изменения)</td>
+        <td>0.0.1-SNAPSHOT</td>
+    </tr>
+    <tr>
+        <td style="text-align: right">Корневой пакет (который получится в итоге)</td>
+        <td>НАПИШИ!</td>
+    </tr>
+
+</table>
+
 Пакет генерируется по мере ввеода группы и артефакта.
 Он генерируется с нижними подчеркиваниями
 Нижние подчеркивания нам не подходят
@@ -26,3 +73,40 @@ com.skillsimprover.webapp
 Вы потратитемного времени и придумаете для своего проекта реально клёвое имя.
 Поэтому и имя корневого пакета у вас будет более осмысленное.
 Ну а пока что я остановлюсь на варианте com.skillsimprover.mavenwebapp
+
+<p class="argument_header">
+    <span class="argument_header_begin">Примечание-1:</span> Отсутствие прежних названий групп и артефактов в новом Workspace.
+</p>
+
+<img class="article_image" alt="empty-prj-properties-dialog-for-new-workspace" src="images/empty-prj-properties-dialog-for-new-workspace.png" />
+
+<p class="argument_header">
+    <span class="argument_header_begin">Примечание-2:</span> Секция <code>Properties available from archetype</code>.
+</p>
+
+<p class="argument_header">
+    <span class="argument_header_begin">Примечание-3:</span> Секция <code>Advanced</code>
+</p>
+
+<p>
+    Действительно, если вы внимательно посмотрите на картинки выше в этом шаге, то заметите,
+    что внизу окна есть секция <code>Advanced</code>, которую мы ни разу не развернули за все описание шага.
+</p>
+
+<p>
+    Мы ее не разворачивали, потому что в ней нет ничего интересного или полезного.
+</p>
+
+<p>
+    Если очень хотите, давайте ее развернем. Ее внутренности выглядят вот так:
+</p>
+
+<p class="change_text">
+    Картинка
+</p>
+
+<p>
+    Окей, мы убедились, что здесь нет ничего полезного.
+    Пора уже нажать кнопку <code>Next ></code> и перейти к следующему шагу
+    <img alt="regular_smile" src="/assets/img/smiles/regular_smile.png">.
+</p>
