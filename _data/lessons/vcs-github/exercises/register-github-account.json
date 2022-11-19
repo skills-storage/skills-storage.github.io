@@ -4,6 +4,10 @@
     "max-step": 12,
 
     "pre-exercises": [
+        {
+            "title": "Создайте себе электронную почту",
+            "link": "https://skills-storage.github.io/lessons/it-intro-emails/exercises/it-intro-create-email/intro.html"
+        }
     ],
 
     "ex-targets": [
