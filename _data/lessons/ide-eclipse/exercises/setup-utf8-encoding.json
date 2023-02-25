@@ -1,4 +1,37 @@
 {
-  "ex-title": "Установка кодировки в UTF-8",
-  "max-step": 5
+    "ex-title": "Установка кодировки в UTF-8",
+    "ex-order": 3,
+    "max-step": 5,
+    "pre-exercises": [
+    ],
+
+    "ex-targets": [
+        {
+            "order": 1,
+            "text": "Научиться устанавливать кодировку UTF-8 для редактора Eclipse"
+        }
+    ],
+
+    "ex-steps": [
+        {
+            "order": 1,
+            "title": "Откройте окно настроек Eclipse"
+        },
+        {
+            "order": 2,
+            "title": "Откройте меню Workspace в настройках"
+        },
+        {
+            "order": 3,
+            "title": "В настройках Workspace найдите секцию <code>Text file encoding</code>"
+        },
+        {
+            "order": 4,
+            "title": "Смените кодировку на UTF-8"
+        },
+        {
+            "order": 5,
+            "title": "Сохраните изменения"
+        }
+    ]
 }
