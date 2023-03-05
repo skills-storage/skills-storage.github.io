@@ -65,7 +65,7 @@ q {
 
 .change_text {
     font-weight: bold;
-    color: red;
+    color: red !important;
     text-decoration: line-through;
 }
 
