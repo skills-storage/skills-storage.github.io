@@ -1,0 +1,86 @@
+---
+layout: lesson-exercise-step
+
+lessonCode: ide-eclipse
+exCode: tabs-to-spaces
+
+prevStepOrder: 5
+curStepOrder: 6
+nextStepOrder: 7
+
+stepTitle: Замените TAB-ы на пробелы
+---
+
+<p>
+    Правила того, что будет печататься в вашем редакторе, когда вы нажимаете клавишу <code>TAB</code>,
+    собраны в выпадающем списке <code>Tab policy</code>:
+</p>
+
+<img class="article_image" alt="tab-policy-dropdown" src="images/tab-policy-dropdown.png" />
+
+<p>
+    В этом списке три значения:
+</p>
+
+<ol>
+    <li>Spaces only</li>
+    <li>Tabs only</li>
+    <li>Mixed (что бы это не значило!)</li>
+</ol>
+
+<p>
+    И по умолчанию выбрано значение <code>Tabs only</code>, которое дословно означает:
+</p>
+
+<div class="note_box warning_box">
+    <p>
+        <q>Дружище, ты нажимаешь TAB, и я печатаю тебе TAB</q>
+    </p>
+</div>
+
+<p>
+    Наша с вами цель &mdash; изменить эти настройки так, чтобы:
+</p>
+
+<ol>
+    <li>При нажатии клавиши <code>TAB</code> Eclipse автоматически печатал нам пробелы</li>
+    <li>И этих пробелов было бы по 4 в каждом TAB-е</li>
+</ol>
+
+<p>
+    Чтобы это сделать, нам нужно:
+</p>
+
+<ol>
+    <li>
+        В списке <code>Tab policy</code> выбрать значение <code>Spaces only</code>
+    </li>
+    <li>
+        И убедиться, что в полях <code>Indentation size</code> и <code>Tab size</code>
+        введено значение <strong>4</strong>
+    </li>
+</ol>
+
+<p>
+    В результате, после изменений ваша секция <code>Indentation</code> будет выглядеть вот так:
+</p>
+
+<img class="article_image" alt="changed-indentation-section" src="images/changed-indentation-section.png" />
+
+<p>
+    Это все, что вам нужно сделать в плане изменения настроек.
+    И после этого мы могли бы сохранить новые настройки.
+    Но мы видим, что Eclipse буквально орет, что ничего у нас сохранить не получится!
+    Потому что это, мол, его кишки, и просто так ковыряться в них никому не позволено:
+</p>
+
+<img class="article_image" alt="cant-save-builtin-profile" src="images/cant-save-builtin-profile.png" />
+
+<p>
+    Мы уже говорили о том, что нельзя изменить настройки <code>[built-in]</code> профиля.
+    Но на его основе можно создать новый профиль и сохранить уже его под новым именем.
+</p>
+
+<p>
+    О том, как это сделать, вы узнаете на следующем шаге упражнения.
+</p>
