@@ -13,7 +13,7 @@
         {
             "order-number": 3,
             "question": "Пройдете ли вы Code Review с такой ошибкой?",
-            "answer": "Нет, вы просто не сможете работать"
+            "answer": "Нет"
         },
         {
             "order-number": 4,
