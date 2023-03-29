@@ -1,0 +1,44 @@
+{
+    "lab-work-targets": [
+        {
+            "order": 1,
+            "text": "Познакомиться с основами программирования на Java - <span class='change_text'>Удали!</span>"
+        },
+        {
+            "order": 2,
+            "text": "Познакомиться с линейными алгоритмами - <span class='change_text'>Удали!</span>"
+        },
+        {
+            "order": 3,
+            "text": "Познакомиться с понятием «переменная»"
+        },
+        {
+            "order": 4,
+            "text": "Научиться выполнять математические операции с переменными"
+        },
+        {
+            "order": 5,
+            "text": "Познакомиться с Java API &mdash; класс <code>System</code> и его методы <code>print()</code>, <code>println()</code> и т. д. - <span class='change_text'>Удали!</span>"
+        },
+        {
+            "order": 6,
+            "text": "Изучить процессы компиляции и запуска Java программ - <span class='change_text'>Это говно! Это уже будет в упражнении! Удали отовсюду!</span>"
+        },
+        {
+            "order": 6,
+            "text": "Слегка размять мозги <img alt='regular_smile' src='/assets/img/smiles/regular_smile.png' />"
+        }
+
+    ],
+
+    "lab-work-restrictions": [
+        {
+            "order": 1,
+            "text": "Программу необходимо написать в блокноте"
+        },
+        {
+            "order": 2,
+            "text": "Компилировать код и запускать программу необходимо из командной строки"
+        }
+    ]
+}
