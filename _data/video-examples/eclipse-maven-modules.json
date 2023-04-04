@@ -1,0 +1,13 @@
+{
+    "video-title": " Урок-5 - Модульный проект в Eclipse IDE при помощи Apache Maven",
+    "video-link": "https://www.youtube.com/embed/rLbjwEWases",
+    "example-file-name": "eclipse-maven-modules.zip",
+
+    "video-platforms": [
+        {
+            "order-number": 1,
+            "platform-name": "YouTube",
+            "video-link": "https://youtu.be/rLbjwEWases"
+        }
+    ]
+}
