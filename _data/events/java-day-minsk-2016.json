@@ -22,29 +22,5 @@
     ],
 
     "event-time-line": [
-        {
-            "order-number": 1,
-            "start-time": "18.30",
-            "end-time": "19.15",
-            "title": "Упрощаем разработку и деплой с Bootique, Руслан Ибрагимов"
-        },
-        {
-            "order-number": 2,
-            "start-time": "19.15",
-            "end-time": "19.30",
-            "title": "Кофе-пауза"
-        },
-        {
-            "order-number": 3,
-            "start-time": "19.30",
-            "end-time": "20.15",
-            "title": "Spring integration - что это такое и как его готовить, Илья Скиба"
-        },
-        {
-            "order-number": 3,
-            "start-time": "20.15",
-            "end-time": "21.00",
-            "title": "Общение, кофе, печеньки"
-        }
     ]
 }

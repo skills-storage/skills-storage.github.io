@@ -1,0 +1,60 @@
+{
+    "title": "Java Professionals BY Meetup #11",
+    "date": "3 ноября, 2016 года",
+    "time": "18:30",
+    "address": "EventSpace. Минск, ул. Октябрьская, 16а, EventSpace.by",
+    "payment-type": "partially_free",
+    "buy-ticket-link": "",
+    "registration-link": "https://docs.google.com/forms/d/e/1FAIpQLSc0ZixImWn93IxN87vi4IQ11HlKXEM8lROM29JOopWanSXSkw/viewform",
+    "event-original-link": "https://jprof.by/post/anons-meetup-11",
+
+    "event-links": [
+        {
+            "order-number": 1,
+            "title": "Подробности встречи",
+            "url": "https://events.devby.io/java-professionals-by-11"
+        },
+        {
+            "order-number": 2,
+            "title": "Подробности о докладах",
+            "url": "https://jprof.by/post/anons-meetup-11"
+        },
+        {
+            "order-number": 3,
+            "title": "Группа в Facebook",
+            "url": "https://www.facebook.com/events/197086727399952"
+        },
+        {
+            "order-number": 4,
+            "title": "Регистрация",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSc0ZixImWn93IxN87vi4IQ11HlKXEM8lROM29JOopWanSXSkw/viewform"
+        }
+    ],
+
+    "event-time-line": [
+        {
+            "order-number": 1,
+            "start-time": "18.30",
+            "end-time": "19.15",
+            "title": "Упрощаем разработку и деплой с Bootique, Руслан Ибрагимов"
+        },
+        {
+            "order-number": 2,
+            "start-time": "19.15",
+            "end-time": "19.30",
+            "title": "Кофе-пауза"
+        },
+        {
+            "order-number": 3,
+            "start-time": "19.30",
+            "end-time": "20.15",
+            "title": "Spring integration - что это такое и как его готовить, Илья Скиба"
+        },
+        {
+            "order-number": 3,
+            "start-time": "20.15",
+            "end-time": "21.00",
+            "title": "Общение, кофе, печеньки"
+        }
+    ]
+}
