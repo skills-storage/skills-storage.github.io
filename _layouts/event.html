@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="description" content="Responsive Admin Template" />
+    <meta name="author" content="SmartUniversity" />
+
+    <title>SkillsImprover. Событие - {{site.data.events.[page.eventCode].video-title}}
+    </title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css" />
+
+    <link href="/assets/fonts/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/fonts/material-design-icons/material-icon.css" rel="stylesheet" type="text/css" />
+
+    <!--bootstrap -->
+    <link href="/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Material Design Lite CSS -->
+    <link rel="stylesheet" href="/assets/plugins/material/material.min.css">
+    <link rel="stylesheet" href="/assets/css/material_style.css">
+
+    <!-- Theme Styles -->
+    <link href="/assets/css/theme/full/theme_style.css" rel="stylesheet" id="rt_style_components" type="text/css" />
+    <link href="/assets/css/theme/full/style.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/theme/full/theme-color.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/plugins.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/responsive.css" rel="stylesheet" type="text/css" />
+
+    <!-- steps -->
+    <link rel="stylesheet" href="/assets/plugins/steps/steps.css">
+
+    <!-- Blog Styles -->
+    <link href="/assets/css/blog.css" rel="stylesheet" type="text/css" />
+
+    <!-- Prism Code Highlighter -->
+    <link href="/assets/code-highlighter/css/prism.css" rel="stylesheet" type="text/css" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+</head>
+
+<body class="page-header-fixed sidemenu-closed-hidelogo page-content-white page-md page-full-width header-white white-sidebar-color logo-indigo">
+<div class="page-wrapper">
+    <!-- start header -->
+    <div class="page-header navbar navbar-fixed-top">
+        <div class="page-header-inner ">
+            <!-- logo start -->
+            <div class="page-logo">
+                <a href="http://new.skillsimprover.com">
+                    <span class="logo-icon material-icons fa-rotate-45">school</span>
+                    <span class="logo-default">SkillsImprover</span> </a>
+            </div>
+            <!-- logo end -->
+
+            <!-- start mobile menu -->
+            <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+                <span></span>
+            </a>
+            <!-- end mobile menu -->
+
+        </div>
+        <!-- start horizontal menu -->
+        <div class="navbar-custom">
+            <div class="hor-menu hidden-sm hidden-xs">
+            </div>
+        </div>
+        <!-- end horizontal menu -->
+    </div>
+    <!-- end header -->
+
+    <!-- start page container -->
+    <div class="page-container">
+        <!-- Just to have Footer at the bottom of page! -->
+        <div class="sidebar-container">
+            <div class="sidemenu-container navbar-collapse collapse fixed-menu">
+            </div>
+        </div>
+
+        <!-- start page content -->
+        <div class="page-content-wrapper">
+            <div class="page-content">
+                <div class="page-bar">
+                    <div class="page-title-breadcrumb">
+                        <div class=" pull-left">
+                            <div class="page-title">
+                                <h1>Событие:</h1>
+                                <h1><strong>&laquo;{{site.data.events.[page.eventCode].title}}&raquo;</strong></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card card-topline-gray">
+                            <div class="card-body no-padding height-9">
+
+                                <section class="mail-list">
+                                    <div class="view-mail">
+                                        <div class="article_content">
+                                            <img alt="bulbacon-logo" src="images/event-logo.png" class="article_image" />
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </section>
+
+                                <section class="mail-list">
+                                    <div class="mail-sender">
+                                        <div class="mail-heading">
+                                            <h3 class="vew-mail-header">
+                                                <b>Важная информация</b>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="view-mail">
+                                        <div class="article_content">
+                                            <table border="1">
+                                                <tr>
+                                                    <td>Когда?</td>
+                                                    <td>{{site.data.events.[page.eventCode].date}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Во сколько начало?</td>
+                                                    <td>{{site.data.events.[page.eventCode].time}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Где?</td>
+                                                    <td>{{site.data.events.[page.eventCode].address}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Платное?</td>
+                                                    <td>
+                                                        {{site.data.events.[page.eventCode].payment-type}}
+                                                        <br>
+                                                        <a href="{{site.data.events.[page.eventCode].buy-ticket-link}}" target="_blank">Купить билет</a>
+                                                        <br>
+                                                        <a href="{{site.data.events.[page.eventCode].registration-link}}" target="_blank">Зарегистрироваться на мероприятие</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </section>
+
+                                <section class="mail-list">
+                                    <div class="mail-sender">
+                                        <div class="mail-heading">
+                                            <h3 class="vew-mail-header">
+                                                <b>Time Line мероприятия</b>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="view-mail">
+                                        <div class="article_content">
+                                            <ul>
+                                                {% for time-line-item in site.data.events.[page.eventCode].event-time-line %}
+                                                    <li>
+                                                        {{time-line-item.start-time}} &mdash; {{time-line-item.end-time}}: {{time-line-item.title}}
+                                                    </li>
+                                                {% endfor %}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </section>
+
+                                <section class="mail-list">
+                                    <div class="mail-sender">
+                                        <div class="mail-heading">
+                                            <h3 class="vew-mail-header">
+                                                <b>Описание мероприятия</b>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="view-mail">
+                                        <div class="article_content">
+                                            {{content}}
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </section>
+
+                                <section class="mail-list">
+                                    <div class="mail-sender">
+                                        <div class="mail-heading">
+                                            <h3 class="vew-mail-header">
+                                                <b>Полезные ссылки</b>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="view-mail">
+                                        <div class="article_content">
+                                            <ol>
+                                                {% for eventLink in site.data.events.[page.eventCode].event-links %}
+                                                <li>
+                                                    <a href="{{eventLink.url}}" target="_blank">{{eventLink.title}}</a>
+                                                </li>
+                                                {% endfor %}
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </section>
+
+                                <section class="mail-list">
+                                    <div class="view-mail">
+                                        <div class="article_content">
+                                            <p>
+                                                <a href="{{site.data.events.[page.eventCode].event-original-link}}" target="_blank">
+                                                    Первоисточник
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </section>
+
+                                <span class="date pull-right">Последнее обновление: 4:15AM 04 April 2014</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- end page content -->
+    </div>
+    <!-- end page container -->
+    <!-- start footer -->
+    <div class="page-footer">
+        <div class="page-footer-inner"> 2017 &copy; Smart University Theme By
+            <a href="mailto:redstartheme@gmail.com" target="_top" class="makerCss">Redstar Theme</a>
+        </div>
+        <div class="scroll-to-top">
+            <i class="icon-arrow-up"></i>
+        </div>
+    </div>
+    <!-- end footer -->
+</div>
+<!-- start js include path -->
+<script src="/assets/plugins/jquery/jquery.min.js"></script>
+<script src="/assets/plugins/popper/popper.js"></script>
+<script src="/assets/plugins/jquery-blockui/jquery.blockui.min.js"></script>
+<script src="/assets/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+<!-- bootstrap -->
+<script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="/assets/plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+
+<!-- Common js-->
+<script src="/assets/js/app.js"></script>
+<script src="/assets/js/layout.js"></script>
+<script src="/assets/js/theme-color.js"></script>
+
+<!-- Material -->
+<script src="/assets/plugins/material/material.min.js"></script>
+
+<!-- Prism Code Highlighter -->
+<script src="/assets/code-highlighter/js/prism.js"></script>
+
+<!-- end js include path -->
+</body>
+
+</html>

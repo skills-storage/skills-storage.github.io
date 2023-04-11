@@ -1,0 +1,50 @@
+{
+    "title": "Java Day Minsk, 2016",
+    "date": "11 июня, 2016 года",
+    "time": "9-00",
+    "address": "ОТКРЫТОЕ ПРОСТРАНСТВО ВЕРХ. Минск, ул. Куйбышева, 22",
+    "payment-type": "paid",
+    "buy-ticket-link": "https://bezkassira.by/buy/javaday_2016-1249",
+    "registration-link": "http://localhost:8080",
+    "event-original-link": "http://javaday.by",
+
+    "event-links": [
+        {
+            "order-number": 1,
+            "title": "Официальной сайт мероприятия",
+            "url": "http://javaday.by"
+        },
+        {
+            "order-number": 2,
+            "title": "Группа в Facebook",
+            "url": "https://www.facebook.com/javadayby"
+        }
+    ],
+
+    "event-time-line": [
+        {
+            "order-number": 1,
+            "start-time": "18.30",
+            "end-time": "19.15",
+            "title": "Упрощаем разработку и деплой с Bootique, Руслан Ибрагимов"
+        },
+        {
+            "order-number": 2,
+            "start-time": "19.15",
+            "end-time": "19.30",
+            "title": "Кофе-пауза"
+        },
+        {
+            "order-number": 3,
+            "start-time": "19.30",
+            "end-time": "20.15",
+            "title": "Spring integration - что это такое и как его готовить, Илья Скиба"
+        },
+        {
+            "order-number": 3,
+            "start-time": "20.15",
+            "end-time": "21.00",
+            "title": "Общение, кофе, печеньки"
+        }
+    ]
+}
