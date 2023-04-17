@@ -1,0 +1,161 @@
+{
+    "course-short-title": "JSE",
+
+    "course-lessons": [
+        {
+            "order": 1,
+            "code": "introduction",
+            "title": "Введение. Знакомство"
+        },
+        {
+            "order": 2,
+            "code": "java-platform-introduction",
+            "title": "Платформа Java. Введение"
+        },
+        {
+            "order": 3,
+            "code": "computer-science",
+            "title": "Computer Science. Введение"
+        },
+        {
+            "order": 4,
+            "code": "java-syntax",
+            "title": "Основы синтаксиса языка Java"
+        },
+        {
+            "order": 5,
+            "code": "condition-operators",
+            "title": "Условные операторы"
+        },
+        {
+            "order": 6,
+            "code": "loop-operators",
+            "title": "Операторы циклов"
+        },
+        {
+            "order": 7,
+            "code": "arrays",
+            "title": "Массивы"
+        },
+        {
+            "order": 8,
+            "code": "methods",
+            "title": "Методы"
+        },
+        {
+            "order": 9,
+            "code": "classes",
+            "title": "Классы"
+        },
+        {
+            "order": 10,
+            "code": "packages",
+            "title": "Пакеты"
+        },
+        {
+            "order": 11,
+            "code": "jar-api-classpath",
+            "title": "JAR-архивы. Java Программы. API. ClassPath"
+        },
+        {
+            "order": 12,
+            "code": "ide-introduction",
+            "title": "Знакомство с IDE - Integrated Development Environment. Intellij Idea"
+        },
+        {
+            "order": 13,
+            "code": "oop-introduction",
+            "title": "ООП. Введение. Инкапсуляция"
+        },
+        {
+            "order": 14,
+            "code": "oop-extension",
+            "title": "Наследование"
+        },
+        {
+            "order": 15,
+            "code": "oop-polymorphism",
+            "title": "Полиморфизм. Абстрактные классы. Интерфейсы"
+        },
+        {
+            "order": 16,
+            "code": "class-object",
+            "title": "Класс java.lang.Object"
+        },
+        {
+            "order": 17,
+            "code": "class-class",
+            "title": "Класс java.lang.Class. Reflection API"
+        },
+        {
+            "order": 18,
+            "code": "git-introduction",
+            "title": "Введение в GIT"
+        },
+        {
+            "order": 19,
+            "code": "collections-api",
+            "title": "Java Collections API. Коллекции и Карты"
+        },
+        {
+            "order": 20,
+            "code": "io-api",
+            "title": "Java IO. Ввод-вывод в Java"
+        },
+        {
+            "order": 21,
+            "code": "exceptions",
+            "title": "Exceptions. Обработка исключительных ситуаций"
+        },
+        {
+            "order": 22,
+            "code": "java-net",
+            "title": "Пакет java.net.*. Работа с сетью в Java"
+        },
+        {
+            "order": 23,
+            "code": "data-formats",
+            "title": "Форматы данных - Properties, CSV, XML и JSON"
+        },
+        {
+            "order": 24,
+            "code": "data-formats-api",
+            "title": "Java API для чтения CSV, XML и JSON форматов"
+        },
+        {
+            "order": 25,
+            "code": "db-theory",
+            "title": "Основы теории реляционных баз данных"
+        },
+        {
+            "order": 26,
+            "code": "http-theory",
+            "title": "Основы протокола HTTP"
+        },
+        {
+            "order": 27,
+            "code": "client-server-architecture",
+            "title": "Архитектура клиент-серверных приложений"
+        },
+        {
+            "order": 28,
+            "code": "java-fx",
+            "title": "Введение в JavaFX"
+        },
+        {
+            "order": 29,
+            "code": "java8-introduction",
+            "title": "Java-8 - обзор"
+        },
+        {
+            "order": 30,
+            "code": "multythreading",
+            "title": "Многопоточность в Java"
+        },
+        {
+            "order": 31,
+            "code": "conclusion",
+            "title": "Заключительное занятие"
+        }
+    ]
+}
