@@ -9,7 +9,8 @@
     <meta name="author" content="SmartUniversity" />
 
     <title>
-        SkillsImprover - Курс: {{site.data.courses.[page.courseCode].[page.courseRelease].course-data.course-short-title}}
+        SkillsImprover - Занятие-[page.orderInCurrentCourse]:
+        {{site.data.courses.[page.mainCourseCode].[page.mainCourseRelease].lessons.[page.lessonCode].lesson-data.title}}
     </title>
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css" />
@@ -90,7 +91,7 @@
                         <div class=" pull-left">
                             <div class="page-title">
                                 <h1>
-                                    Курс: {{site.data.courses.[page.courseCode].[page.courseRelease].course-data.course-short-title}}
+                                    Курс: {{site.data.courses.[page.currentCourseCode].[page.currentCourseRelease].course-data.course-short-title}}
                                 </h1>
                             </div>
                         </div>
@@ -111,7 +112,7 @@
                             <div class="col-md-12 col-sm-12">
                                 <div class="card card-topline-lightblue">
                                     <div class="card-head">
-                                        <header>Информация о курсе</header>
+                                        <header>Занятие-НОМЕР: НАЗВАНИЕ</header>
 
                                         <div class="tools">
                                             <a class="t-collapse btn-color fa fa-chevron-down" href="javascript:;"></a>
@@ -119,92 +120,47 @@
                                     </div>
 
                                     <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-12 col-sm-12">
-                                                Контент!!!
+                                        <div class="borderBox light bordered card-box">
+                                            <div class="borderBox-title tabbable-line">
+                                                <a href="/courses/{{page.currentCourseCode}}/{{page.currentCourseRelease}}" class="btn btn-default mb-10">
+                                                    <i class="fa fa-mail-reply"></i>
+                                                </a>
+
+                                                <ul class="nav nav-tabs">
+                                                    <li class="nav-item">
+                                                        <a href="#chapters-list-tab" data-toggle="tab"  class="active show">
+                                                            Содержание
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="#exercises-list-tab" data-toggle="tab" class="">
+                                                            Упражнения
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="#lab-works-list-tab" data-toggle="tab" class="">
+                                                            Лабораторные работы
+                                                        </a>
+                                                    </li>
+                                                </ul>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12">
-                                <div class="card card-topline-lightblue">
-                                    <div class="card-head">
-                                        <header>Описание курса</header>
+                                            <div class="borderBox-body">
+                                                <div class="tab-content">
 
-                                        <div class="tools">
-                                            <a class="t-collapse btn-color fa fa-chevron-down" href="javascript:;"></a>
-                                        </div>
-                                    </div>
-
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-12 col-sm-12">
-                                                <div class="article_content">
-                                                    {% include_relative course-description.html %}
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12">
-                                <div class="card card-topline-lightblue">
-                                    <div class="card-head">
-                                        <header>Список занятий</header>
-
-                                        <div class="tools">
-                                            <a class="t-collapse btn-color fa fa-chevron-down" href="javascript:;"></a>
-                                        </div>
-                                    </div>
-
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-12 col-sm-12">
-                                                {% for courseLesson in site.data.courses.[page.courseCode].[page.courseRelease].course-data.course-lessons %}
-                                                    <div class="row">
-                                                        <div class="col-md-12 col-sm-12">
-                                                            <div class="card card-topline-lightblue">
-                                                                <div class="card-head">
-                                                                    <header>Занятие-{{courseLesson.order}}: {{courseLesson.title}}</header>
-
-                                                                    <div class="tools">
-                                                                        <a class="t-collapse btn-color fa fa-chevron-down" href="javascript:;"></a>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div class="card-body">
-                                                                    <div class="row">
-                                                                        <div class="col-md-12 col-sm-12">
-                                                                            Описание занятия
-
-                                                                            <div class="btn-group pull-right">
-                                                                                <a class="btn btn-round btn-primary" href="lessons/{{courseLesson.order}}-{{courseLesson.code}}">
-                                                                                    Начать Изучение
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                    <div id="chapters-list-tab" class="tab-pane active show">
+                                                        <!--<app-lesson-chapters-list [lessonChapters]="lessonChapters"></app-lesson-chapters-list>-->
+                                                        Содержание урока - сюда!
                                                     </div>
-                                                {% endfor %}
 
+                                                    <div id="exercises-list-tab" class="tab-pane">
+                                                        Упражнения - сюда!
+                                                    </div>
+
+                                                    <div id="lab-works-list-tab" class="tab-pane">
+                                                        Лабораторные работы - сюда!
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
