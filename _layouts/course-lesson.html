@@ -46,6 +46,8 @@
     <link rel="shortcut icon" href="/assets/img/favicon.ico" />
 </head>
 
+{% assign currLesson =  site.data.courses.[page.currentCourseCode].[page.currentCourseRelease].lessons.[page.lessonCode].lesson-data %}
+
 <body class="page-header-fixed sidemenu-closed-hidelogo page-content-white page-md page-full-width header-white white-sidebar-color logo-indigo">
 <div class="page-wrapper">
     <!-- start header -->
@@ -149,16 +151,71 @@
                                                 <div class="tab-content">
 
                                                     <div id="chapters-list-tab" class="tab-pane active show">
-                                                        <!--<app-lesson-chapters-list [lessonChapters]="lessonChapters"></app-lesson-chapters-list>-->
-                                                        Содержание урока - сюда!
+                                                        <div class="article_content">
+                                                            <p>
+                                                                Содержания пока нет <img alt="sad_smile" src="/assets/img/smiles/sad_smile.png">
+                                                            </p>
+                                                        </div>
                                                     </div>
 
                                                     <div id="exercises-list-tab" class="tab-pane">
-                                                        Упражнения - сюда!
+                                                        <div class="table-responsive">
+                                                            <table class="table table-striped table-bordered table-hover table-checkable order-column">
+                                                                <thead>
+                                                                <tr>
+                                                                    <th class="center">Номер</th>
+                                                                    <th class="center">Название</th>
+                                                                    <th class="center">Действия</th>
+                                                                </tr>
+                                                                </thead>
+
+                                                                <tbody>
+                                                                {% for exercise in currLesson.lesson-exercises %}
+                                                                <tr>
+                                                                    <td>
+                                                                        {{exercise.order}}
+                                                                    </td>
+                                                                    <td>
+                                                                        {{exercise.title}}
+                                                                    </td>
+                                                                    <td>
+                                                                        <a class="btn btn-link" href="#">Выполнить Упражнение</a>
+                                                                    </td>
+                                                                </tr>
+                                                                {% endfor %}
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
                                                     </div>
 
                                                     <div id="lab-works-list-tab" class="tab-pane">
-                                                        Лабораторные работы - сюда!
+                                                        <div class="table-responsive">
+                                                            <table class="table table-striped table-bordered table-hover table-checkable order-column">
+                                                                <thead>
+                                                                <tr>
+                                                                    <th class="center">Номер</th>
+                                                                    <th class="center">Название</th>
+                                                                    <th class="center">Действия</th>
+                                                                </tr>
+                                                                </thead>
+
+                                                                <tbody>
+                                                                {% for labWork in currLesson.lesson-labworks %}
+                                                                    <tr>
+                                                                        <td>
+                                                                            {{labWork.order}}
+                                                                        </td>
+                                                                        <td>
+                                                                            {{labWork.title}}
+                                                                        </td>
+                                                                        <td>
+                                                                            <a class="btn btn-link" href="#">Выполнить работу</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                {% endfor %}
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
