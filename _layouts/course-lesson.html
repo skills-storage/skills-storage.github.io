@@ -10,7 +10,7 @@
 
     <title>
         SkillsImprover - Занятие-{{page.orderInCurrentCourse}}:
-        {{site.data.courses.[page.mainCourseCode].[page.mainCourseRelease].lessons.[page.lessonCode].lesson-data.title}}
+        {{site.data.courses.[page.ownerCourseCode].[page.ownerCourseRelease].lessons.[page.lessonCode].lesson-data.title}}
     </title>
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css" />
@@ -114,7 +114,7 @@
                             <div class="col-md-12 col-sm-12">
                                 <div class="card card-topline-lightblue">
                                     <div class="card-head">
-                                        <header>Занятие-{{page.orderInCurrentCourse}}: {{site.data.courses.[page.mainCourseCode].[page.mainCourseRelease].lessons.[page.lessonCode].lesson-data.title}}</header>
+                                        <header>Занятие-{{page.orderInCurrentCourse}}: {{site.data.courses.[page.ownerCourseCode].[page.ownerCourseRelease].lessons.[page.lessonCode].lesson-data.title}}</header>
 
                                         <div class="tools">
                                             <a class="t-collapse btn-color fa fa-chevron-down" href="javascript:;"></a>
