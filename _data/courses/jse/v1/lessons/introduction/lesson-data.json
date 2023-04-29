@@ -1,3 +1,15 @@
 {
-    "title": "Введение. Знакомство"
+    "title": "Введение. Знакомство",
+    "order": 1,
+
+    "lesson-exercises": [
+        {
+            "order": 1,
+            "title": "Test EX"
+        },
+        {
+            "order": 2,
+            "title": "Test EX - 2"
+        }
+    ]
 }
