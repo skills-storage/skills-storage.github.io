@@ -9,7 +9,7 @@
     <meta name="author" content="SmartUniversity" />
 
     <title>
-        SkillsImprover - Занятие-{{page.orderInCurrentCourse}}:
+        SkillsImprover - Занятие-{{site.data.courses.[page.currentCourseCode].[page.currentCourseRelease].lessons.[page.lessonCode].lesson-data.order}}:
         {{site.data.courses.[page.ownerCourseCode].[page.ownerCourseRelease].lessons.[page.lessonCode].lesson-data.title}}
     </title>
 
@@ -114,7 +114,10 @@
                             <div class="col-md-12 col-sm-12">
                                 <div class="card card-topline-lightblue">
                                     <div class="card-head">
-                                        <header>Занятие-{{page.orderInCurrentCourse}}: {{site.data.courses.[page.ownerCourseCode].[page.ownerCourseRelease].lessons.[page.lessonCode].lesson-data.title}}</header>
+                                        <header>
+                                            Занятие-{{site.data.courses.[page.currentCourseCode].[page.currentCourseRelease].lessons.[page.lessonCode].lesson-data.order}}:
+                                            {{site.data.courses.[page.ownerCourseCode].[page.ownerCourseRelease].lessons.[page.lessonCode].lesson-data.title}}
+                                        </header>
 
                                         <div class="tools">
                                             <a class="t-collapse btn-color fa fa-chevron-down" href="javascript:;"></a>
