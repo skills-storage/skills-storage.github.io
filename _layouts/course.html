@@ -90,7 +90,7 @@
                         <div class=" pull-left">
                             <div class="page-title">
                                 <h1>
-                                    Курс: {{site.data.courses.[page.courseCode].[page.courseRelease].course-data.course-short-title}}
+                                    Курс: {{site.data.courses.[page.courseCode].[page.courseRelease].course-data.shortTitle}}
                                 </h1>
                             </div>
                         </div>
@@ -175,12 +175,12 @@
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-md-12 col-sm-12">
-                                                {% for courseLesson in site.data.courses.[page.courseCode].[page.courseRelease].course-data.course-lessons %}
+                                                {% for courseLesson in site.data.courses.[page.courseCode].[page.courseRelease].course-data.courseLessons %}
                                                     <div class="row">
                                                         <div class="col-md-12 col-sm-12">
                                                             <div class="card card-topline-lightblue">
                                                                 <div class="card-head">
-                                                                    <header>Занятие-{{courseLesson.order}}: {{courseLesson.title}}</header>
+                                                                    <header>Занятие-{{courseLesson.orderNumber}}: {{courseLesson.title}}</header>
 
                                                                     <div class="tools">
                                                                         <a class="t-collapse btn-color fa fa-chevron-down" href="javascript:;"></a>
@@ -193,7 +193,8 @@
                                                                             Описание занятия
 
                                                                             <div class="btn-group pull-right">
-                                                                                <a class="btn btn-round btn-primary" href="lessons/{{courseLesson.code}}">
+
+                                                                                <a class="btn btn-round btn-primary" href="{{courseLesson.webPageLink}}">
                                                                                     Начать Изучение
                                                                                 </a>
                                                                             </div>
