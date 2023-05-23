@@ -1,161 +1,192 @@
 {
-    "course-short-title": "JSE",
+    "shortTitle": "Java SE",
 
-    "course-lessons": [
+    "courseLessons": [
         {
-            "order": 1,
+            "orderNumber": 1,
             "code": "introduction",
-            "title": "Введение. Знакомство"
+            "title": "Введение. Знакомство",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/01-introduction"
         },
         {
-            "order": 2,
+            "orderNumber": 2,
             "code": "java-platform-introduction",
-            "title": "Платформа Java. Введение"
+            "title": "Платформа Java. Введение",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/02-java-platform-introduction"
         },
         {
-            "order": 3,
+            "orderNumber": 3,
             "code": "computer-science",
-            "title": "Computer Science. Введение"
+            "title": "Computer Science. Введение",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/03-computer-science"
         },
         {
-            "order": 4,
+            "orderNumber": 4,
             "code": "java-syntax",
-            "title": "Основы синтаксиса языка Java"
+            "title": "Основы синтаксиса языка Java",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/04-java-syntax"
         },
         {
-            "order": 5,
+            "orderNumber": 5,
             "code": "condition-operators",
-            "title": "Условные операторы"
+            "title": "Условные операторы",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/05-condition-operators"
         },
         {
-            "order": 6,
+            "orderNumber": 6,
             "code": "loop-operators",
-            "title": "Операторы циклов"
+            "title": "Операторы циклов",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/06-loop-operators"
         },
         {
-            "order": 7,
+            "orderNumber": 7,
             "code": "arrays",
-            "title": "Массивы"
+            "title": "Массивы",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/07-arrays"
         },
         {
-            "order": 8,
+            "orderNumber": 8,
             "code": "methods",
-            "title": "Методы"
+            "title": "Методы",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/08-methods"
         },
         {
-            "order": 9,
+            "orderNumber": 9,
             "code": "classes",
-            "title": "Классы"
+            "title": "Классы",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/09-classes"
         },
         {
-            "order": 10,
+            "orderNumber": 10,
             "code": "packages",
-            "title": "Пакеты"
+            "title": "Пакеты",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/10-packages"
         },
         {
-            "order": 11,
+            "orderNumber": 11,
             "code": "jar-api-classpath",
-            "title": "JAR-архивы. Java Программы. API. ClassPath"
+            "title": "JAR-архивы. Java Программы. API. ClassPath",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/11-jar-api-classpath"
         },
         {
-            "order": 12,
+            "orderNumber": 12,
             "code": "ide-introduction",
-            "title": "Знакомство с IDE - Integrated Development Environment. Intellij Idea"
+            "title": "Знакомство с IDE - Integrated Development Environment. Intellij Idea",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/12-ide-introduction"
         },
         {
-            "order": 13,
+            "orderNumber": 13,
             "code": "oop-introduction",
-            "title": "ООП. Введение. Инкапсуляция"
+            "title": "ООП. Введение. Инкапсуляция",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/13-oop-introduction"
         },
         {
-            "order": 14,
+            "orderNumber": 14,
             "code": "oop-extension",
-            "title": "Наследование"
+            "title": "Наследование",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/14-oop-extension"
         },
         {
-            "order": 15,
+            "orderNumber": 15,
             "code": "oop-polymorphism",
-            "title": "Полиморфизм. Абстрактные классы. Интерфейсы"
+            "title": "Полиморфизм. Абстрактные классы. Интерфейсы",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/15-oop-polymorphism"
         },
         {
-            "order": 16,
+            "orderNumber": 16,
             "code": "class-object",
-            "title": "Класс java.lang.Object"
+            "title": "Класс java.lang.Object",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/16-class-object"
         },
         {
-            "order": 17,
+            "orderNumber": 17,
             "code": "class-class",
-            "title": "Класс java.lang.Class. Reflection API"
+            "title": "Класс java.lang.Class. Reflection API",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/17-class-class"
         },
         {
-            "order": 18,
+            "orderNumber": 18,
             "code": "git-introduction",
-            "title": "Введение в GIT"
+            "title": "Введение в GIT",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/18-git-introduction"
         },
         {
-            "order": 19,
+            "orderNumber": 19,
             "code": "collections-api",
-            "title": "Java Collections API. Коллекции и Карты"
+            "title": "Java Collections API. Коллекции и Карты",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/19-collections-api"
         },
         {
-            "order": 20,
+            "orderNumber": 20,
             "code": "io-api",
-            "title": "Java IO. Ввод-вывод в Java"
+            "title": "Java IO. Ввод-вывод в Java",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/20-io-api"
         },
         {
-            "order": 21,
+            "orderNumber": 21,
             "code": "exceptions",
-            "title": "Exceptions. Обработка исключительных ситуаций"
+            "title": "Exceptions. Обработка исключительных ситуаций",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/21-exceptions"
         },
         {
-            "order": 22,
+            "orderNumber": 22,
             "code": "java-net",
-            "title": "Пакет java.net.*. Работа с сетью в Java"
+            "title": "Пакет java.net.*. Работа с сетью в Java.",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/22-java-net"
         },
         {
-            "order": 23,
+            "orderNumber": 23,
             "code": "data-formats",
-            "title": "Форматы данных - Properties, CSV, XML и JSON"
+            "title": "Форматы данных - Properties, CSV, XML и JSON",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/23-data-formats"
         },
         {
-            "order": 24,
+            "orderNumber": 24,
             "code": "data-formats-api",
-            "title": "Java API для чтения CSV, XML и JSON форматов"
+            "title": "Java API для чтения CSV, XML и JSON форматов",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/24-data-formats-api"
         },
         {
-            "order": 25,
+            "orderNumber": 25,
             "code": "db-theory",
-            "title": "Основы теории реляционных баз данных"
+            "title": "Основы теории реляционных баз данных",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/25-db-theory"
         },
         {
-            "order": 26,
+            "orderNumber": 26,
             "code": "http-theory",
-            "title": "Основы протокола HTTP"
+            "title": "Основы протокола HTTP",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/26-http-theory"
         },
         {
-            "order": 27,
+            "orderNumber": 27,
             "code": "client-server-architecture",
-            "title": "Архитектура клиент-серверных приложений"
+            "title": "Архитектура клиент-серверных приложений",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/27-client-server-architecture"
         },
         {
-            "order": 28,
+            "orderNumber": 28,
             "code": "java-fx",
-            "title": "Введение в JavaFX"
+            "title": "Введение в JavaFX",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/28-java-fx"
         },
         {
-            "order": 29,
+            "orderNumber": 29,
             "code": "java8-introduction",
-            "title": "Java-8 - обзор"
+            "title": "Java-8 - обзор",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/29-java8-introduction"
         },
         {
-            "order": 30,
+            "orderNumber": 30,
             "code": "multythreading",
-            "title": "Многопоточность в Java"
+            "title": "Многопоточность в Java",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/30-multythreading"
         },
         {
-            "order": 31,
+            "orderNumber": 31,
             "code": "conclusion",
-            "title": "Заключительное занятие"
+            "title": "Заключительное занятие",
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/31-conclusion"
         }
     ]
 }
