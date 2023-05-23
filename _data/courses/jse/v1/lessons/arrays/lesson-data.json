@@ -1,0 +1,32 @@
+{
+    "title": "Массивы",
+    "order": 7,
+    "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/07-arrays",
+    "lessonLabworks": [
+        {
+            "orderNumber": 1,
+            "code": "jse-course-calculator-3-args",
+            "title": "Калькулятор стоимости моего курса-3. Параметры командной строки. Работа с массивом.",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_27/v1/lessons/arrays/lab-works/1-jse-course-calculator-3-args"
+        },
+        {
+            "orderNumber": 2,
+            "code": "one-dimensional-arrays",
+            "title": "Работа с одномерными массивами",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_27/v1/lessons/arrays/lab-works/2-one-dimensional-arrays"
+        },
+        {
+            "orderNumber": 3,
+            "code": "two-dimensional-arrays",
+            "title": "Работа с двумерными массивами",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_27/v1/lessons/arrays/lab-works/3-two-dimensional-arrays"
+        },
+        {
+            "orderNumber": 4,
+            "code": "sea-battle-game-map-filling",
+            "title": "Заполнение карты для игры в морской бой",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_27/v1/lessons/arrays/lab-works/4-sea-battle-game-map-filling"
+        }
+    ],
+    "lessonExercises": []
+}
