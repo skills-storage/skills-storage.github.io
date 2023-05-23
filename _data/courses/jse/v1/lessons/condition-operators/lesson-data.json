@@ -1,0 +1,20 @@
+{
+    "title": "Условные операторы",
+    "order": 5,
+    "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/05-condition-operators",
+    "lessonLabworks": [
+        {
+            "orderNumber": 1,
+            "code": "if-block-min-max-value",
+            "title": "Определение минимального и максимального числа",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_25/v1/lessons/condition-operators/lab-works/1-if-block-min-max-value"
+        },
+        {
+            "orderNumber": 2,
+            "code": "figure-squares-calculator",
+            "title": "Вычисление площадей фигур",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_25/v1/lessons/condition-operators/lab-works/2-figure-squares-calculator"
+        }
+    ],
+    "lessonExercises": []
+}
