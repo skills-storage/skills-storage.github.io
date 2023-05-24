@@ -1,0 +1,26 @@
+{
+    "title": "Операторы циклов",
+    "order": 6,
+    "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/06-loop-operators",
+    "lessonLabworks": [
+        {
+            "orderNumber": 1,
+            "code": "number-systems-calculator",
+            "title": "Перевод десятичного числа в другие системы счисления",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_26/v1/lessons/loop-operators/lab-works/1-number-systems-calculator"
+        },
+        {
+            "orderNumber": 2,
+            "code": "min-even-number-builder",
+            "title": "Составление минимального четного числа",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_26/v1/lessons/loop-operators/lab-works/2-min-even-number-builder"
+        },
+        {
+            "orderNumber": 3,
+            "code": "game-map-travel",
+            "title": "Путешествие по игровой карте",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_26/v1/lessons/loop-operators/lab-works/3-game-map-travel"
+        }
+    ],
+    "lessonExercises": []
+}
