@@ -1,0 +1,32 @@
+{
+    "title": "Введение в GIT",
+    "order": 18,
+    "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/18-git-introduction",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "review-your-profile",
+            "title": "Обзор страницы профиля",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_38/v1/lessons/git-introduction/exercises/1-review-your-profile"
+        },
+        {
+            "orderNumber": 2,
+            "code": "create-github-repository",
+            "title": "Создание первого репозитория на GitHub ",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_38/v1/lessons/git-introduction/exercises/2-create-github-repository"
+        },
+        {
+            "orderNumber": 3,
+            "code": "investigate-repository-page",
+            "title": "Обзор страницы репозитория",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_38/v1/lessons/git-introduction/exercises/3-investigate-repository-page"
+        },
+        {
+            "orderNumber": 4,
+            "code": "delete-github-repository",
+            "title": "Удаение репозитория",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_38/v1/lessons/git-introduction/exercises/4-delete-github-repository"
+        }
+    ]
+}
