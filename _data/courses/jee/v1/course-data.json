@@ -1,0 +1,125 @@
+{
+    "shortTitle": "Java EE",
+    "courseLessons": [
+        {
+            "orderNumber": 1,
+            "code": "jee-introduction",
+            "title": "Введение. Знакомство",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/01-jee-introduction"
+        },
+        {
+            "orderNumber": 2,
+            "code": "jee-web-development-introduction",
+            "title": "Введение в Web-программирование. Основные технологии.",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/02-jee-web-development-introduction"
+        },
+        {
+            "orderNumber": 3,
+            "code": "jee-java-web-introduction",
+            "title": "Введение в Web-программирование на Java.",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/03-jee-java-web-introduction"
+        },
+        {
+            "orderNumber": 4,
+            "code": "jee-servlet-api-1",
+            "title": "Servlet API - Часть-1",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-jee-servlet-api-1"
+        },
+        {
+            "orderNumber": 5,
+            "code": "jee-servlet-api-2",
+            "title": "Servlet API – Часть-2",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/05-jee-servlet-api-2"
+        },
+        {
+            "orderNumber": 6,
+            "code": "jee-jsp",
+            "title": "JSP - Java Server Pages",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/06-jee-jsp"
+        },
+        {
+            "orderNumber": 7,
+            "code": "jee-db-introduction",
+            "title": "Введение в теорию баз данных",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/07-jee-db-introduction"
+        },
+        {
+            "orderNumber": 8,
+            "code": "jee-jdbc",
+            "title": "Введение в JDBC API",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jee-jdbc"
+        },
+        {
+            "orderNumber": 9,
+            "code": "jee-tomcat-jndi",
+            "title": "Tomcat и JNDI",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/09-jee-tomcat-jndi"
+        },
+        {
+            "orderNumber": 10,
+            "code": "jee-model-2-mvc",
+            "title": "JSP Model-2 и MVC",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/10-jee-model-2-mvc"
+        },
+        {
+            "orderNumber": 11,
+            "code": "jee-layers-dao-service",
+            "title": "Расслоение системы. Введение DAO и Service слоев в приложение",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/11-jee-layers-dao-service"
+        },
+        {
+            "orderNumber": 12,
+            "code": "jee-custom-tags",
+            "title": "Пользовательские тэги. Библиотека тэгов JSTL",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/12-jee-custom-tags"
+        },
+        {
+            "orderNumber": 13,
+            "code": "jee-i18n",
+            "title": "I18N - Интернационализация Web приложений",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/13-jee-i18n"
+        },
+        {
+            "orderNumber": 14,
+            "code": "jee-filters-listeners",
+            "title": "Фильтры и слушатели в Servlet API",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/14-jee-filters-listeners"
+        },
+        {
+            "orderNumber": 15,
+            "code": "jee-logging",
+            "title": "Введение в логирование приложений",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/15-jee-logging"
+        },
+        {
+            "orderNumber": 16,
+            "code": "jee-client-server-apps",
+            "title": "Обзор других типов клиент-серверных приложений",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/16-jee-client-server-apps"
+        },
+        {
+            "orderNumber": 17,
+            "code": "jee-ria-ajax",
+            "title": "RIA - Rich Internet Applications. Технология AJAX",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/17-jee-ria-ajax"
+        },
+        {
+            "orderNumber": 18,
+            "code": "jee-rest-services",
+            "title": "REST-сервисы в Java",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/18-jee-rest-services"
+        },
+        {
+            "orderNumber": 19,
+            "code": "jee-tdd",
+            "title": "Введение в тестирование программ",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/19-jee-tdd"
+        },
+        {
+            "orderNumber": 20,
+            "code": "jee-app-build",
+            "title": "Автоматизация сборки приложений. Обзор инструментов сборки",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/20-jee-app-build"
+        }
+    ]
+}
