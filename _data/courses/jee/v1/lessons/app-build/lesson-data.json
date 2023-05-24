@@ -1,0 +1,39 @@
+{
+    "title": "Автоматизация сборки приложений. Обзор инструментов сборки",
+    "order": 20,
+    "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/20-jee-app-build",
+    "lessonLabworks": [
+        {
+            "orderNumber": 1,
+            "code": "jee-builders-ant",
+            "title": "Сборка приложения c Apache ANT",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_20/v1/lessons/jee-app-build/lab-works/1-jee-builders-ant"
+        },
+        {
+            "orderNumber": 2,
+            "code": "jee-builders-maven",
+            "title": "Сборка приложения c Apache Maven",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_20/v1/lessons/jee-app-build/lab-works/2-jee-builders-maven"
+        },
+        {
+            "orderNumber": 3,
+            "code": "jee-builders-custom-ant-task-1",
+            "title": "Разработка собственного Task-а для Apache ANT",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_20/v1/lessons/jee-app-build/lab-works/3-jee-builders-custom-ant-task-1"
+        },
+        {
+            "orderNumber": 4,
+            "code": "jee-builders-custom-ant-task-2",
+            "title": "Разработка собственного Task-а для Apache ANT",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_20/v1/lessons/jee-app-build/lab-works/4-jee-builders-custom-ant-task-2"
+        }
+    ],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "builder-maven-webapp-eclipse",
+            "title": "Maven WebApp Project. Eclipse IDE",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_20/v1/lessons/jee-app-build/exercises/1-builder-maven-webapp-eclipse"
+        }
+    ]
+}
