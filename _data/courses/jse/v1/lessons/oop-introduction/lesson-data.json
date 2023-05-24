@@ -1,0 +1,50 @@
+{
+    "title": "ООП. Введение. Инкапсуляция",
+    "order": 13,
+    "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/13-oop-introduction",
+    "lessonLabworks": [
+        {
+            "orderNumber": 1,
+            "code": "oop-employee-accounting-program",
+            "title": "Программа учета сотрудников",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_33/v1/lessons/oop-introduction/lab-works/1-oop-employee-accounting-program"
+        },
+        {
+            "orderNumber": 2,
+            "code": "oop-department-accounting-program-2-composition",
+            "title": "Программа учета департаментов. Продолжение Task-6-1, но с добавлением композиции",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_33/v1/lessons/oop-introduction/lab-works/2-oop-department-accounting-program-2-composition"
+        },
+        {
+            "orderNumber": 3,
+            "code": "oop-department-accounting-program-3-enum",
+            "title": "Программа учета департаментов. Продолжение Task-6-2, но с использованием Enum-ов",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_33/v1/lessons/oop-introduction/lab-works/3-oop-department-accounting-program-3-enum"
+        },
+        {
+            "orderNumber": 4,
+            "code": "oop-department-accounting-program-4-custom-enum",
+            "title": "Программа учета департаментов. Вместо Task-6-3. Головоломка. Собственная реализация Enum-а",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_33/v1/lessons/oop-introduction/lab-works/4-oop-department-accounting-program-4-custom-enum"
+        },
+        {
+            "orderNumber": 5,
+            "code": "oop-dynamic-arrays-api",
+            "title": "Своя собственная библиотека динамических массивов",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_33/v1/lessons/oop-introduction/lab-works/5-oop-dynamic-arrays-api"
+        },
+        {
+            "orderNumber": 6,
+            "code": "oop-figure-squares-calculator",
+            "title": "Вычисление площадей фигур",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_33/v1/lessons/oop-introduction/lab-works/6-oop-figure-squares-calculator"
+        },
+        {
+            "orderNumber": 7,
+            "code": "oop-sea-battle-game",
+            "title": "Игра Морской бой. При помощи ООП",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_33/v1/lessons/oop-introduction/lab-works/7-oop-sea-battle-game"
+        }
+    ],
+    "lessonExercises": []
+}
