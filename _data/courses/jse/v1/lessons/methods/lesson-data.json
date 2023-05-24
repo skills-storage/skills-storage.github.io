@@ -1,0 +1,26 @@
+{
+    "title": "Методы",
+    "order": 8,
+    "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/08-methods",
+    "lessonLabworks": [
+        {
+            "orderNumber": 1,
+            "code": "jse-arrays-api",
+            "title": "Библиотека (API) для работы с одномерными и двумерными массивами",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_28/v1/lessons/methods/lab-works/1-jse-arrays-api"
+        },
+        {
+            "orderNumber": 2,
+            "code": "jse-sea-battle-game",
+            "title": "Игра Морской бой",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_28/v1/lessons/methods/lab-works/2-jse-sea-battle-game"
+        },
+        {
+            "orderNumber": 3,
+            "code": "arrays-sort-algorithms",
+            "title": "Алгоритмы сортировки массивов",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_28/v1/lessons/methods/lab-works/3-arrays-sort-algorithms"
+        }
+    ],
+    "lessonExercises": []
+}
