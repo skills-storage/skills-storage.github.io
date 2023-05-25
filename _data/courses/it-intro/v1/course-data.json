@@ -1,0 +1,41 @@
+{
+    "shortTitle": "Введение в IT",
+    "courseLessons": [
+        {
+            "orderNumber": 1,
+            "code": "emails",
+            "title": "Email - электронная почта",
+            "webPageLink": "https://skills-storage.github.io/courses/it-intro/v1/lessons/01-emails"
+        },
+        {
+            "orderNumber": 2,
+            "code": "messengers",
+            "title": "Мессенджеры",
+            "webPageLink": "https://skills-storage.github.io/courses/it-intro/v1/lessons/02-messengers"
+        },
+        {
+            "orderNumber": 3,
+            "code": "social",
+            "title": "Социальные сети",
+            "webPageLink": "https://skills-storage.github.io/courses/it-intro/v1/lessons/03-social"
+        },
+        {
+            "orderNumber": 4,
+            "code": "freelance",
+            "title": "Freelance сайты",
+            "webPageLink": "https://skills-storage.github.io/courses/it-intro/v1/lessons/04-freelance"
+        },
+        {
+            "orderNumber": 5,
+            "code": "community",
+            "title": "Сообщества",
+            "webPageLink": "https://skills-storage.github.io/courses/it-intro/v1/lessons/05-community"
+        },
+        {
+            "orderNumber": 6,
+            "code": "persons",
+            "title": "Лидеры мнений",
+            "webPageLink": "https://skills-storage.github.io/courses/it-intro/v1/lessons/06-persons"
+        }
+    ]
+}
