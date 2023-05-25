@@ -1,0 +1,26 @@
+{
+    "title": "Spring MVC",
+    "order": 3,
+    "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/03-spring-mvc",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "mvc-xml-config-app",
+            "title": "Spring MVC приложение. XML конфигурация",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/spring-mvc/exercises/1-mvc-xml-config-app"
+        },
+        {
+            "orderNumber": 2,
+            "code": "mvc-anno-config-app",
+            "title": "Spring MVC приложение. XML + Annotations конфигурация",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/spring-mvc/exercises/2-mvc-anno-config-app"
+        },
+        {
+            "orderNumber": 3,
+            "code": "mvc-java-config-app",
+            "title": "Spring MVC приложение. Java конфигурация",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/spring-mvc/exercises/3-mvc-java-config-app"
+        }
+    ]
+}
