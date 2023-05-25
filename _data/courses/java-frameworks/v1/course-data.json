@@ -1,0 +1,71 @@
+{
+    "shortTitle": "Java EE - Лаборатория",
+    "courseLessons": [
+        {
+            "orderNumber": 1,
+            "code": "intro",
+            "title": "Введение. Знакомство",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/01-intro"
+        },
+        {
+            "orderNumber": 2,
+            "code": "spring-intro",
+            "title": "Введение в Spring – Dependency Injection and AOP",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/02-spring-intro"
+        },
+        {
+            "orderNumber": 3,
+            "code": "spring-mvc",
+            "title": "Spring MVC",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/03-spring-mvc"
+        },
+        {
+            "orderNumber": 4,
+            "code": "spring-rest",
+            "title": "Spring Rest Services",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/04-spring-rest"
+        },
+        {
+            "orderNumber": 5,
+            "code": "angular",
+            "title": "Angular Framework",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/05-angular"
+        },
+        {
+            "orderNumber": 6,
+            "code": "hibernate-jpa",
+            "title": "Hibernate/JPA",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/06-hibernate-jpa"
+        },
+        {
+            "orderNumber": 7,
+            "code": "spring-orm",
+            "title": "Spring ORM",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/07-spring-orm"
+        },
+        {
+            "orderNumber": 8,
+            "code": "spring-jdbc",
+            "title": "Spring JDBC",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/08-spring-jdbc"
+        },
+        {
+            "orderNumber": 9,
+            "code": "spring-data",
+            "title": "Spring Data",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/09-spring-data"
+        },
+        {
+            "orderNumber": 10,
+            "code": "spring-security",
+            "title": "Spring Security",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/10-spring-security"
+        },
+        {
+            "orderNumber": 11,
+            "code": "spring-boot",
+            "title": "Spring Boot",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/11-spring-boot"
+        }
+    ]
+}
