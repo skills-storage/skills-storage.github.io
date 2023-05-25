@@ -1,0 +1,26 @@
+{
+    "title": "Введение в Spring – Dependency Injection and AOP",
+    "order": 2,
+    "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/02-spring-intro",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "xml-config-app",
+            "title": "Создание Spring-приложения. XML конфигурация",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/spring-intro/exercises/1-xml-config-app"
+        },
+        {
+            "orderNumber": 2,
+            "code": "anno-config-app",
+            "title": "Создание Spring-приложения. XML + Annotations конфигурация",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/spring-intro/exercises/2-anno-config-app"
+        },
+        {
+            "orderNumber": 3,
+            "code": "java-config-app",
+            "title": "Создание Spring-приложения. Java конфигурация",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/spring-intro/exercises/3-java-config-app"
+        }
+    ]
+}
