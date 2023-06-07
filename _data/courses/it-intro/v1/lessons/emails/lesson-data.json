@@ -1,0 +1,16 @@
+{
+    "title": "Email - электронная почта",
+    "order": 1,
+    "webPageLink": "https://skills-storage.github.io/courses/it-intro/v1/lessons/01-emails",
+
+    "lessonLabworks": [],
+
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "create-email",
+            "title": "Создайте себе электронную почту",
+            "webPageLink": "https://skills-storage.github.io/courses/it-intro/v1/lessons/01-emails/exercises/01-create-email"
+        }
+    ]
+}
