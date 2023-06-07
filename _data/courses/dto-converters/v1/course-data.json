@@ -1,0 +1,17 @@
+{
+    "shortTitle": "Java DTO Converters",
+    "courseLessons": [
+        {
+            "orderNumber": 1,
+            "code": "intro",
+            "title": "Введение",
+            "webPageLink": "https://skills-storage.github.io/courses/dto-converters/v1/lessons/01-intro"
+        },
+        {
+            "orderNumber": 2,
+            "code": "dozer",
+            "title": "Dozer",
+            "webPageLink": "https://skills-storage.github.io/courses/dto-converters/v1/lessons/02-dozer"
+        }
+    ]
+}
