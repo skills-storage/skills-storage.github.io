@@ -1,0 +1,47 @@
+{
+    "shortTitle": "VCS",
+    "courseLessons": [
+        {
+            "orderNumber": 1,
+            "code": "intro",
+            "title": "Введение",
+            "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/01-intro"
+        },
+        {
+            "orderNumber": 2,
+            "code": "csv",
+            "title": "CSV",
+            "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/02-csv"
+        },
+        {
+            "orderNumber": 3,
+            "code": "svn",
+            "title": "SVN",
+            "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/03-svn"
+        },
+        {
+            "orderNumber": 4,
+            "code": "git",
+            "title": "GIT",
+            "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/04-git"
+        },
+        {
+            "orderNumber": 5,
+            "code": "github",
+            "title": "GitHub",
+            "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/05-github"
+        },
+        {
+            "orderNumber": 6,
+            "code": "bitbucket",
+            "title": "Bitbucket",
+            "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/06-bitbucket"
+        },
+        {
+            "orderNumber": 7,
+            "code": "gitlab",
+            "title": "GitLab",
+            "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/07-gitlab"
+        }
+    ]
+}
