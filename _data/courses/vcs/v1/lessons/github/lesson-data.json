@@ -1,0 +1,32 @@
+{
+    "title": "GitHub",
+    "order": 5,
+    "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/05-github",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "register-github-account",
+            "title": "Создание аккаунта на GitHub",
+            "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/05-github/exercises/01-register-github-account"
+        },
+        {
+            "orderNumber": 2,
+            "code": "sign-in-sign-out-account",
+            "title": "Вход в аккаунт / Выход из аккаунта. Главное меню Github",
+            "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/05-github/exercises/02-sign-in-sign-out-account"
+        },
+        {
+            "orderNumber": 3,
+            "code": "review-account-settings",
+            "title": "Страница настроек GitHub аккаунта",
+            "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/05-github/exercises/03-review-account-settings"
+        },
+        {
+            "orderNumber": 4,
+            "code": "2-factor-auth",
+            "title": "2-х факторная аутентификация",
+            "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/05-github/exercises/04-2-factor-auth"
+        }
+    ]
+}
