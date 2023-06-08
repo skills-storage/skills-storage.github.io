@@ -1,0 +1,11 @@
+{
+    "shortTitle": "CS",
+    "courseLessons": [
+        {
+            "orderNumber": 1,
+            "code": "intro",
+            "title": "Введение",
+            "webPageLink": "https://skills-storage.github.io/courses/cs/v1/lessons/01-intro"
+        }
+    ]
+}
