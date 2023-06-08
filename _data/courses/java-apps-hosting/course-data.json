@@ -1,0 +1,11 @@
+{
+    "shortTitle": "Хостинг Java приложений",
+    "courseLessons": [
+        {
+            "orderNumber": 1,
+            "code": "heroku-cloud",
+            "title": "Heroku",
+            "webPageLink": "https://skills-storage.github.io/courses/java-apps-hosting/v1/lessons/01-heroku-cloud"
+        }
+    ]
+}
