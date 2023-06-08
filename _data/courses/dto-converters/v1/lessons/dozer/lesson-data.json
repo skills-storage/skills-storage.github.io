@@ -1,0 +1,38 @@
+{
+    "title": "Dozer",
+    "order": 2,
+    "webPageLink": "https://skills-storage.github.io/courses/dto-converters/v1/lessons/02-dozer",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "java-se-dozer-project",
+            "title": "Использование Dozer в Java SE проекте",
+            "webPageLink": "https://skills-storage.github.io/courses/dto-converters/v1/lessons/02-dozer/exercises/01-java-se-dozer-project"
+        },
+        {
+            "orderNumber": 2,
+            "code": "spring-xml-dozer-project",
+            "title": "Использование Dozer в Spring проекте (XML конфигурация)",
+            "webPageLink": "https://skills-storage.github.io/courses/dto-converters/v1/lessons/02-dozer/exercises/02-spring-xml-dozer-project"
+        },
+        {
+            "orderNumber": 3,
+            "code": "spring-java-dozer-project",
+            "title": "Использование Dozer в Spring проекте (Java конфигурация)",
+            "webPageLink": "https://skills-storage.github.io/courses/dto-converters/v1/lessons/02-dozer/exercises/03-spring-java-dozer-project"
+        },
+        {
+            "orderNumber": 4,
+            "code": "spring-mvc-xml-dozer-project",
+            "title": "Использование Dozer в Spring MVC проекте (XML конфигурация)",
+            "webPageLink": "https://skills-storage.github.io/courses/dto-converters/v1/lessons/02-dozer/exercises/04-spring-mvc-xml-dozer-project"
+        },
+        {
+            "orderNumber": 5,
+            "code": "spring-mvc-java-dozer-project",
+            "title": "Использование Dozer в Spring MVC проекте (Java конфигурация)",
+            "webPageLink": "https://skills-storage.github.io/courses/dto-converters/v1/lessons/02-dozer/exercises/05-spring-mvc-java-dozer-project"
+        }
+    ]
+}
