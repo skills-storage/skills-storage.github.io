@@ -1,0 +1,29 @@
+{
+    "shortTitle": "IDE",
+    "courseLessons": [
+        {
+            "orderNumber": 1,
+            "code": "intro",
+            "title": "Введение",
+            "webPageLink": "https://skills-storage.github.io/courses/ide/v1/lessons/01-intro"
+        },
+        {
+            "orderNumber": 2,
+            "code": "notepad",
+            "title": "Блокнот - ваша самая первая IDE",
+            "webPageLink": "https://skills-storage.github.io/courses/ide/v1/lessons/02-notepad"
+        },
+        {
+            "orderNumber": 3,
+            "code": "eclipse",
+            "title": "Eclipse",
+            "webPageLink": "https://skills-storage.github.io/courses/ide/v1/lessons/03-eclipse"
+        },
+        {
+            "orderNumber": 4,
+            "code": "idea",
+            "title": "Intellij IDEA",
+            "webPageLink": "https://skills-storage.github.io/courses/ide/v1/lessons/04-idea"
+        }
+    ]
+}
