@@ -1,0 +1,14 @@
+{
+    "title": "Heroku",
+    "order": 1,
+    "webPageLink": "https://skills-storage.github.io/courses/java-apps-hosting/v1/lessons/01-heroku-cloud",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "create-heroku-account",
+            "title": "Регистрация аккаунта на сайте heroku.com",
+            "webPageLink": "https://skills-storage.github.io/courses/unknown_owner_course_code_115/v1/lessons/01-heroku-cloud/exercises/01-create-heroku-account"
+        }
+    ]
+}
