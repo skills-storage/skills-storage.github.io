@@ -1,0 +1,32 @@
+{
+    "title": "Блокнот - ваша самая первая IDE",
+    "order": 2,
+    "webPageLink": "https://skills-storage.github.io/courses/ide/v1/lessons/02-notepad",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "ide-notepad-plus-plus-utf8",
+            "title": "Установка кодировки в UTF-8",
+            "webPageLink": "https://skills-storage.github.io/courses/ide/v1/lessons/02-notepad/exercises/01-ide-notepad-plus-plus-utf8"
+        },
+        {
+            "orderNumber": 2,
+            "code": "ide-notepad-plus-plus-tabs",
+            "title": "Работа с вкладками",
+            "webPageLink": "https://skills-storage.github.io/courses/ide/v1/lessons/02-notepad/exercises/02-ide-notepad-plus-plus-tabs"
+        },
+        {
+            "orderNumber": 3,
+            "code": "convert-ansi-file-to-utf8",
+            "title": "Конвертация ANSI файла в UTF-8",
+            "webPageLink": "https://skills-storage.github.io/courses/ide/v1/lessons/02-notepad/exercises/03-convert-ansi-file-to-utf8"
+        },
+        {
+            "orderNumber": 4,
+            "code": "tabs-to-spaces",
+            "title": "Замена TAB-ов на пробелы",
+            "webPageLink": "https://skills-storage.github.io/courses/ide/v1/lessons/02-notepad/exercises/04-tabs-to-spaces"
+        }
+    ]
+}
