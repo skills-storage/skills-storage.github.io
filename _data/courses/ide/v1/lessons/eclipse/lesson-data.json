@@ -1,0 +1,32 @@
+{
+    "title": "Eclipse",
+    "order": 3,
+    "webPageLink": "https://skills-storage.github.io/courses/ide/v1/lessons/03-eclipse",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "setup-utf8-encoding",
+            "title": "Установка кодировки в UTF-8",
+            "webPageLink": "https://skills-storage.github.io/courses/ide/v1/lessons/03-eclipse/exercises/01-setup-utf8-encoding"
+        },
+        {
+            "orderNumber": 2,
+            "code": "open-project-wizard-dialog",
+            "title": "Открытие окна с шаблонами проектов",
+            "webPageLink": "https://skills-storage.github.io/courses/ide/v1/lessons/03-eclipse/exercises/02-open-project-wizard-dialog"
+        },
+        {
+            "orderNumber": 3,
+            "code": "using-dialogs-filter-input",
+            "title": "Использование фильтра в диалоговых окнах",
+            "webPageLink": "https://skills-storage.github.io/courses/ide/v1/lessons/03-eclipse/exercises/03-using-dialogs-filter-input"
+        },
+        {
+            "orderNumber": 4,
+            "code": "tabs-to-spaces",
+            "title": "Замена TAB-ов на пробелы",
+            "webPageLink": "https://skills-storage.github.io/courses/ide/v1/lessons/03-eclipse/exercises/04-tabs-to-spaces"
+        }
+    ]
+}
