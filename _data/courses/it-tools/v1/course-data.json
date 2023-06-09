@@ -1,0 +1,35 @@
+{
+    "shortTitle": "IT Tools",
+    "courseLessons": [
+        {
+            "orderNumber": 1,
+            "code": "intro",
+            "title": "Введение",
+            "webPageLink": "https://skills-storage.github.io/courses/it-tools/v1/lessons/01-intro"
+        },
+        {
+            "orderNumber": 2,
+            "code": "notepad-plus-plus",
+            "title": "Notepad++",
+            "webPageLink": "https://skills-storage.github.io/courses/it-tools/v1/lessons/02-notepad-plus-plus"
+        },
+        {
+            "orderNumber": 3,
+            "code": "screen-presso",
+            "title": "Screen Presso",
+            "webPageLink": "https://skills-storage.github.io/courses/it-tools/v1/lessons/03-screen-presso"
+        },
+        {
+            "orderNumber": 4,
+            "code": "evernote",
+            "title": "Evernote",
+            "webPageLink": "https://skills-storage.github.io/courses/it-tools/v1/lessons/04-evernote"
+        },
+        {
+            "orderNumber": 5,
+            "code": "notion",
+            "title": "Notion",
+            "webPageLink": "https://skills-storage.github.io/courses/it-tools/v1/lessons/05-notion"
+        }
+    ]
+}
