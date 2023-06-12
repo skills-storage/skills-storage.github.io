@@ -1,0 +1,29 @@
+{
+    "shortTitle": "Библиотеки Java",
+    "courseLessons": [
+        {
+            "orderNumber": 1,
+            "code": "intro",
+            "title": "Введение",
+            "webPageLink": "https://skills-storage.github.io/courses/java-api/v1/lessons/01-intro"
+        },
+        {
+            "orderNumber": 2,
+            "code": "java-mail",
+            "title": "Java Mail",
+            "webPageLink": "https://skills-storage.github.io/courses/java-api/v1/lessons/02-java-mail"
+        },
+        {
+            "orderNumber": 3,
+            "code": "apache-poi",
+            "title": "Apache POI",
+            "webPageLink": "https://skills-storage.github.io/courses/java-api/v1/lessons/03-apache-poi"
+        },
+        {
+            "orderNumber": 4,
+            "code": "csv-api",
+            "title": "CSV",
+            "webPageLink": "https://skills-storage.github.io/courses/java-api/v1/lessons/04-csv-api"
+        }
+    ]
+}
