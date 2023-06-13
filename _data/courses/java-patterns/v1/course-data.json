@@ -1,0 +1,53 @@
+{
+    "shortTitle": "Паттерны проектирования",
+    "courseLessons": [
+        {
+            "orderNumber": 1,
+            "code": "intro",
+            "title": "Введение",
+            "webPageLink": "https://skills-storage.github.io/courses/java-patterns/v1/lessons/01-intro"
+        },
+        {
+            "orderNumber": 2,
+            "code": "strategy",
+            "title": "Strategy",
+            "webPageLink": "https://skills-storage.github.io/courses/java-patterns/v1/lessons/02-strategy"
+        },
+        {
+            "orderNumber": 3,
+            "code": "adapter",
+            "title": "Adapter",
+            "webPageLink": "https://skills-storage.github.io/courses/java-patterns/v1/lessons/03-adapter"
+        },
+        {
+            "orderNumber": 4,
+            "code": "factory-method",
+            "title": "Factory Method",
+            "webPageLink": "https://skills-storage.github.io/courses/java-patterns/v1/lessons/04-factory-method"
+        },
+        {
+            "orderNumber": 5,
+            "code": "factory",
+            "title": "Factory",
+            "webPageLink": "https://skills-storage.github.io/courses/java-patterns/v1/lessons/05-factory"
+        },
+        {
+            "orderNumber": 6,
+            "code": "listener-observer",
+            "title": "Listener Observer",
+            "webPageLink": "https://skills-storage.github.io/courses/java-patterns/v1/lessons/06-listener-observer"
+        },
+        {
+            "orderNumber": 7,
+            "code": "decorator",
+            "title": "Decorator",
+            "webPageLink": "https://skills-storage.github.io/courses/java-patterns/v1/lessons/07-decorator"
+        },
+        {
+            "orderNumber": 8,
+            "code": "singleton",
+            "title": "Singleton",
+            "webPageLink": "https://skills-storage.github.io/courses/java-patterns/v1/lessons/08-singleton"
+        }
+    ]
+}
