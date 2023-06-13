@@ -1,0 +1,32 @@
+{
+    "title": "MySQL",
+    "order": 3,
+    "webPageLink": "https://skills-storage.github.io/courses/data-bases/v1/lessons/03-mysql",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "create-account",
+            "title": "Создание аккаунта на сайте mysql.com",
+            "webPageLink": "https://skills-storage.github.io/courses/data-bases/v1/lessons/03-mysql/exercises/01-create-account"
+        },
+        {
+            "orderNumber": 2,
+            "code": "explore-site",
+            "title": "Знакомство с сайтом mysql.com",
+            "webPageLink": "https://skills-storage.github.io/courses/data-bases/v1/lessons/03-mysql/exercises/02-explore-site"
+        },
+        {
+            "orderNumber": 3,
+            "code": "install",
+            "title": "Загрузка и установка MySQL",
+            "webPageLink": "https://skills-storage.github.io/courses/data-bases/v1/lessons/03-mysql/exercises/03-install"
+        },
+        {
+            "orderNumber": 4,
+            "code": "install-full",
+            "title": "Установка всех утилит MySQL (возможно придется удалить)",
+            "webPageLink": "https://skills-storage.github.io/courses/data-bases/v1/lessons/03-mysql/exercises/04-install-full"
+        }
+    ]
+}

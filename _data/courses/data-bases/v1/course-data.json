@@ -1,0 +1,29 @@
+{
+    "shortTitle": "Базы Данных",
+    "courseLessons": [
+        {
+            "orderNumber": 1,
+            "code": "intro",
+            "title": "Введение",
+            "webPageLink": "https://skills-storage.github.io/courses/data-bases/v1/lessons/01-intro"
+        },
+        {
+            "orderNumber": 2,
+            "code": "theory",
+            "title": "Теория баз данных",
+            "webPageLink": "https://skills-storage.github.io/courses/data-bases/v1/lessons/02-theory"
+        },
+        {
+            "orderNumber": 3,
+            "code": "mysql",
+            "title": "MySQL",
+            "webPageLink": "https://skills-storage.github.io/courses/data-bases/v1/lessons/03-mysql"
+        },
+        {
+            "orderNumber": 4,
+            "code": "postgre",
+            "title": "Postgre SQL",
+            "webPageLink": "https://skills-storage.github.io/courses/data-bases/v1/lessons/04-postgre"
+        }
+    ]
+}
