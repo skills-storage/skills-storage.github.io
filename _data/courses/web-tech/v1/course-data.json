@@ -1,0 +1,71 @@
+{
+    "shortTitle": "Web-технологии",
+    "courseLessons": [
+        {
+            "orderNumber": 1,
+            "code": "intro",
+            "title": "Введение",
+            "webPageLink": "https://skills-storage.github.io/courses/web-tech/v1/lessons/01-intro"
+        },
+        {
+            "orderNumber": 2,
+            "code": "html",
+            "title": "HTML",
+            "webPageLink": "https://skills-storage.github.io/courses/web-tech/v1/lessons/02-html"
+        },
+        {
+            "orderNumber": 3,
+            "code": "css",
+            "title": "CSS",
+            "webPageLink": "https://skills-storage.github.io/courses/web-tech/v1/lessons/03-css"
+        },
+        {
+            "orderNumber": 4,
+            "code": "js",
+            "title": "JavaScript",
+            "webPageLink": "https://skills-storage.github.io/courses/web-tech/v1/lessons/04-js"
+        },
+        {
+            "orderNumber": 5,
+            "code": "jquery",
+            "title": "JQuery",
+            "webPageLink": "https://skills-storage.github.io/courses/web-tech/v1/lessons/05-jquery"
+        },
+        {
+            "orderNumber": 6,
+            "code": "gulp-grunt",
+            "title": "Gulp, Grunt and others",
+            "webPageLink": "https://skills-storage.github.io/courses/web-tech/v1/lessons/06-gulp-grunt"
+        },
+        {
+            "orderNumber": 7,
+            "code": "node-js",
+            "title": "Node JS",
+            "webPageLink": "https://skills-storage.github.io/courses/web-tech/v1/lessons/07-node-js"
+        },
+        {
+            "orderNumber": 8,
+            "code": "angular",
+            "title": "Angular",
+            "webPageLink": "https://skills-storage.github.io/courses/web-tech/v1/lessons/08-angular"
+        },
+        {
+            "orderNumber": 9,
+            "code": "react",
+            "title": "React",
+            "webPageLink": "https://skills-storage.github.io/courses/web-tech/v1/lessons/09-react"
+        },
+        {
+            "orderNumber": 10,
+            "code": "vue",
+            "title": "Vue JS",
+            "webPageLink": "https://skills-storage.github.io/courses/web-tech/v1/lessons/10-vue"
+        },
+        {
+            "orderNumber": 11,
+            "code": "java-apps-hosting",
+            "title": "Хостинг Java приложений",
+            "webPageLink": "https://skills-storage.github.io/courses/web-tech/v1/lessons/11-java-apps-hosting"
+        }
+    ]
+}
