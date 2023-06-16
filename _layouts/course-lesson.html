@@ -165,27 +165,27 @@
                                                         <div class="table-responsive">
                                                             <table class="table table-striped table-bordered table-hover table-checkable order-column">
                                                                 <thead>
-                                                                <tr>
-                                                                    <th class="center">Номер</th>
-                                                                    <th class="center">Название</th>
-                                                                    <th class="center">Действия</th>
-                                                                </tr>
+                                                                    <tr>
+                                                                        <th class="center">Номер</th>
+                                                                        <th class="center">Название</th>
+                                                                        <th class="center">Действия</th>
+                                                                    </tr>
                                                                 </thead>
 
                                                                 <tbody>
-                                                                {% for exercise in currLesson.lesson-exercises %}
-                                                                <tr>
-                                                                    <td>
-                                                                        {{exercise.order}}
-                                                                    </td>
-                                                                    <td>
-                                                                        {{exercise.title}}
-                                                                    </td>
-                                                                    <td>
-                                                                        <a class="btn btn-link" href="#">Выполнить Упражнение</a>
-                                                                    </td>
-                                                                </tr>
-                                                                {% endfor %}
+                                                                    {% for exercise in currLesson.lessonExercises %}
+                                                                        <tr>
+                                                                            <td>
+                                                                                {{exercise.order}}
+                                                                            </td>
+                                                                            <td>
+                                                                                {{exercise.title}}
+                                                                            </td>
+                                                                            <td>
+                                                                                <a class="btn btn-link" href="#">Выполнить Упражнение</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    {% endfor %}
                                                                 </tbody>
                                                             </table>
                                                         </div>
@@ -195,27 +195,27 @@
                                                         <div class="table-responsive">
                                                             <table class="table table-striped table-bordered table-hover table-checkable order-column">
                                                                 <thead>
-                                                                <tr>
-                                                                    <th class="center">Номер</th>
-                                                                    <th class="center">Название</th>
-                                                                    <th class="center">Действия</th>
-                                                                </tr>
+                                                                    <tr>
+                                                                        <th class="center">Номер</th>
+                                                                        <th class="center">Название</th>
+                                                                        <th class="center">Действия</th>
+                                                                    </tr>
                                                                 </thead>
 
                                                                 <tbody>
-                                                                {% for labWork in currLesson.lesson-labworks %}
-                                                                    <tr>
-                                                                        <td>
-                                                                            {{labWork.orderNumber}}
-                                                                        </td>
-                                                                        <td>
-                                                                            {{labWork.title}}
-                                                                        </td>
-                                                                        <td>
-                                                                            <a class="btn btn-link" href="{{labWork.webPageLink}}" target="_blank">Выполнить работу</a>
-                                                                        </td>
-                                                                    </tr>
-                                                                {% endfor %}
+                                                                    {% for labWork in currLesson.lesson-labworks %}
+                                                                        <tr>
+                                                                            <td>
+                                                                                {{labWork.orderNumber}}
+                                                                            </td>
+                                                                            <td>
+                                                                                {{labWork.title}}
+                                                                            </td>
+                                                                            <td>
+                                                                                <a class="btn btn-link" href="{{labWork.webPageLink}}" target="_blank">Выполнить работу</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    {% endfor %}
                                                                 </tbody>
                                                             </table>
                                                         </div>

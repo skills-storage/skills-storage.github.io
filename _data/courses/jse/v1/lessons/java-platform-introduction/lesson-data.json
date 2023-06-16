@@ -1,31 +1,32 @@
 {
     "title": "Платформа Java. Введение",
     "order": 2,
-
-    "lesson-labworks": [
+    "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/02-java-platform-introduction",
+    "lessonLabworks": [
         {
             "orderNumber": 1,
             "code": "jse-course-calculator",
             "title": "Калькулятор стоимости моего курса",
-            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/java-platform-introduction/lab-works/1-jse-course-calculator"
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/02-java-platform-introduction/lab-works/01-jse-course-calculator"
         },
         {
             "orderNumber": 2,
             "code": "jse-course-calculator-2-keyboard",
             "title": "Калькулятор стоимости моего курса-2. Ввод данных с клавиатуры",
-            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/java-platform-introduction/lab-works/2-jse-course-calculator-2-keyboard"
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/02-java-platform-introduction/lab-works/02-jse-course-calculator-2-keyboard"
         },
         {
             "orderNumber": 3,
             "code": "change-var-values-puzzle",
             "title": "Перестановка значений переменных",
-            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/java-platform-introduction/lab-works/3-change-var-values-puzzle"
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/02-java-platform-introduction/lab-works/03-change-var-values-puzzle"
         },
         {
             "orderNumber": 4,
             "code": "math-expression-calculation",
             "title": "Вычисление математического выражения",
-            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/java-platform-introduction/lab-works/4-math-expression-calculation"
+            "webPageLink": "https://skills-storage.github.io/courses/jse/v1/lessons/02-java-platform-introduction/lab-works/04-math-expression-calculation"
         }
-    ]
+    ],
+    "lessonExercises": []
 }
