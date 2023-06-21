@@ -9,8 +9,8 @@
     <meta name="author" content="SmartUniversity" />
 
     <title>SkillsImprover -
-           Упражнение-{{site.data.lessons.[page.lessonCode].exercises.[page.exCode].ex-order}}:
-           {{site.data.lessons.[page.lessonCode].exercises.[page.exCode].ex-title}}
+           Упражнение-{{site.data.courses.[page.courseCode].[page.currentCourseRelease].lessons.[page.lessonCode].exercises.[page.exCode].ex-order}}:
+           {{site.data.courses.[page.courseCode].[page.currentCourseRelease].lessons.[page.lessonCode].exercises.[page.exCode].ex-title}}
     </title>
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css" />
@@ -90,8 +90,8 @@
                     <div class="page-title-breadcrumb">
                         <div class=" pull-left">
                             <div class="page-title">
-                                <h1>Упражнение-{{site.data.lessons.[page.lessonCode].exercises.[page.exCode].ex-order}}:</h1>
-                                <h1>{{site.data.lessons.[page.lessonCode].exercises.[page.exCode].ex-title}}</h1>
+                                <h1>Упражнение-{{site.data.courses.[page.courseCode].[page.currentCourseRelease].lessons.[page.lessonCode].exercises.[page.exCode].ex-order}}:</h1>
+                                <h1>{{site.data.courses.[page.courseCode].[page.currentCourseRelease].lessons.[page.lessonCode].exercises.[page.exCode].ex-title}}</h1>
                             </div>
                         </div>
 
@@ -123,7 +123,7 @@
                                     <div class="view-mail">
                                         <div class="article_content">
                                             <ol>
-                                                {% for preEx in site.data.lessons.[page.lessonCode].exercises.[page.exCode].pre-exercises %}
+                                                {% for preEx in site.data.courses.[page.courseCode].[page.currentCourseRelease].lessons.[page.lessonCode].exercises.[page.exCode].pre-exercises %}
                                                     <li>
                                                         <a href="{{site.url}}/{{preEx.link}}" target="_blank">
                                                             {{preEx.title}}
@@ -147,7 +147,7 @@
                                     <div class="view-mail">
                                         <div class="article_content">
                                             <ol>
-                                                {% for target in site.data.lessons.[page.lessonCode].exercises.[page.exCode].ex-targets %}
+                                                {% for target in site.data.courses.[page.courseCode].[page.currentCourseRelease].lessons.[page.lessonCode].exercises.[page.exCode].ex-targets %}
                                                     <li>{{target.text}}</li>
                                                 {% endfor %}
                                             </ol>
@@ -217,7 +217,7 @@
                                     <div class="view-mail">
                                         <div class="article_content">
                                             <ul>
-                                                {% for step in site.data.lessons.[page.lessonCode].exercises.[page.exCode].ex-steps %}
+                                                {% for step in site.data.courses.[page.courseCode].[page.currentCourseRelease].lessons.[page.lessonCode].exercises.[page.exCode].ex-steps %}
                                                     <li>
                                                         Шаг-{{step.order}}: {{step.title}}
                                                     </li>

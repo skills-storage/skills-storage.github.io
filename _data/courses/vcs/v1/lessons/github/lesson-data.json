@@ -27,6 +27,12 @@
             "code": "2-factor-auth",
             "title": "2-х факторная аутентификация",
             "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/05-github/exercises/04-2-factor-auth"
+        },
+        {
+            "orderNumber": 5,
+            "code": "review-your-profile",
+            "title": "Обзор страницы своего профиля",
+            "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/05-github/exercises/05-review-your-profile"
         }
     ]
 }
