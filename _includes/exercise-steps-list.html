@@ -1,6 +1,6 @@
 <div class="steps clearfix">
     <ul role="tablist">
-        {% assign maxStep = site.data.lessons.[page.lessonCode].exercises.[page.exCode].max-step %}
+        {% assign maxStep = site.data.courses.[page.courseCode].[page.currentCourseRelease].lessons.[page.lessonCode].exercises.[page.exCode].max-step %}
         {% for order in (1 .. maxStep) %}
 
             {% if order < page.curStepOrder %}

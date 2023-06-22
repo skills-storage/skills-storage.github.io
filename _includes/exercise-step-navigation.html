@@ -16,7 +16,7 @@
             </li>
         {% endif %}
 
-        {% assign maxStep = site.data.lessons.[page.lessonCode].exercises.[page.exCode].max-step %}
+        {% assign maxStep = site.data.courses.[page.courseCode].[page.currentCourseRelease].lessons.[page.lessonCode].exercises.[page.exCode].max-step %}
         {% if page.curStepOrder < maxStep %}
             <li>
                 <a href="step-{{page.nextStepOrder}}" role="menuitem">
