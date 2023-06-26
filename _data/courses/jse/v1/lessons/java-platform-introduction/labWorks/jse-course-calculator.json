@@ -1,4 +1,7 @@
 {
+    "orderNumber": 1,
+    "title": "Калькулятор стоимости моего курса",
+
     "lab-work-targets": [
         {
             "order": 1,
