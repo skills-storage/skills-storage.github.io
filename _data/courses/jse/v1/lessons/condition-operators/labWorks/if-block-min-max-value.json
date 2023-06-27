@@ -1,8 +1,11 @@
 {
+    "orderNumber": 1,
+    "title": "Определение минимального и максимального числа",
+
     "lab-work-targets": [
         {
             "order": 1,
-            "text": "Познакомиться с оператором выбора <code>switch</code> по строкам"
+            "text": "Познакомиться с операторами выбора <code>if</code> и <code>if-else</code>"
         }
     ],
 
