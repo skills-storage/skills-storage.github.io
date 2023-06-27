@@ -1,4 +1,7 @@
 {
+    "orderNumber": 3,
+    "title": "Работа с двумерными массивами",
+
     "lab-work-targets": [
         {
             "order": 1,
