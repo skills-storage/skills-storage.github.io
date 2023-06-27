@@ -33,6 +33,12 @@
             "code": "review-your-profile",
             "title": "Обзор страницы своего профиля",
             "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/05-github/exercises/05-review-your-profile"
+        },
+        {
+            "orderNumber": 6,
+            "code": "create-github-repository",
+            "title": "Создание репозитория на GitHub",
+            "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/05-github/exercises/06-create-github-repository"
         }
     ]
 }

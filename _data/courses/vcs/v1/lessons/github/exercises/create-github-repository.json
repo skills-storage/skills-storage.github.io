@@ -1,0 +1,18 @@
+{
+    "ex-title": "Создание репозитория на GitHub",
+    "ex-order": 6,
+    "max-step": 1,
+
+    "pre-exercises": [
+    ],
+
+    "ex-targets": [
+    ],
+
+    "ex-steps": [
+        {
+            "order": 1,
+            "title": "Откройте страницу для создания репозитория"
+        }
+    ]
+}
