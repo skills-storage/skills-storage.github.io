@@ -1,4 +1,7 @@
 {
+    "orderNumber": 3,
+    "title": "Перестановка значений переменных",
+
     "lab-work-targets": [
         {
             "order": 1,
