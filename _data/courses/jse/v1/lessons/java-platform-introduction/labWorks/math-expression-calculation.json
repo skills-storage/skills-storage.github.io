@@ -1,4 +1,7 @@
 {
+    "orderNumber": 3,
+    "title": "Вычисление математического выражения",
+
     "lab-work-targets": [
         {
             "order": 1,
