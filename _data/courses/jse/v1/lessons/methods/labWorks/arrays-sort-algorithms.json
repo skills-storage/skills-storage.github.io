@@ -1,4 +1,7 @@
 {
+    "orderNumber": 3,
+    "title": "Алгоритмы сортировки массивов",
+
     "lab-work-targets": [
         {
             "order": 1,
