@@ -39,6 +39,12 @@
             "code": "create-github-repository",
             "title": "Создание репозитория на GitHub",
             "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/05-github/exercises/06-create-github-repository"
+        },
+        {
+            "orderNumber": 7,
+            "code": "investigate-repository-page",
+            "title": "Исследуйте страницу репозитория",
+            "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/05-github/exercises/07-investigate-repository-page"
         }
     ]
 }
