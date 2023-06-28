@@ -1,0 +1,18 @@
+{
+    "ex-title": "Удаление GitHub репозитория",
+    "ex-order": 8,
+    "max-step": 1,
+
+    "pre-exercises": [
+    ],
+
+    "ex-targets": [
+    ],
+
+    "ex-steps": [
+        {
+            "order": 1,
+            "title": "Откройте страницу репозитория"
+        }
+    ]
+}

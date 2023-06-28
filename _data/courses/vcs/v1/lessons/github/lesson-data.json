@@ -45,6 +45,12 @@
             "code": "investigate-repository-page",
             "title": "Исследуйте страницу репозитория",
             "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/05-github/exercises/07-investigate-repository-page"
+        },
+        {
+            "orderNumber": 8,
+            "code": "delete-github-repository",
+            "title": "Удаление GitHub репозитория",
+            "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/05-github/exercises/08-delete-github-repository"
         }
     ]
 }
