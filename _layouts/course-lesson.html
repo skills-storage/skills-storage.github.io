@@ -133,8 +133,13 @@
 
                                                 <ul class="nav nav-tabs">
                                                     <li class="nav-item">
+                                                        <a href="#description-tab" data-toggle="tab"  class="active show">
+                                                            Описание занятия
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
                                                         <a href="#chapters-list-tab" data-toggle="tab"  class="active show">
-                                                            Содержание
+                                                            Содержание - ПЕРЕИМЕНУЙ В ТЕОРИЮ!
                                                         </a>
                                                     </li>
                                                     <li class="nav-item">
@@ -153,7 +158,15 @@
                                             <div class="borderBox-body">
                                                 <div class="tab-content">
 
-                                                    <div id="chapters-list-tab" class="tab-pane active show">
+                                                    <div id="description-tab" class="tab-pane active show">
+                                                        <div class="article_content">
+                                                            <p>
+                                                                {% include_relative lesson-description.html %}
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div id="chapters-list-tab" class="tab-pane">
                                                         <div class="article_content">
                                                             <p>
                                                                 Содержания пока нет <img alt="sad_smile" src="/assets/img/smiles/sad_smile.png">
