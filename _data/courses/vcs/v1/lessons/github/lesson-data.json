@@ -51,6 +51,12 @@
             "code": "delete-github-repository",
             "title": "Удаление GitHub репозитория",
             "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/05-github/exercises/08-delete-github-repository"
+        },
+        {
+            "orderNumber": 9,
+            "code": "add-collaborator",
+            "title": "Пригласите другого GitHub-пользователя в свой проект",
+            "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/05-github/exercises/09-add-collaborator"
         }
     ]
 }
