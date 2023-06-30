@@ -1,0 +1,14 @@
+{
+    "title": "GitLab",
+    "order": 7,
+    "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/07-gitlab",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "register-gitlab-account",
+            "title": "Создание аккаунта на GitLab",
+            "webPageLink": "https://skills-storage.github.io/courses/vcs/v1/lessons/07-gitlab/exercises/01-register-gitlab-account"
+        }
+    ]
+}

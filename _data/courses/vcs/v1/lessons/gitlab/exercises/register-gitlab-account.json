@@ -1,0 +1,18 @@
+{
+    "ex-title": "Создание аккаунта на GitLab",
+    "ex-order": 1,
+    "max-step": 1,
+
+    "pre-exercises": [
+    ],
+
+    "ex-targets": [
+    ],
+
+    "ex-steps": [
+        {
+            "order": 1,
+            "title": "Перейдите на сайт gitlab.com"
+        }
+    ]
+}
