@@ -1,0 +1,35 @@
+1. По назначению:
+    1. Системное
+        1. Операционные системы
+        2. Драйверы
+        3. BOIS
+    2. Прикладное
+        1. Вообще все, чем пользуются люди!
+    3. Инструментальное
+        1. Компиляторы
+        2. Интерпритаторы
+        3. Интегрированные среды разработки - IDE
+        4. Серверы
+    4. API - Application Program Interface
+2. По платформе:
+    1. "Компьютерное"
+    2. Web-приложения
+    3. Мобильное ПО
+    4. IoT - Internet of things
+3. "Компьютерное" ПО по внешнему виду:
+    1. Console Applications
+    2. Desktop Applications
+    3. Services
+4. По взаимодействию:
+    1. Standalone Applications
+    2. Client-Server Applications
+5. Client-Server ПО по "внешнему виду"
+    1. Fat Client - Толстый клиент
+    2. Thin client - Тонкий клиент
+6. По доступности для людей:
+    1. Доступность самого ПО:
+        1. Freeware
+        2. Shareware
+    2. Доступность исходного кода:
+        1. Open Source
+        2. Proprietary Source
