@@ -1,0 +1,75 @@
+{
+    "title": "Servlet API - Часть-1",
+    "order": 4,
+    "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1",
+    "lessonLabworks": [
+        {
+            "orderNumber": 1,
+            "code": "java-html-servlet-questionnaire",
+            "title": "Электронная анкета для оценки качества образования",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/lab-works/01-java-html-servlet-questionnaire"
+        },
+        {
+            "orderNumber": 2,
+            "code": "java-servlet-servlet-questionnaire",
+            "title": "Электронная анкета для оценки качества образования",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/lab-works/02-java-servlet-servlet-questionnaire"
+        },
+        {
+            "orderNumber": 3,
+            "code": "servlet-html-builder",
+            "title": "HTML-Builder для сервлетов",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/lab-works/03-servlet-html-builder"
+        },
+        {
+            "orderNumber": 4,
+            "code": "servlet-recommendation-letter-generator",
+            "title": "Генератор рекомендательных писем",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/lab-works/04-servlet-recommendation-letter-generator"
+        },
+        {
+            "orderNumber": 5,
+            "code": "servlet-request-dispatcher",
+            "title": "Регистрация, авторизация и… …RequestDispatcher",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/lab-works/05-servlet-request-dispatcher"
+        },
+        {
+            "orderNumber": 6,
+            "code": "servlet-cookies-context-ad-shop",
+            "title": "Магазин с контекстной рекламой",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/lab-works/06-servlet-cookies-context-ad-shop"
+        },
+        {
+            "orderNumber": 7,
+            "code": "servlet-mail-client",
+            "title": "Почтовый клиент",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/lab-works/07-servlet-mail-client"
+        },
+        {
+            "orderNumber": 8,
+            "code": "servlet-bar-chart",
+            "title": "Гистограмма",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/lab-works/08-servlet-bar-chart"
+        },
+        {
+            "orderNumber": 9,
+            "code": "servlet-browser",
+            "title": "Браузер",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/lab-works/09-servlet-browser"
+        },
+        {
+            "orderNumber": 10,
+            "code": "servlet-tick-tack-toe-game",
+            "title": "Игра «Крестики-Нолики»",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/lab-works/10-servlet-tick-tack-toe-game"
+        }
+    ],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "create-first-servlet",
+            "title": "Создайте свой первый сервлет",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/exercises/01-create-first-servlet"
+        }
+    ]
+}
