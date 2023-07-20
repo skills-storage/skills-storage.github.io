@@ -1,0 +1,14 @@
+{
+    "title": "Web-проекты в Intellij IDEA",
+    "order": 1,
+    "webPageLink": "https://skills-storage.github.io/courses/ide-idea/v1/lessons/01-web-projects",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "create-web-project",
+            "title": "Создание Web-проекта в Intellij IDEA",
+            "webPageLink": "https://skills-storage.github.io/courses/ide-idea/v1/lessons/01-web-projects/exercises/01-create-web-project"
+        }
+    ]
+}
