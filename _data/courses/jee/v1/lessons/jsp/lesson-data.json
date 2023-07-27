@@ -1,0 +1,44 @@
+{
+    "title": "JSP - Java Server Pages",
+    "order": 6,
+    "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/06-jsp",
+    "lessonLabworks": [
+        {
+            "orderNumber": 1,
+            "code": "java-jsp-jsp-questionnaire",
+            "title": "Электронная анкета для оценки качества образования",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/06-jsp/lab-works/01-java-jsp-jsp-questionnaire"
+        },
+        {
+            "orderNumber": 2,
+            "code": "java-html-jsp-questionnaire",
+            "title": "Электронная анкета для оценки качества образования. С использованием HTML!",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/06-jsp/lab-works/02-java-html-jsp-questionnaire"
+        },
+        {
+            "orderNumber": 4,
+            "code": "jsp-arithmetic",
+            "title": "Проверка знаний арифметики",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/06-jsp/lab-works/04-jsp-arithmetic"
+        },
+        {
+            "orderNumber": 5,
+            "code": "jsp-include",
+            "title": "JSP Include",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/06-jsp/lab-works/05-jsp-include"
+        },
+        {
+            "orderNumber": 9,
+            "code": "jsp-lines-game",
+            "title": "Игра Lines",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/06-jsp/lab-works/09-jsp-lines-game"
+        },
+        {
+            "orderNumber": 10,
+            "code": "jsp-quadratic-equation",
+            "title": "Квадратное уравнение",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/06-jsp/lab-works/10-jsp-quadratic-equation"
+        }
+    ],
+    "lessonExercises": []
+}
