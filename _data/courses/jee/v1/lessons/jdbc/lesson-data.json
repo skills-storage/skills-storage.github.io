@@ -1,0 +1,50 @@
+{
+    "title": "Введение в JDBC API",
+    "order": 8,
+    "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc",
+    "lessonLabworks": [
+        {
+            "orderNumber": 1,
+            "code": "jdbc-statement-shopping-cart",
+            "title": "Корзина товаров и java.sql.Statement",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc/lab-works/01-jdbc-statement-shopping-cart"
+        },
+        {
+            "orderNumber": 2,
+            "code": "jdbc-am-not-a-robot",
+            "title": "Проверка человечности",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc/lab-works/02-jdbc-am-not-a-robot"
+        },
+        {
+            "orderNumber": 3,
+            "code": "jdbc-am-not-a-robot-admin-panel",
+            "title": "Проверка человечности с Admin Panel",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc/lab-works/03-jdbc-am-not-a-robot-admin-panel"
+        },
+        {
+            "orderNumber": 4,
+            "code": "jee-course-project-db-script",
+            "title": "DB Script для вашего проекта",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc/lab-works/04-jee-course-project-db-script"
+        },
+        {
+            "orderNumber": 5,
+            "code": "jdbc-registration-and-authorization",
+            "title": "Registration & Authorization",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc/lab-works/05-jdbc-registration-and-authorization"
+        },
+        {
+            "orderNumber": 6,
+            "code": "jdbc-liquibase-db-migrations",
+            "title": "DB Migrations with Liquibase",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc/lab-works/06-jdbc-liquibase-db-migrations"
+        },
+        {
+            "orderNumber": 7,
+            "code": "jdbc-custom-db-migrations",
+            "title": "DB Migrations with your solution",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc/lab-works/07-jdbc-custom-db-migrations"
+        }
+    ],
+    "lessonExercises": []
+}
