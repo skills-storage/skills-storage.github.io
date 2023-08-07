@@ -1,0 +1,26 @@
+{
+    "title": "Введение в Web-программирование. Основные технологии.",
+    "order": 2,
+    "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/02-web-development-introduction",
+    "lessonLabworks": [
+        {
+            "orderNumber": 1,
+            "code": "html-basics",
+            "title": "Основы HTML",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/02-web-development-introduction/lab-works/01-html-basics"
+        },
+        {
+            "orderNumber": 2,
+            "code": "html-course-calculator",
+            "title": "Калькулятор стоимости моего курса",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/02-web-development-introduction/lab-works/02-html-course-calculator"
+        },
+        {
+            "orderNumber": 3,
+            "code": "html-js-dom-questionnaire",
+            "title": "HTML + JS + DOM. Электронная анкета для оценки качества образования",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/02-web-development-introduction/lab-works/03-html-js-dom-questionnaire"
+        }
+    ],
+    "lessonExercises": []
+}
