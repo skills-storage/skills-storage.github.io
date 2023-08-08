@@ -1,0 +1,14 @@
+{
+    "title": "Введение в Web-программирование на Java.",
+    "order": 3,
+    "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/03-java-web-introduction",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "tomcat-static-folder-app",
+            "title": "Tomcat Static App - папка",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/03-java-web-introduction/exercises/01-tomcat-static-folder-app"
+        }
+    ]
+}
