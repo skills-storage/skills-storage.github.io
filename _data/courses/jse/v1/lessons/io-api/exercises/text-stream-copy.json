@@ -1,16 +1,16 @@
 {
-    "ex-title": "Копирование текстового файла",
-    "ex-order": 1,
-    "max-step": 1,
+    "exerciseTitle": "Копирование текстового файла",
+    "exerciseOrder": 1,
+    "maxStep": 1,
 
-    "ex-targets": [
+    "exerciseTargets": [
         {
             "order": 1,
             "text": "ПРИДУМАЙ!"
         }
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Так нету степов пока :("

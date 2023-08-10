@@ -1,15 +1,15 @@
 {
-    "ex-title": "Обзор страницы своего профиля",
-    "ex-order": 5,
-    "max-step": 1,
+    "exerciseTitle": "Обзор страницы своего профиля",
+    "exerciseOrder": 5,
+    "maxStep": 1,
 
-    "pre-exercises": [
+    "preExercises": [
     ],
 
-    "ex-targets": [
+    "exerciseTargets": [
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Откройте настройки вашего аккаунта"

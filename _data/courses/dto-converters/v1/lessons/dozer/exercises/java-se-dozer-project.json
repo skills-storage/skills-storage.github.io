@@ -1,19 +1,19 @@
 {
-    "ex-title": "Использование Dozer в Java SE проекте",
-    "ex-order": 1,
-    "max-step": 2,
+    "exerciseTitle": "Использование Dozer в Java SE проекте",
+    "exerciseOrder": 1,
+    "maxStep": 2,
 
-    "pre-exercises": [
+    "preExercises": [
     ],
 
-    "ex-targets": [
+    "exerciseTargets": [
         {
             "order": 1,
             "text": "ПРИДУМАЙ!!"
         }
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Начинай шагать"

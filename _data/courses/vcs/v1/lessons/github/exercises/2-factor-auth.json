@@ -1,15 +1,15 @@
 {
-    "ex-title": "2-factor-auth EX",
-    "ex-order": 4,
-    "max-step": 1,
+    "exerciseTitle": "2-factor-auth EX",
+    "exerciseOrder": 4,
+    "maxStep": 1,
 
-    "pre-exercises": [
+    "preExercises": [
     ],
 
-    "ex-targets": [
+    "exerciseTargets": [
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Откройте настройки вашего аккаунта"

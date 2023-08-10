@@ -1,16 +1,16 @@
 {
-    "ex-title": "Вход в аккаунт / Выход из аккаунта. Главное меню Github",
-    "ex-order": 2,
-    "max-step": 9,
+    "exerciseTitle": "Вход в аккаунт / Выход из аккаунта. Главное меню Github",
+    "exerciseOrder": 2,
+    "maxStep": 9,
 
-    "pre-exercises": [
+    "preExercises": [
         {
             "title": "Регистрация аккаунта на сайте github.com",
             "link": "https://skills-storage.github.io/lessons/vcs-github/exercises/register-github-account/intro.html"
         }
     ],
 
-    "ex-targets": [
+    "exerciseTargets": [
         {
             "order": 1,
             "text": "Научиться входить в свой аккаунт и выходить из него"
@@ -21,7 +21,7 @@
         }
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Найдите кнопки главного меню"

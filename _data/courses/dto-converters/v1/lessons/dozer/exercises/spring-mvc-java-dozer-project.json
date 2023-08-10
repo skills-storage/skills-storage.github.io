@@ -1,19 +1,19 @@
 {
-    "ex-title": "Использование Dozer в Spring MVC проекте (Java конфигурация)",
-    "ex-order": 1,
-    "max-step": 2,
+    "exerciseTitle": "Использование Dozer в Spring MVC проекте (Java конфигурация)",
+    "exerciseOrder": 1,
+    "maxStep": 2,
 
-    "pre-exercises": [
+    "preExercises": [
     ],
 
-    "ex-targets": [
+    "exerciseTargets": [
         {
             "order": 1,
             "text": "ПРИДУМАЙ!!"
         }
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Создайте пустой Spring MVC проект (с Java конфигурацией)"

@@ -1,19 +1,19 @@
 {
-    "ex-title": "Регистрация аккаунта на сайте heroku.com",
-    "ex-order": 1,
-    "max-step": 10,
+    "exerciseTitle": "Регистрация аккаунта на сайте heroku.com",
+    "exerciseOrder": 1,
+    "maxStep": 10,
 
-    "pre-exercises": [
+    "preExercises": [
     ],
 
-    "ex-targets": [
+    "exerciseTargets": [
         {
             "order": 1,
             "text": "ПРИДУМАЙ!"
         }
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Перейдите на сайт <a href='https://heroku.com' target='_blank'>heroku.com</a>"

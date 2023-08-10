@@ -1,19 +1,19 @@
 {
-    "ex-title": "Создайте себе электронную почту",
-    "ex-order": 1,
-    "max-step": 6,
+    "exerciseTitle": "Создайте себе электронную почту",
+    "exerciseOrder": 1,
+    "maxStep": 6,
 
-    "pre-exercises": [
+    "preExercises": [
     ],
 
-    "ex-targets": [
+    "exerciseTargets": [
         {
             "order": 1,
             "text": "ПРИДУМАЙ!!"
         }
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Выберите провайдер электронной почты"

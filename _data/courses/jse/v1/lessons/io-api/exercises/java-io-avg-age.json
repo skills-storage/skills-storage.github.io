@@ -1,16 +1,16 @@
 {
-    "ex-title": "Вычисление среднего возраста с чтением и записью файлов",
-    "ex-order": 4,
-    "max-step": 1,
+    "exerciseTitle": "Вычисление среднего возраста с чтением и записью файлов",
+    "exerciseOrder": 4,
+    "maxStep": 1,
 
-    "ex-targets": [
+    "exerciseTargets": [
         {
             "order": 1,
             "text": "ПРИДУМАЙ!"
         }
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Так нету степов пока :("

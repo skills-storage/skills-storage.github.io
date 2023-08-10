@@ -1,15 +1,15 @@
 {
-    "ex-title": "Создание аккаунта на GitLab",
-    "ex-order": 1,
-    "max-step": 1,
+    "exerciseTitle": "Создание аккаунта на GitLab",
+    "exerciseOrder": 1,
+    "maxStep": 1,
 
-    "pre-exercises": [
+    "preExercises": [
     ],
 
-    "ex-targets": [
+    "exerciseTargets": [
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Перейдите на сайт gitlab.com"

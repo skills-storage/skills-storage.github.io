@@ -1,10 +1,10 @@
 {
-    "ex-title": "Установка кодировки в UTF-8",
-    "ex-order": 1,
-    "max-step": 5,
-    "pre-exercises": [
+    "exerciseTitle": "Установка кодировки в UTF-8",
+    "exerciseOrder": 1,
+    "maxStep": 5,
+    "preExercises": [
     ],
-    "ex-targets": [
+    "exerciseTargets": [
         {
             "order": 1,
             "text": "Проверить, настроен ли ваш Notepad++ на кодировку <code>UTF-8</code> по умолчанию"
@@ -14,7 +14,7 @@
           "text": "Или перевести его в <code>UTF-8</code>, если это не так"
         }
     ],
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Проверьте кодировку нового файла"

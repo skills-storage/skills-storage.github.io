@@ -1,19 +1,19 @@
 {
-    "ex-title": "Spring MVC приложение. Java конфигурация",
-    "ex-order": 3,
-    "max-step": 1,
+    "exerciseTitle": "Spring MVC приложение. Java конфигурация",
+    "exerciseOrder": 3,
+    "maxStep": 1,
 
-    "pre-exercises": [
+    "preExercises": [
     ],
 
-    "ex-targets": [
+    "exerciseTargets": [
         {
             "order": 1,
             "text": "ПРИДУМАЙ!!"
         }
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Создайте Maven WebApp Project"

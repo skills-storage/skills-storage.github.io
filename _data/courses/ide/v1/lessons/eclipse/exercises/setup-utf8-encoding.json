@@ -1,18 +1,18 @@
 {
-    "ex-title": "Установка кодировки в UTF-8",
-    "ex-order": 3,
-    "max-step": 5,
-    "pre-exercises": [
+    "exerciseTitle": "Установка кодировки в UTF-8",
+    "exerciseOrder": 3,
+    "maxStep": 5,
+    "preExercises": [
     ],
 
-    "ex-targets": [
+    "exerciseTargets": [
         {
             "order": 1,
             "text": "Научиться устанавливать кодировку UTF-8 для редактора Eclipse"
         }
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Откройте окно настроек Eclipse"

@@ -1,16 +1,16 @@
 {
-    "ex-title": "Запись текстового файла в режиме дополнения",
-    "ex-order": 2,
-    "max-step": 1,
+    "exerciseTitle": "Запись текстового файла в режиме дополнения",
+    "exerciseOrder": 2,
+    "maxStep": 1,
 
-    "ex-targets": [
+    "exerciseTargets": [
         {
             "order": 1,
             "text": "ПРИДУМАЙ!"
         }
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Так нету степов пока :("

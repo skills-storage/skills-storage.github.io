@@ -1,15 +1,15 @@
 {
-    "ex-title": "Исследуйте страницу репозитория",
-    "ex-order": 7,
-    "max-step": 1,
+    "exerciseTitle": "Исследуйте страницу репозитория",
+    "exerciseOrder": 7,
+    "maxStep": 1,
 
-    "pre-exercises": [
+    "preExercises": [
     ],
 
-    "ex-targets": [
+    "exerciseTargets": [
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Откройте страницу созданного репозитория"

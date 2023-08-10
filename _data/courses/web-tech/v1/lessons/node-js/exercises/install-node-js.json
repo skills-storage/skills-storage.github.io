@@ -1,16 +1,16 @@
 {
-    "ex-title": "Установите Node JS",
-    "ex-order": 1,
-    "max-step": 1,
+    "exerciseTitle": "Установите Node JS",
+    "exerciseOrder": 1,
+    "maxStep": 1,
 
-    "ex-targets": [
+    "exerciseTargets": [
         {
             "order": 1,
             "text": "ПРИДУМАЙ!"
         }
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Перейдите на сайт Node JS"

@@ -1,16 +1,16 @@
 {
-    "ex-title": "java.util.Map - вычисление среднего возраста",
-    "ex-order": 1,
-    "max-step": 1,
+    "exerciseTitle": "java.util.Map - вычисление среднего возраста",
+    "exerciseOrder": 1,
+    "maxStep": 1,
 
-    "ex-targets": [
+    "exerciseTargets": [
         {
             "order": 1,
             "text": "ПРИДУМАЙ!"
         }
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Так нету степов пока :("

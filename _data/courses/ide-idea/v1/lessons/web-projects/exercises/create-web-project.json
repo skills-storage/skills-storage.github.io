@@ -1,19 +1,19 @@
 {
-    "ex-title": "Создание Web-проекта в Intellij IDEA",
-    "ex-order": 1,
-    "max-step": 1,
+    "exerciseTitle": "Создание Web-проекта в Intellij IDEA",
+    "exerciseOrder": 1,
+    "maxStep": 1,
 
-    "pre-exercises": [
+    "preExercises": [
     ],
 
-    "ex-targets": [
+    "exerciseTargets": [
         {
             "order": 1,
             "text": "ПРИДУМАЙ!!"
         }
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Придумай"

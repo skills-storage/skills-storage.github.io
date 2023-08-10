@@ -1,9 +1,9 @@
 {
-    "ex-title": "Maven WebApp Project. Eclipse IDE",
-    "ex-order": 1,
-    "max-step": 13,
+    "exerciseTitle": "Maven WebApp Project. Eclipse IDE",
+    "exerciseOrder": 1,
+    "maxStep": 13,
 
-    "pre-exercises": [
+    "preExercises": [
         {
             "title": "Открытие окна с шаблонами проектов",
             "link": "lessons/ide-eclipse/exercises/open-project-wizard-dialog/intro.html"
@@ -14,14 +14,14 @@
         }
     ],
 
-    "ex-targets": [
+    "exerciseTargets": [
         {
             "order": 1,
             "text": "ПРИДУМАЙ!!"
         }
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Откройте окно c шаблонами проектов в Eclipse"

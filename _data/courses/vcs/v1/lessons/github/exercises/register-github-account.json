@@ -1,23 +1,23 @@
 {
-    "ex-title": "Регистрация аккаунта на сайте github.com",
-    "ex-order": 1,
-    "max-step": 12,
+    "exerciseTitle": "Регистрация аккаунта на сайте github.com",
+    "exerciseOrder": 1,
+    "maxStep": 12,
 
-    "pre-exercises": [
+    "preExercises": [
         {
             "title": "Создайте себе электронную почту",
             "link": "https://skills-storage.github.io/lessons/it-intro-emails/exercises/it-intro-create-email/intro.html"
         }
     ],
 
-    "ex-targets": [
+    "exerciseTargets": [
         {
           "order": 1,
           "text": "Единственная, но важная цель – войти в мир профессиональной разработки"
         }
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
           "order": 1,
           "title": "Перейдите на сайт <a href='https://github.com' target='_blank'>github.com</a>"

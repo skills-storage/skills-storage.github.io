@@ -1,16 +1,16 @@
 {
-    "ex-title": "Копирование бинарного файла",
-    "ex-order": 3,
-    "max-step": 1,
+    "exerciseTitle": "Копирование бинарного файла",
+    "exerciseOrder": 3,
+    "maxStep": 1,
 
-    "ex-targets": [
+    "exerciseTargets": [
         {
             "order": 1,
             "text": "ПРИДУМАЙ!"
         }
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Так нету степов пока :("

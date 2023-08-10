@@ -1,15 +1,15 @@
 {
-    "ex-title": "Создание репозитория на GitHub",
-    "ex-order": 6,
-    "max-step": 1,
+    "exerciseTitle": "Создание репозитория на GitHub",
+    "exerciseOrder": 6,
+    "maxStep": 1,
 
-    "pre-exercises": [
+    "preExercises": [
     ],
 
-    "ex-targets": [
+    "exerciseTargets": [
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Откройте страницу для создания репозитория"

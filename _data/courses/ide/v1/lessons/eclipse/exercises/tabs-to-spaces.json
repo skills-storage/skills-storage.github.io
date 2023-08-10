@@ -1,18 +1,18 @@
 {
-    "ex-title": "Замена TAB-ов на пробелы",
-    "ex-order": 999,
-    "max-step": 9,
-    "pre-exercises": [
+    "exerciseTitle": "Замена TAB-ов на пробелы",
+    "exerciseOrder": 999,
+    "maxStep": 9,
+    "preExercises": [
     ],
 
-    "ex-targets": [
+    "exerciseTargets": [
         {
             "order": 1,
             "text": "Научиться переводить редактор Eclipse на использование TAB-ов вместо пробелов"
         }
     ],
 
-    "ex-steps": [
+    "exerciseSteps": [
         {
             "order": 1,
             "title": "Откройте окно настроек Eclipse"
