@@ -6,9 +6,33 @@
     "lessonExercises": [
         {
             "orderNumber": 1,
-            "code": "tomcat-static-folder-app",
+            "code": "tomcat-static-app-folder",
             "title": "Tomcat Static App - папка",
-            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/03-java-web-introduction/exercises/01-tomcat-static-folder-app"
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/03-java-web-introduction/exercises/01-tomcat-static-app-folder"
+        },
+        {
+            "orderNumber": 2,
+            "code": "tomcat-static-app-war",
+            "title": "Tomcat Static App - WAR",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/03-java-web-introduction/exercises/02-tomcat-static-app-war"
+        },
+        {
+            "orderNumber": 3,
+            "code": "tomcat-dinamyc-app-folder",
+            "title": "Tomcat Dinamyc App - Folder",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/03-java-web-introduction/exercises/03-tomcat-dinamyc-app-folder"
+        },
+        {
+            "orderNumber": 4,
+            "code": "tomcat-dinamyc-app-war",
+            "title": "Tomcat Dinamyc App - WAR",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/03-java-web-introduction/exercises/04-tomcat-dinamyc-app-war"
+        },
+        {
+            "orderNumber": 5,
+            "code": "eclipse-tomcat-web-app",
+            "title": "Eclipse Tomcat Web App",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/03-java-web-introduction/exercises/05-eclipse-tomcat-web-app"
         }
     ]
 }
