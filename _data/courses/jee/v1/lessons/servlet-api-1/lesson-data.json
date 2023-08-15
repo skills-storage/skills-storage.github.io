@@ -70,6 +70,90 @@
             "code": "create-first-servlet",
             "title": "Создайте свой первый сервлет",
             "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/exercises/01-create-first-servlet"
+        },
+        {
+            "orderNumber": 2,
+            "code": "first-servlet-web-xml-mapping",
+            "title": "Первый сервлет. Маппинг через хмл.",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/exercises/02-first-servlet-web-xml-mapping"
+        },
+        {
+            "orderNumber": 3,
+            "code": "invalid-web-xml-servlet",
+            "title": "Сервлет с невалидным web.xml",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/exercises/03-invalid-web-xml-servlet"
+        },
+        {
+            "orderNumber": 4,
+            "code": "first-servlet-annotation-mapping",
+            "title": "Первый сервлет. Маппинг через аннотации.",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/exercises/04-first-servlet-annotation-mapping"
+        },
+        {
+            "orderNumber": 5,
+            "code": "first-servlet-xml-and-annotations-mapping",
+            "title": "Первый сервлет. Маппинг через XML и аннотации.",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/exercises/05-first-servlet-xml-and-annotations-mapping"
+        },
+        {
+            "orderNumber": 6,
+            "code": "first-servlet-index-page-link",
+            "title": "Сервлет, на который ссылается index page по ссылке.",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/exercises/06-first-servlet-index-page-link"
+        },
+        {
+            "orderNumber": 7,
+            "code": "servlet-index-page-redirect",
+            "title": "Cервлет, на который ссылается index page автоматически.",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/exercises/07-servlet-index-page-redirect"
+        },
+        {
+            "orderNumber": 8,
+            "code": "html-page-to-servlet-links",
+            "title": "Cервлет, на который ссылается html-страница со ссылками.",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/exercises/08-html-page-to-servlet-links"
+        },
+        {
+            "orderNumber": 9,
+            "code": "servlet-to-servlet-links",
+            "title": "Сервлет, на который ссылается сервлет со ссылками",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/exercises/09-servlet-to-servlet-links"
+        },
+        {
+            "orderNumber": 10,
+            "code": "stupid-ex-query-string-params",
+            "title": "Дурацкое упражнение - параметры в строке браузера.",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/exercises/10-stupid-ex-query-string-params"
+        },
+        {
+            "orderNumber": 11,
+            "code": "request-params-service-method",
+            "title": "Сервлет, на который ссылается html-страница с формой. Метод service.",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/exercises/11-request-params-service-method"
+        },
+        {
+            "orderNumber": 12,
+            "code": "get-post-methods-servlet",
+            "title": "Сервлет с методами GET и POST",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/exercises/12-get-post-methods-servlet"
+        },
+        {
+            "orderNumber": 13,
+            "code": "request-params-get-post-methods",
+            "title": "Сервлет, на который ссылается html-страница с формой. Методы GET и POST.",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/exercises/13-request-params-get-post-methods"
+        },
+        {
+            "orderNumber": 14,
+            "code": "servlet-to-servlet-request-params",
+            "title": "Cервлет, на который ссылается сервлет с формой.",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/exercises/14-servlet-to-servlet-request-params"
+        },
+        {
+            "orderNumber": 15,
+            "code": "all-form-params-servlet",
+            "title": "Большое упражнение. Все виды параметров тэга form.",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/exercises/15-all-form-params-servlet"
         }
     ]
 }

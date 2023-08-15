@@ -2,17 +2,14 @@
     "exerciseTitle": "Создайте свой первый сервлет",
     "exerciseOrder": 1,
     "maxStep": 9,
-
     "preExercises": [
     ],
-
     "exerciseTargets": [
         {
             "order": 1,
             "text": "ПРИДУМАЙ!!"
         }
     ],
-
     "exerciseSteps": [
         {
             "order": 1,

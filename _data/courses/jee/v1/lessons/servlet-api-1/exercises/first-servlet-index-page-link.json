@@ -1,0 +1,13 @@
+{
+    "exerciseTitle": "Сервлет, на который ссылается index page по ссылке.",
+    "exerciseOrder": 6,
+    "maxStep": 1,
+    "preExercises": [],
+    "exerciseTargets": [],
+    "exerciseSteps": [
+        {
+            "order": 1,
+            "title": "Начни создавать упражнение!"
+        }
+    ]
+}
