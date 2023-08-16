@@ -154,6 +154,12 @@
             "code": "all-form-params-servlet",
             "title": "Большое упражнение. Все виды параметров тэга form.",
             "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/exercises/15-all-form-params-servlet"
+        },
+        {
+            "orderNumber": 16,
+            "code": "image-loading",
+            "title": "Вывод изображения (байтов) из сервлета",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/04-servlet-api-1/exercises/16-image-loading"
         }
     ]
 }
