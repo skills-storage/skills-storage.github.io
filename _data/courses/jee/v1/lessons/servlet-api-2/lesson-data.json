@@ -1,0 +1,98 @@
+{
+    "title": "Servlet API – Часть-2",
+    "order": 5,
+    "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/05-servlet-api-2",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "servlet-debug",
+            "title": "Отладка (Debug) сервлетов",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/05-servlet-api-2/exercises/01-servlet-debug"
+        },
+        {
+            "orderNumber": 2,
+            "code": "life-cycle-methods",
+            "title": "Методы жизненного цикла сервлетов",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/05-servlet-api-2/exercises/02-life-cycle-methods"
+        },
+        {
+            "orderNumber": 3,
+            "code": "load-on-startup",
+            "title": "Загрузка сервлета на старте Tomcat-а",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/05-servlet-api-2/exercises/03-load-on-startup"
+        },
+        {
+            "orderNumber": 4,
+            "code": "sleepy-servlet",
+            "title": "\"Спящий\" сервлет",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/05-servlet-api-2/exercises/04-sleepy-servlet"
+        },
+        {
+            "orderNumber": 5,
+            "code": "dispatcher-servlet",
+            "title": "Перенаправление в сервлетах. Объект RequestDispatcher",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/05-servlet-api-2/exercises/05-dispatcher-servlet"
+        },
+        {
+            "orderNumber": 6,
+            "code": "redirect-servlet",
+            "title": "Перенаправление в сервлетах. Метод redirect",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/05-servlet-api-2/exercises/06-redirect-servlet"
+        },
+        {
+            "orderNumber": 7,
+            "code": "request-attributes",
+            "title": "Атрибуты Request-а",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/05-servlet-api-2/exercises/07-request-attributes"
+        },
+        {
+            "orderNumber": 8,
+            "code": "request-attributes-bad",
+            "title": "Атрибуты Request-а. В чем проблема?",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/05-servlet-api-2/exercises/08-request-attributes-bad"
+        },
+        {
+            "orderNumber": 9,
+            "code": "post-redirect-get",
+            "title": "Паттерн POST-REDIRECT-GET (Очень важное упражнение)",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/05-servlet-api-2/exercises/09-post-redirect-get"
+        },
+        {
+            "orderNumber": 10,
+            "code": "session-attributes",
+            "title": "Атрибуты Session",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/05-servlet-api-2/exercises/10-session-attributes"
+        },
+        {
+            "orderNumber": 11,
+            "code": "context-attributes",
+            "title": "Атрибуты Context-а",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/05-servlet-api-2/exercises/11-context-attributes"
+        },
+        {
+            "orderNumber": 12,
+            "code": "users-db-servlet",
+            "title": "users-db-servlet (Вспомни, что это за хрень?)",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/05-servlet-api-2/exercises/12-users-db-servlet"
+        },
+        {
+            "orderNumber": 13,
+            "code": "uni-directional-validation",
+            "title": "Однонаправленная валидация данных",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/05-servlet-api-2/exercises/13-uni-directional-validation"
+        },
+        {
+            "orderNumber": 14,
+            "code": "bi-directional-validation",
+            "title": "Двунаправленная валидация данных",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/05-servlet-api-2/exercises/14-bi-directional-validation"
+        },
+        {
+            "orderNumber": 15,
+            "code": "html-template-writer",
+            "title": "html-template-writer (переименуй название и подумай - нужно ли это вообще?)",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/05-servlet-api-2/exercises/15-html-template-writer"
+        }
+    ]
+}
