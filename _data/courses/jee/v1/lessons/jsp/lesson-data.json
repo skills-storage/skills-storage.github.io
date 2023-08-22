@@ -40,5 +40,18 @@
             "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/06-jsp/lab-works/10-jsp-quadratic-equation"
         }
     ],
-    "lessonExercises": []
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "dinamyc-jsp",
+            "title": "Создайте первое приложение с JSP. Посмотрите, насколько JSP лучше сервлетов!",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/06-jsp/exercises/01-dinamyc-jsp"
+        },
+        {
+            "orderNumber": 2,
+            "code": "el",
+            "title": "Expression Language",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/06-jsp/exercises/02-el"
+        }
+    ]
 }
