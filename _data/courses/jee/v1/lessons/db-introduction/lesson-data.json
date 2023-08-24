@@ -1,0 +1,62 @@
+{
+    "title": "Введение в теорию баз данных",
+    "order": 7,
+    "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/07-db-introduction",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "mysql-install",
+            "title": "Установить MySQL",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/07-db-introduction/exercises/01-mysql-install"
+        },
+        {
+            "orderNumber": 2,
+            "code": "mysql-first-db",
+            "title": "Создать БД из одной таблицы в MySQL Workbench",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/07-db-introduction/exercises/02-mysql-first-db"
+        },
+        {
+            "orderNumber": 3,
+            "code": "mysql-db-script",
+            "title": "Создать SQL-скрипт для БД из одной таблицы",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/07-db-introduction/exercises/03-mysql-db-script"
+        },
+        {
+            "orderNumber": 4,
+            "code": "mysql-db-script-crud",
+            "title": "Написать CRUD-запросы для БД из одной таблицы",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/07-db-introduction/exercises/04-mysql-db-script-crud"
+        },
+        {
+            "orderNumber": 5,
+            "code": "one-to-many-relationship",
+            "title": "Отношение \"one-to-many\" (\"один-ко-многим\")",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/07-db-introduction/exercises/05-one-to-many-relationship"
+        },
+        {
+            "orderNumber": 6,
+            "code": "many-to-many-relationship",
+            "title": "Отношение \"many-to-many\" (\"многие-ко-многим\")",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/07-db-introduction/exercises/06-many-to-many-relationship"
+        },
+        {
+            "orderNumber": 7,
+            "code": "one-to-one-relationship",
+            "title": "Отношение \"one-to-one\" (\"один-к-одному\")",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/07-db-introduction/exercises/07-one-to-one-relationship"
+        },
+        {
+            "orderNumber": 8,
+            "code": "joins",
+            "title": "JOIN запросы",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/07-db-introduction/exercises/08-joins"
+        },
+        {
+            "orderNumber": 9,
+            "code": "big-db-schema",
+            "title": "\"Большая\" схема Базы Данных",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/07-db-introduction/exercises/09-big-db-schema"
+        }
+    ]
+}
