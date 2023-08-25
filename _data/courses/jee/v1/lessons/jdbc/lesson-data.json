@@ -46,5 +46,78 @@
             "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc/lab-works/07-jdbc-custom-db-migrations"
         }
     ],
-    "lessonExercises": []
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "first-try",
+            "title": "JDBC - первый пример",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc/exercises/01-first-try"
+        },
+        {
+            "orderNumber": 2,
+            "code": "update-sql",
+            "title": "Запросы на изменение данных",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc/exercises/02-update-sql"
+        },
+        {
+            "orderNumber": 3,
+            "code": "update-sql-why-int",
+            "title": "Update SQL. Почему возвращается int?",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc/exercises/03-update-sql-why-int"
+        },
+        {
+            "orderNumber": 4,
+            "code": "separate-jdbc-class",
+            "title": "Отдельный класс для JDBC операций",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc/exercises/04-separate-jdbc-class"
+        },
+        {
+            "orderNumber": 5,
+            "code": "update-sql-why-bad",
+            "title": "Update SQL - почему плохо?",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc/exercises/05-update-sql-why-bad"
+        },
+        {
+            "orderNumber": 6,
+            "code": "update-sql-prepared",
+            "title": "Update SQL. Prepared Statement. Теперь - хорошо!",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc/exercises/06-update-sql-prepared"
+        },
+        {
+            "orderNumber": 7,
+            "code": "transactions-bad",
+            "title": "Транзакции. Как делать не надо",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc/exercises/07-transactions-bad"
+        },
+        {
+            "orderNumber": 8,
+            "code": "transactions-good",
+            "title": "Транзакции. Правильная реализация",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc/exercises/08-transactions-good"
+        },
+        {
+            "orderNumber": 9,
+            "code": "custom-db-migrations",
+            "title": "Миграции базы данных",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc/exercises/09-custom-db-migrations"
+        },
+        {
+            "orderNumber": 10,
+            "code": "flyway-migrations",
+            "title": "Миграции базы данных при помощи FlyWay",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc/exercises/10-flyway-migrations"
+        },
+        {
+            "orderNumber": 11,
+            "code": "crud-class",
+            "title": "CRUD-класс",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc/exercises/11-crud-class"
+        },
+        {
+            "orderNumber": 12,
+            "code": "crud-class-in-webapp",
+            "title": "CRUD-класс в Web-приложении",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/08-jdbc/exercises/12-crud-class-in-webapp"
+        }
+    ]
 }
