@@ -1,0 +1,17 @@
+{
+    "exerciseTitle": "CRUD-класс в Web-приложении",
+    "exerciseOrder": 12,
+    "maxStep": 2,
+    "preExercises": [],
+    "exerciseTargets": [],
+    "exerciseSteps": [
+        {
+            "order": 1,
+            "title": "Начни создавать упражнение!"
+        },
+        {
+            "order": 2,
+            "title": "Начни создавать упражнение!"
+        }
+    ]
+}
