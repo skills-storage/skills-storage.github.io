@@ -1,0 +1,26 @@
+{
+    "title": "Tomcat и JNDI",
+    "order": 9,
+    "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/09-tomcat-jndi",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "jndi-config-intro",
+            "title": "JNDI-конфиг для Web-приложения",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/09-tomcat-jndi/exercises/01-jndi-config-intro"
+        },
+        {
+            "orderNumber": 2,
+            "code": "jndi-excellent-but-bad",
+            "title": "JNDI - хорошо, но плохо",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/09-tomcat-jndi/exercises/02-jndi-excellent-but-bad"
+        },
+        {
+            "orderNumber": 3,
+            "code": "jndi-just-excellent",
+            "title": "JNDI - просто хорошо",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/09-tomcat-jndi/exercises/03-jndi-just-excellent"
+        }
+    ]
+}
