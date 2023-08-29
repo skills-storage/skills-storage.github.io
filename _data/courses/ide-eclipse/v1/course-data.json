@@ -1,0 +1,17 @@
+{
+    "shortTitle": "Eclipse",
+    "courseLessons": [
+        {
+            "orderNumber": 1,
+            "code": "web-projects",
+            "title": "Web-проекты в Eclipse",
+            "webPageLink": "https://skills-storage.github.io/courses/ide-eclipse/v1/lessons/01-web-projects"
+        },
+        {
+            "orderNumber": 2,
+            "code": "apache-maven",
+            "title": "Apache Maven в Eclipse",
+            "webPageLink": "https://skills-storage.github.io/courses/ide-eclipse/v1/lessons/02-apache-maven"
+        }
+    ]
+}

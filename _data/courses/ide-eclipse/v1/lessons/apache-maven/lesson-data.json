@@ -1,0 +1,14 @@
+{
+    "title": "Apache Maven в Eclipse",
+    "order": 2,
+    "webPageLink": "https://skills-storage.github.io/courses/ide-eclipse/v1/lessons/02-apache-maven",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "create-maven-archetype-quickstart-prj",
+            "title": "Создайте maven-archetype-quickstart проект",
+            "webPageLink": "https://skills-storage.github.io/courses/ide-eclipse/v1/lessons/02-apache-maven/exercises/01-create-maven-archetype-quickstart-prj"
+        }
+    ]
+}

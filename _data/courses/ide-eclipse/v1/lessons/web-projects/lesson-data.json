@@ -1,0 +1,14 @@
+{
+    "title": "Web-проекты в Eclipse",
+    "order": 1,
+    "webPageLink": "https://skills-storage.github.io/courses/ide-eclipse/v1/lessons/01-web-projects",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "create-dinamyc-web-app",
+            "title": "Создайте Dinamyc Web App",
+            "webPageLink": "https://skills-storage.github.io/courses/ide-eclipse/v1/lessons/01-web-projects/exercises/01-create-dinamyc-web-app"
+        }
+    ]
+}
