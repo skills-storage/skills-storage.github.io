@@ -34,5 +34,36 @@
             "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/12-custom-tags/lab-works/05-jee-custom-tags-task-5"
         }
     ],
-    "lessonExercises": []
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "tag-demo-1",
+            "title": "tag-demo-1",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/12-custom-tags/exercises/01-tag-demo-1"
+        },
+        {
+            "orderNumber": 2,
+            "code": "tag-demo-2",
+            "title": "tag-demo-2",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/12-custom-tags/exercises/02-tag-demo-2"
+        },
+        {
+            "orderNumber": 3,
+            "code": "tag-demo-3",
+            "title": "tag-demo-3",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/12-custom-tags/exercises/03-tag-demo-3"
+        },
+        {
+            "orderNumber": 4,
+            "code": "tag-demo-4",
+            "title": "tag-demo-4",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/12-custom-tags/exercises/04-tag-demo-4"
+        },
+        {
+            "orderNumber": 5,
+            "code": "jstl",
+            "title": "jstl",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/12-custom-tags/exercises/05-jstl"
+        }
+    ]
 }

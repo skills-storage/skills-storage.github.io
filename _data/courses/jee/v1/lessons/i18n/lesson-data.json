@@ -1,0 +1,14 @@
+{
+    "title": "I18N - Интернационализация Web приложений",
+    "order": 13,
+    "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/13-i18n",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "jstl-i18n",
+            "title": "jstl-i18n",
+            "webPageLink": "https://skills-storage.github.io/courses/jee/v1/lessons/13-i18n/exercises/01-jstl-i18n"
+        }
+    ]
+}
