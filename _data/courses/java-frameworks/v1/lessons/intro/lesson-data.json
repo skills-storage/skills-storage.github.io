@@ -1,0 +1,38 @@
+{
+    "title": "Введение. Знакомство",
+    "order": 1,
+    "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/01-intro",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "setup-environment",
+            "title": "Настройка среды",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/01-intro/exercises/01-setup-environment"
+        },
+        {
+            "orderNumber": 2,
+            "code": "db-table-crud-app",
+            "title": "CRUD-операции для одной таблицы в БД",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/01-intro/exercises/02-db-table-crud-app"
+        },
+        {
+            "orderNumber": 3,
+            "code": "import-existing-app",
+            "title": "Импорт и запуск готового приложения",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/01-intro/exercises/03-import-existing-app"
+        },
+        {
+            "orderNumber": 4,
+            "code": "upgrade-users-app",
+            "title": "Развитие приложения users-app",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/01-intro/exercises/04-upgrade-users-app"
+        },
+        {
+            "orderNumber": 5,
+            "code": "upgrade-events-app",
+            "title": "Развитие приложения events-app",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/01-intro/exercises/05-upgrade-events-app"
+        }
+    ]
+}
