@@ -1,0 +1,13 @@
+{
+    "exerciseTitle": "JPA many-to-many",
+    "exerciseOrder": 5,
+    "maxStep": 1,
+    "preExercises": [],
+    "exerciseTargets": [],
+    "exerciseSteps": [
+        {
+            "order": 1,
+            "title": "Начни создавать упражнение!"
+        }
+    ]
+}

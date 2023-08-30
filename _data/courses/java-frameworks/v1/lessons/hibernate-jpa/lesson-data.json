@@ -1,0 +1,44 @@
+{
+    "title": "Hibernate/JPA",
+    "order": 6,
+    "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/06-hibernate-jpa",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "xml-config",
+            "title": "Hibernate XML Config",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/06-hibernate-jpa/exercises/01-xml-config"
+        },
+        {
+            "orderNumber": 2,
+            "code": "annotations-config",
+            "title": "Hibernate Annotations Config",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/06-hibernate-jpa/exercises/02-annotations-config"
+        },
+        {
+            "orderNumber": 3,
+            "code": "hibernate-jpa",
+            "title": "Hibernate JPA",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/06-hibernate-jpa/exercises/03-hibernate-jpa"
+        },
+        {
+            "orderNumber": 4,
+            "code": "jpa-one-to-many",
+            "title": "JPA one-to-many",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/06-hibernate-jpa/exercises/04-jpa-one-to-many"
+        },
+        {
+            "orderNumber": 5,
+            "code": "jpa-many-to-many",
+            "title": "JPA many-to-many",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/06-hibernate-jpa/exercises/05-jpa-many-to-many"
+        },
+        {
+            "orderNumber": 6,
+            "code": "jpa-one-to-one",
+            "title": "JPA one-to-one",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/06-hibernate-jpa/exercises/06-jpa-one-to-one"
+        }
+    ]
+}
