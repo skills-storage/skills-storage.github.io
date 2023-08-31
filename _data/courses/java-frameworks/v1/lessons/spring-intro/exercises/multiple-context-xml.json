@@ -1,0 +1,13 @@
+{
+    "exerciseTitle": "Spring Multiple Contexts - XML конфигурация",
+    "exerciseOrder": 5,
+    "maxStep": 1,
+    "preExercises": [],
+    "exerciseTargets": [],
+    "exerciseSteps": [
+        {
+            "order": 1,
+            "title": "Начни создавать упражнение!"
+        }
+    ]
+}

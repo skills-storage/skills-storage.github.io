@@ -8,19 +8,49 @@
             "orderNumber": 1,
             "code": "xml-config-app",
             "title": "Создание Spring-приложения. XML конфигурация",
-            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/spring-intro/exercises/1-xml-config-app"
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/02-spring-intro/exercises/01-xml-config-app"
         },
         {
             "orderNumber": 2,
             "code": "anno-config-app",
             "title": "Создание Spring-приложения. XML + Annotations конфигурация",
-            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/spring-intro/exercises/2-anno-config-app"
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/02-spring-intro/exercises/02-anno-config-app"
         },
         {
             "orderNumber": 3,
             "code": "java-config-app",
             "title": "Создание Spring-приложения. Java конфигурация",
-            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/spring-intro/exercises/3-java-config-app"
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/02-spring-intro/exercises/03-java-config-app"
+        },
+        {
+            "orderNumber": 4,
+            "code": "spring-bpp",
+            "title": "Spring Bean Post Processors",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/02-spring-intro/exercises/04-spring-bpp"
+        },
+        {
+            "orderNumber": 5,
+            "code": "multiple-context-xml",
+            "title": "Spring Multiple Contexts - XML конфигурация",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/02-spring-intro/exercises/05-multiple-context-xml"
+        },
+        {
+            "orderNumber": 6,
+            "code": "multiple-context-java",
+            "title": "Spring Multiple Contexts - Java конфигурация",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/02-spring-intro/exercises/06-multiple-context-java"
+        },
+        {
+            "orderNumber": 7,
+            "code": "dependency-control-types",
+            "title": "Типы управления зависимостями",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/02-spring-intro/exercises/07-dependency-control-types"
+        },
+        {
+            "orderNumber": 8,
+            "code": "no-spring-app",
+            "title": "no-spring-app",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/02-spring-intro/exercises/08-no-spring-app"
         }
     ]
 }

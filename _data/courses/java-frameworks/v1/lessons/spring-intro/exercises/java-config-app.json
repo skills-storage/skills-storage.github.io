@@ -1,4 +1,57 @@
 {
-  "exerciseTitle": "Создание Spring-приложения. Java конфигурация",
-  "maxStep": 12
+    "exerciseTitle": "Создание Spring-приложения. Java конфигурация",
+    "exerciseOrder": 3,
+    "maxStep": 12,
+    "preExercises": [],
+    "exerciseTargets": [],
+    "exerciseSteps": [
+        {
+            "order": 1,
+            "title": "Создайте Maven-проект"
+        },
+        {
+            "order": 2,
+            "title": "Добавьте Spring Dependencies в pom.xml"
+        },
+        {
+            "order": 3,
+            "title": "Создайте класс GreetingApp с пустым методом main()"
+        },
+        {
+            "order": 4,
+            "title": "Создайте пакет messangers и весь необходимый функционал для Messanger-ов"
+        },
+        {
+            "order": 5,
+            "title": "Создайте пакет formatters и весь необходимый функционал для Formatters-ов"
+        },
+        {
+            "order": 6,
+            "title": "Создайте пакет config и GreetingAppConfig - класс для Java-конфигурации Spring-а"
+        },
+        {
+            "order": 7,
+            "title": "Создайте Spring Application Context для Java-конфигурации"
+        },
+        {
+            "order": 8,
+            "title": "Зарегистрируйте класс конфигурации в Spring Application Context-е"
+        },
+        {
+            "order": 9,
+            "title": "Получите из контекста Formatter и вызовите его метод"
+        },
+        {
+            "order": 10,
+            "title": "Запустите приложение - убедитесь, что ничего не работает :)"
+        },
+        {
+            "order": 11,
+            "title": "Обновите Spring Application Context"
+        },
+        {
+            "order": 12,
+            "title": "Запустите приложение еще раз - убедитесь, что все работает"
+        }
+    ]
 }

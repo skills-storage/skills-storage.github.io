@@ -1,0 +1,14 @@
+1. Создайте Maven-проект
+	- укажи про архетип, группу, артефакт, версию и !корневой пакет!.
+	- приложение должно быть maven-archetype-quickstart
+2. Добавьте Spring Dependencies в pom.xml
+3. Создайте класс GreetingApp с пустым методом main()
+4. Создайте пакет messangers и весь необходимый функционал для Messanger-ов
+5. Создайте пакет formatters и весь необходимый функционал для Formatters-ов
+6. Создайте пакет config и GreetingAppConfig - класс для Java-конфигурации Spring-а
+7. Создайте Spring Application Context для Java-конфигурации
+8. Зарегистрируйте класс конфигурации в Spring Application Context-е
+9. Получите из контекста Formatter и вызовите его метод
+10. Запустите приложение - убедитесь, что ничего не работает :)
+11. Обновите Spring Application Context
+12. Запустите приложение еще раз - убедитесь, что все работает
