@@ -8,19 +8,79 @@
             "orderNumber": 1,
             "code": "mvc-xml-config-app",
             "title": "Spring MVC приложение. XML конфигурация",
-            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/spring-mvc/exercises/1-mvc-xml-config-app"
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/03-spring-mvc/exercises/01-mvc-xml-config-app"
         },
         {
             "orderNumber": 2,
             "code": "mvc-anno-config-app",
             "title": "Spring MVC приложение. XML + Annotations конфигурация",
-            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/spring-mvc/exercises/2-mvc-anno-config-app"
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/03-spring-mvc/exercises/02-mvc-anno-config-app"
         },
         {
             "orderNumber": 3,
             "code": "mvc-java-config-app",
             "title": "Spring MVC приложение. Java конфигурация",
-            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/spring-mvc/exercises/3-mvc-java-config-app"
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/03-spring-mvc/exercises/03-mvc-java-config-app"
+        },
+        {
+            "orderNumber": 4,
+            "code": "web-resources",
+            "title": "web-resources",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/03-spring-mvc/exercises/04-web-resources"
+        },
+        {
+            "orderNumber": 5,
+            "code": "mvc-urls",
+            "title": "mvc-urls",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/03-spring-mvc/exercises/05-mvc-urls"
+        },
+        {
+            "orderNumber": 6,
+            "code": "mvc-i18n",
+            "title": "mvc-i18n",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/03-spring-mvc/exercises/06-mvc-i18n"
+        },
+        {
+            "orderNumber": 7,
+            "code": "form-tags",
+            "title": "form-tags",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/03-spring-mvc/exercises/07-form-tags"
+        },
+        {
+            "orderNumber": 8,
+            "code": "mvc-validation",
+            "title": "mvc-validation",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/03-spring-mvc/exercises/08-mvc-validation"
+        },
+        {
+            "orderNumber": 9,
+            "code": "controller-advise",
+            "title": "controller-advise",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/03-spring-mvc/exercises/09-controller-advise"
+        },
+        {
+            "orderNumber": 10,
+            "code": "date-binding",
+            "title": "date-binding",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/03-spring-mvc/exercises/10-date-binding"
+        },
+        {
+            "orderNumber": 11,
+            "code": "one-form-many-buttons",
+            "title": "Одна форма, много кнопок – разные методы в контроллере! - Вообще хер знает, что это такое :(",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/03-spring-mvc/exercises/11-one-form-many-buttons"
+        },
+        {
+            "orderNumber": 12,
+            "code": "spring-mvc-crud-app",
+            "title": "spring-mvc-crud-app",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/03-spring-mvc/exercises/12-spring-mvc-crud-app"
+        },
+        {
+            "orderNumber": 13,
+            "code": "spring-mvc-tiles",
+            "title": "spring-mvc-tiles",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/03-spring-mvc/exercises/13-spring-mvc-tiles"
         }
     ]
 }

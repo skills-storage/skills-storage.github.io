@@ -1,0 +1,13 @@
+{
+    "exerciseTitle": "Одна форма, много кнопок – разные методы в контроллере! - Вообще хер знает, что это такое :(",
+    "exerciseOrder": 11,
+    "maxStep": 1,
+    "preExercises": [],
+    "exerciseTargets": [],
+    "exerciseSteps": [
+        {
+            "order": 1,
+            "title": "Начни создавать упражнение!"
+        }
+    ]
+}

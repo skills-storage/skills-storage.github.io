@@ -1,4 +1,13 @@
 {
   "exerciseTitle": "Spring MVC приложение. XML конфигурация",
-  "maxStep": 5
+  "exerciseOrder": 1,
+  "maxStep": 1,
+  "preExercises": [],
+  "exerciseTargets": [],
+  "exerciseSteps": [
+    {
+      "order": 1,
+      "title": "Создайте Maven Web проект"
+    }
+  ]
 }

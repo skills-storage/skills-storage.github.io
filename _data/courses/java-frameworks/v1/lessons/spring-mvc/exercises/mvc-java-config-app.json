@@ -2,17 +2,8 @@
     "exerciseTitle": "Spring MVC приложение. Java конфигурация",
     "exerciseOrder": 3,
     "maxStep": 1,
-
-    "preExercises": [
-    ],
-
-    "exerciseTargets": [
-        {
-            "order": 1,
-            "text": "ПРИДУМАЙ!!"
-        }
-    ],
-
+    "preExercises": [],
+    "exerciseTargets": [],
     "exerciseSteps": [
         {
             "order": 1,
