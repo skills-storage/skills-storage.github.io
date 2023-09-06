@@ -1,0 +1,20 @@
+{
+    "title": "Spring ORM",
+    "order": 7,
+    "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/07-spring-orm",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "xml-config",
+            "title": "Spring ORM. XML конфигурация.",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/07-spring-orm/exercises/01-xml-config"
+        },
+        {
+            "orderNumber": 2,
+            "code": "java-config",
+            "title": "Spring ORM. Java конфигурация.",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/07-spring-orm/exercises/02-java-config"
+        }
+    ]
+}
