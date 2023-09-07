@@ -21,6 +21,12 @@
             "code": "lombok",
             "title": "Spring Data. Lombok.",
             "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/09-spring-data/exercises/03-lombok"
+        },
+        {
+            "orderNumber": 4,
+            "code": "custom-queries",
+            "title": "custom-queries",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/09-spring-data/exercises/04-custom-queries"
         }
     ]
 }
