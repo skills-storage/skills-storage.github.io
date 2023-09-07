@@ -1,0 +1,26 @@
+{
+    "title": "Spring Data",
+    "order": 9,
+    "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/09-spring-data",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "xml-config",
+            "title": "Spring Data. XML конфигурация.",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/09-spring-data/exercises/01-xml-config"
+        },
+        {
+            "orderNumber": 2,
+            "code": "java-config",
+            "title": "Spring Data. Java конфигурация.",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/09-spring-data/exercises/02-java-config"
+        },
+        {
+            "orderNumber": 3,
+            "code": "lombok",
+            "title": "Spring Data. Lombok.",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/09-spring-data/exercises/03-lombok"
+        }
+    ]
+}
