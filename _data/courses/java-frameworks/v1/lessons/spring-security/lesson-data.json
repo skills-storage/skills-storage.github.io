@@ -1,0 +1,80 @@
+{
+    "title": "Spring Security",
+    "order": 10,
+    "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/10-spring-security",
+    "lessonLabworks": [],
+    "lessonExercises": [
+        {
+            "orderNumber": 1,
+            "code": "no-security",
+            "title": "no-security",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/10-spring-security/exercises/01-no-security"
+        },
+        {
+            "orderNumber": 2,
+            "code": "xml-config",
+            "title": "xml-config",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/10-spring-security/exercises/02-xml-config"
+        },
+        {
+            "orderNumber": 3,
+            "code": "java-config",
+            "title": "java-config",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/10-spring-security/exercises/03-java-config"
+        },
+        {
+            "orderNumber": 4,
+            "code": "custom-urls-and-form-xml",
+            "title": "custom-urls-and-form-xml",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/10-spring-security/exercises/04-custom-urls-and-form-xml"
+        },
+        {
+            "orderNumber": 5,
+            "code": "custom-urls-and-form-java",
+            "title": "custom-urls-and-form-java",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/10-spring-security/exercises/05-custom-urls-and-form-java"
+        },
+        {
+            "orderNumber": 6,
+            "code": "jdbc-manager-xml",
+            "title": "jdbc-manager-xml",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/10-spring-security/exercises/06-jdbc-manager-xml"
+        },
+        {
+            "orderNumber": 7,
+            "code": "jdbc-manager-java",
+            "title": "jdbc-manager-java",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/10-spring-security/exercises/07-jdbc-manager-java"
+        },
+        {
+            "orderNumber": 8,
+            "code": "custom-manager-xml",
+            "title": "custom-manager-xml",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/10-spring-security/exercises/08-custom-manager-xml"
+        },
+        {
+            "orderNumber": 9,
+            "code": "custom-manager-java",
+            "title": "custom-manager-java",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/10-spring-security/exercises/09-custom-manager-java"
+        },
+        {
+            "orderNumber": 10,
+            "code": "partial-views",
+            "title": "partial-views",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/10-spring-security/exercises/10-partial-views"
+        },
+        {
+            "orderNumber": 11,
+            "code": "social-auth",
+            "title": "social-auth",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/10-spring-security/exercises/11-social-auth"
+        },
+        {
+            "orderNumber": 12,
+            "code": "rest-jwt",
+            "title": "rest-jwt",
+            "webPageLink": "https://skills-storage.github.io/courses/java-frameworks/v1/lessons/10-spring-security/exercises/12-rest-jwt"
+        }
+    ]
+}
